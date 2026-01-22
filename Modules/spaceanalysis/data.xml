@@ -1,0 +1,466 @@
+<?xml version="1.0" encoding="utf-8"?>
+<presentation><title>Space Analysis and Its Interpretation</title><subtitle/><additionalInfo>Lorne D. Koroluk DMD, MSD, MS<br/>Dept. of Orthodontics, UNC School of Dentistry</additionalInfo><splashImage imageLocation="spaceanalysis/images/titlepage2.jpg" imageWidth="600" imageHeight="450"/><sections><section><title>Space Analysis Introduction</title><pages><page pageType="content"><title>Learning Objectives</title><pageText><p>This program provides:</p>
+<p>- An overview of mixed dentition space analysis, reviewing the possible ways to estimate the size of unerupted teeth and to judge the amount of space available</p>
+<p>- A review of the assumptions about growth and development on which space analysis is based</p>
+<p>- A detailed examination of the steps in carrying out the space analysis procedure</p>
+<p>- A test of your ability to interpret the results of space analysis.</p></pageText><resources/></page><page pageType="content"><title>Space Analysis</title><pageText><p>One of the questions you will face when assessing a mixed dentition patient, like the one whose dental alignment is seen in these photos, is whether there will be adequate space for the succedaneous teeth.</p>
+<p>To answer the question, you must measure the space within the arches after the permanent incisors and first molars have erupted and compare it to the space required to align the as yet unerupted permanent teeth.</p>
+<p>Because the permanent teeth have not all erupted, their size must be estimated. Space analysis usually is done early in the mixed dentition, because this is when parents first notice crowding of the erupting permanent incisors.</p></pageText><resources><resource resourceType="image" resourceWidth="324" resourceHeight="450" resourceLocation="spaceanalysis/images/scr4.jpg" thumbnailWidth="58" thumbnailHeight="80" thumbnailLocation="spaceanalysis/images/scr4_s.jpg"><label/><caption><p>To evaluate whether there will be enough room for all the permanent teeth, you need to know the size of the unerupted canines and premolars.</p></caption></resource></resources></page><page pageType="content"><title>Available versus Required Space</title><pageText><p>The critical determination of a space analysis in the mixed dentition is to 
+compare the space available in the dental arches to the space required for 
+the eruption and alignment of the permanent teeth.</p></pageText><resources><resource resourceType="image" resourceWidth="600" resourceHeight="450" resourceLocation="spaceanalysis/images/s01_p03_01.jpg" thumbnailWidth="107" thumbnailHeight="80" thumbnailLocation="spaceanalysis/images/s01_p03_01s.jpg"><label/><caption/></resource></resources></page><page pageType="content"><title>Space Available</title><pageText><p>The amount of space available is defined as the distance around the arch circumference from the mesial of one permanent first molar to the mesial of the other permanent first molar. It is measured as a series of straight-line segments, as shown here. Two lateral segments, from the mesial of the first molar to a point on the alveolar process in the canine region, and two anterior segments, from the canine region point to the midline, are used.</p>
+<p>Note that the canine region and midline points are on the alveolar process, not the teeth.</p></pageText><resources><resource resourceType="image" resourceWidth="567" resourceHeight="450" resourceLocation="spaceanalysis/images/scr6.jpg" thumbnailWidth="101" thumbnailHeight="80" thumbnailLocation="spaceanalysis/images/scr6_s.jpg"><label/><caption><p>Measuring the amount of space available for the unerupted permanent teeth.</p></caption></resource></resources></page><page pageType="content"><title>Space Required</title><pageText><p>The space required is the sum of the width of the incisors that have erupted 
+plus the width of the canines and premolars that have not erupted.</p>
+
+<p>The incisor widths are measured directly on the dental casts. Prediction of 
+the space required for the unerupted permanent teeth (canine and premolars) 
+can be accomplished in three basic ways:</p>
+
+<ol class="spaced"><li>Measurement of the unerupted teeth on radiographs</li>
+
+<li>Estimation of the width of the unerupted teeth from a correlation with 
+the width of the erupted lower incisors</li>
+
+<li>A combination of measurement on radiographs and correlation statistics</li>
+</ol></pageText><resources/></page><page pageType="content"><title>Radiographic Prediction</title><pageText><p>Accurate measurement of teeth on periapical radiographs requires undistorted images, and these can be difficult to obtain, especially on children in the mixed dentition due to their smaller mouths and cooperation problems.</p>
+<p>Individual periapical radiographs usually are needed, because panoramic radiographs tend to non-uniformly distort the images of the teeth.</p>
+<p>Even with individual images, it is often difficult to obtain an undistorted view of the canines (especially the lower ones), and this inevitably reduces the accuracy.</p></pageText><resources><resource resourceType="image" resourceWidth="600" resourceHeight="319" resourceLocation="spaceanalysis/images/scr8.jpg" thumbnailWidth="151" thumbnailHeight="80" thumbnailLocation="spaceanalysis/images/scr8_s.jpg"><label>In this panoramic radiograph, note that the teeth on the patient's right look larger than those on the left--which would make measurements of tooth size inaccurate.</label><caption/></resource></resources></page><page pageType="content"><title>Radiographic Prediction (cont.)</title><pageText><p>With any type of radiograph, it is necessary to compensate for enlargement of the radiographic image. This is done by measuring the same object (such as a primary second molar) in the radiograph and on the cast. The difference in the size of the images gives the percentage of magnification, which is used to correct the magnification of the unerupted permanent teeth.</p>
+<p>A simple proportional relationship can be set up: True width of primary molar / Apparent width of primary molar = True width of unerupted premolar / Apparent width of unerupted premolar.</p>
+<p>Accuracy is fair to good with this method of measuring radiographs, depending on the quality of the radiographs and the position of the teeth in the arch.</p>
+<p>The advantages are that it can be used in maxillary and mandibular arches for all ethnic groups. The disadvantages are the additional radiation required, questionable accuracy in some instances and potential behavior problems with young children.</p></pageText><resources><resource resourceType="image" resourceWidth="225" resourceHeight="450" resourceLocation="spaceanalysis/images/6-35.jpg" thumbnailWidth="40" thumbnailHeight="80" thumbnailLocation="spaceanalysis/images/6-35_s.jpg"><label/><caption><p>Measuring the width of a tooth on a dental cast, and then on a radiograph, lets you calculate the magnification in the radiograph.</p></caption></resource></resources></page><page pageType="content"><title>Moyers Prediction: Proportionality Tables</title><pageText><p>The second method to determine the size of the unerupted permanent teeth uses estimations from proportionality tables. There is a reasonably good correlation between the size of the erupted permanent LOWER incisors and the unerupted canines and premolars in both dental arches.</p>
+<p>To utilize the Moyers method, the mesiodistal width of the lower incisors is measured, and this number is used along with the table below to predict the size of BOTH the lower and upper unerupted canines and premolars.</p></pageText><resources><resource resourceType="image" resourceWidth="600" resourceHeight="450" resourceLocation="spaceanalysis/images/6-6.jpg" thumbnailWidth="107" thumbnailHeight="80" thumbnailLocation="spaceanalysis/images/6-6_s.jpg"><label/><caption/></resource></resources></page><page pageType="content"><title>Tanaka-Johnston Prediction: Proportionality Formulas</title><pageText><p>Tanaka and Johnston developed another way to use the width of the lower 
+incisors to predict the size of unerupted canines and premolars. The 
+Tanaka-Johnston method has good accuracy, despite a small bias toward 
+overestimating the unerupted tooth sizes.</p>
+
+<p>It requires neither radiographs nor reference tables, which makes it very 
+convenient. This is essentially another proportionality table method, but 
+it has been greatly simplified so that no table is necessary—just two 
+simple formulas that are easy to recall or that can be printed right on the 
+analysis form.</p></pageText><resources><resource resourceType="image" resourceWidth="600" resourceHeight="233" resourceLocation="spaceanalysis/images/6-3.gif" thumbnailWidth="166" thumbnailHeight="64" thumbnailLocation="spaceanalysis/images/6-3_s.gif"><label/><caption/></resource></resources></page><page pageType="content"><title>Hixon-Oldfather Prediction: Combination Method</title><pageText><p>The third method is a combination of radiographic and proportionality table methods.</p>
+<p>The major problem with using radiographic images is obtaining a good canine view. The size of permanent incisors measured from the dental casts and the size of unerupted premolars measured from periapical radiographs can be used together to predict the size of the unerupted canines.</p>
+<p>This approach was developed by Hixon and Oldfather and revised and improved by Staley and Kerber. Their graph allows canine and premolar widths to be read directly from the sum of lower incisor widths on the cast and premolar widths on the radiographs.</p>
+<p>Even though this method is quite accurate in its predictions for Caucasian children of northern European descent, because that was the group used to derive the prediction tables, the accuracy is somewhat questionable for children of African or Asian descent. Two other significant shortcomings: it can be used only for the mandibular arch and requires periapical radiographs.</p></pageText><resources><resource resourceType="image" resourceWidth="600" resourceHeight="450" resourceLocation="spaceanalysis/images/s01_p10_01.jpg" thumbnailWidth="107" thumbnailHeight="80" thumbnailLocation="spaceanalysis/images/s01_p10_01s.jpg"><label>Staley and Kerber Prediction Method</label><caption><p>By using this graph, the size of the unerupted permanent premolars and canines can be estimated.</p></caption></resource></resources></page><page pageType="content"><title>Tanaka-Johnston Advantages</title><pageText><p>For general clinical use, the most practical approach to space analysis 
+is the Tanaka and Johnston method because it:</p>
+
+<ul class="spaced"><li>requires no radiographs</li>
+
+<li>requires no lengthy prediction tables, graphs or equations</li>
+
+<li>can be used for both arches</li>
+
+<li>is reasonably predictable (good correlation)</li>
+</ul><p>The method was derived using a sample of Caucasian children, which must be 
+considered when using the technique in children of different ethnicities.</p></pageText><resources/></page></pages></section><section><title>Assumptions</title><pages><page pageType="content"><title>Tanaka-Johnston Assumptions: Tooth Size Correlation</title><pageText><p>When doing a mixed dentition space analysis, you must keep the assumptions in 
+mind that underlie the procedure. Consider the assumptions that go with the use 
+of the Tanaka-Johnston method.</p>
+
+<p>The first assumption is that there is a correlation between the size of the 
+erupted mandibular incisors and the size of the remaining unerupted maxillary 
+and mandibular canines and premolars.</p>
+
+<p>A significant correlation has been demonstrated by numerous researchers, but 
+there are individual variations in the size of teeth. Maxillary lateral 
+incisors and mandibular second premolars are the most variable teeth (except 
+third molars, which do not figure in space analysis). If these teeth are 
+obviously large or small, the correlations will be incorrect.</p></pageText><resources/></page><page pageType="content"><title>Tanaka and Johnston Assumptions: Caucasian Population</title><pageText><p>A second assumption is that your patient fits the population that was used to derive the prediction tables or formula. Because tooth size and morphology are distinct racial and ethnic traits, this must be taken into account for accurate prediction in any successful space analysis.</p>
+<p>The prediction values used for the method advocated in this program were derived from a sample of children of northern European descent. You must decide if your patient is a member of the same population group. The prediction formulas are not nearly as accurate for other populations.</p></pageText><resources><resource resourceType="image" resourceWidth="387" resourceHeight="450" resourceLocation="spaceanalysis/images/scr17-1.jpg" thumbnailWidth="69" thumbnailHeight="80" thumbnailLocation="spaceanalysis/images/scr17-1_s.jpg"><label>Image 1</label><caption><p>For this child, space analysis based on averages for children of northern European descent may be less accurate.</p></caption></resource><resource resourceType="image" resourceWidth="354" resourceHeight="450" resourceLocation="spaceanalysis/images/scr17-2.jpg" thumbnailWidth="63" thumbnailHeight="80" thumbnailLocation="spaceanalysis/images/scr17-2_s.jpg"><label>Image 2</label><caption><p>For this child also, space analysis based on averages for children of northern European descent may be less accurate.</p></caption></resource></resources></page><page pageType="content"><title>Patient from Different Population</title><pageText><p>If your patient does not fit the population to which the prediction formulas apply, you can use one of three strategies:</p>
+<ol class="spaced"><li>complete the space analysis recognizing these limitations, and use great care when interpreting your results.</li>
+<li>use a different prediction table or formula that is specific for your patient’s racial group, if such a table exists; or</li>
+<li>use the individualized radiographic technique described earlier. Use of multiple periapical radiographs is not justified in all cases, but may be appropriate for these selected patients.</li>
+</ol></pageText><resources><resource resourceType="image" resourceWidth="600" resourceHeight="321" resourceLocation="spaceanalysis/images/scr17-1_and_2.jpg" thumbnailWidth="149" thumbnailHeight="80" thumbnailLocation="spaceanalysis/images/scr17-1_and_2_s.jpg"><label/><caption><p>For children with a different background from those of northern European descent, an alternative to Tanaka-Johnston for prediction of the size of unerupted permanent teeth may need to be considered.</p></caption></resource></resources></page><page pageType="content"><title>Tanaka-Johnston Assumptions: Normal Development</title><pageText><p>A third assumption about space required is that all succedaneous teeth are developing normally (image 1).</p>
+<p>This may be difficult to ascertain in some early mixed dentition children, since the premolars are often late in forming and not visible on radiographs. It makes no sense to assume normal-sized teeth if the presence of all the teeth is not assured, or if there are obvious anomalies in tooth size (image 2) when the radiographs are examined.</p></pageText><resources><resource resourceType="image" resourceWidth="600" resourceHeight="316" resourceLocation="spaceanalysis/images/scr18-1.jpg" thumbnailWidth="152" thumbnailHeight="80" thumbnailLocation="spaceanalysis/images/scr18-1_s.jpg"><label>Image 1</label><caption><p>Panoramic radiograph showing missing mandibular second premolars in the mixed dentition--obviously, space analysis must take this into consideration.</p></caption></resource><resource resourceType="image" resourceWidth="600" resourceHeight="328" resourceLocation="spaceanalysis/images/scr18-2.jpg" thumbnailWidth="146" thumbnailHeight="80" thumbnailLocation="spaceanalysis/images/scr18-2_s.jpg"><label>Image 2</label><caption><p>Maxillary peg lateral incisors, which will affect the amount of space available in the maxillary arch. The variability of maxillary laterals is why only lower incisor widths are used in the prediction formulas.</p></caption></resource></resources></page><page pageType="content"><title>General Assumptions: Space Available</title><pageText><p>There are also some important assumptions about the amount of space available. Obviously, space analysis only works if space available can be predicted accurately.</p>
+<p>Space analysis assumes that arch dimensions DO NOT increase during growth. Of course, the maxilla and mandible grow and increase in size, but this growth occurs in areas away from the dentition (for example, distal to the first molar), so that little extra space for the teeth is created. For normal growth and development, this is a valid assumption.</p></pageText><resources><resource resourceType="image" resourceWidth="600" resourceHeight="354" resourceLocation="spaceanalysis/images/3-40.gif" thumbnailWidth="135" thumbnailHeight="80" thumbnailLocation="spaceanalysis/images/3-40_s.gif"><label/><caption><p>Both arch length (measured as L in this drawing) and arch circumference (C) decrease when maxillary first molars drift mesially when second primary molars are lost.</p></caption></resource></resources></page><page pageType="content"><title>General Assumptions: Stable Position of Incisors</title><pageText><p>Another important assumption is that the position of the incisors will not change in a way that increases or decreases arch circumference and available space.</p>
+<p>In fact, after the eruption of the lateral incisors, little increase in arch circumference can be expected and incisor stability can be assumed—but only in children with a Class I growth pattern, so assessment of space available is less accurate in Class II and Class III children.</p>
+<p>In a child with a Class II growth pattern, the lower incisors tend to tip facially, increasing space in the lower arch, while the upper incisors may move either facially or lingually; in a Class III growth pattern, the lower incisors are likely to tip lingually, decreasing space in the lower arch, while the upper incisors often tip facially, increasing space in the upper arch.</p></pageText><resources><resource resourceType="image" resourceWidth="600" resourceHeight="354" resourceLocation="spaceanalysis/images/3-40.gif" thumbnailWidth="135" thumbnailHeight="80" thumbnailLocation="spaceanalysis/images/3-40_s.gif"><label/><caption><p>This calculation of space available shows the expected movement of the molars--but does not show any change in the position of the incisors. In fact, that often happens in patients with a Class II or Class III growth pattern, so space analysis for them is not as accurate as for those with normal (Class I) growth.</p></caption></resource></resources></page><page pageType="content"><title>Transition of Molar Relationships</title><pageText><p>Because the primary molars are larger than the premolars that replace them (image 1), the position of the permanent first molars can be expected to change when the primary second molars are lost. The space analysis procedure assumes that the mesial shift of the first molars can be predicted accurately, at least in a child with a Class I skeletal pattern.</p>
+<p>Even in skeletal Class I children, an end-to-end molar relationship is likely to be present during the mixed dentition, and molar shift occurs in these children when the primary molars are lost, so a correction for molar shift is necessary in space analysis. The different pattern of molar shift in children with skeletal Class II or Class III growth patterns is another reason for restricting space analysis to skeletal Class I children (image 2).</p></pageText><resources><resource resourceType="image" resourceWidth="385" resourceHeight="450" resourceLocation="spaceanalysis/images/3-42.gif" thumbnailWidth="68" thumbnailHeight="80" thumbnailLocation="spaceanalysis/images/3-42_s.gif"><label>Image 1</label><caption><p>Size relationships of primary molars and the premolars that replace them.</p></caption></resource><resource resourceType="image" resourceWidth="408" resourceHeight="450" resourceLocation="spaceanalysis/images/3-43.gif" thumbnailWidth="73" thumbnailHeight="80" thumbnailLocation="spaceanalysis/images/3-43_s.gif"><label>Image 2</label><caption><p>Effect of forward movement of molars in the transition of molar relationships from the mixed to the permanent dentition.</p></caption></resource></resources></page></pages></section><section><title>Procedures - Steps Involved</title><pages><page pageType="content"><title>Dental Casts for Space Analysis</title><pageText><p>Let’s go over the steps in carrying out mixed dentition space analysis. A number of materials are required.</p>
+<p>First, accurate study casts are required of a patient in the mixed dentition whose maxillary and mandibular permanent first molars, and maxillary and mandibular central and lateral incisors, all have erupted (images 1 and 2).</p>
+<p>Occasionally, a space analysis is completed on only the mandibular arch, before it's possible to do it for the maxillary arch, to begin preliminary planning prior to eruption of the maxillary incisors. If such a preliminary analysis is accomplished, it should be repeated when the maxillary lateral incisors erupt to provide a definitive result.</p>
+<p>All study casts should be carefully trimmed to establish correct occlusal relationships. The accuracy of your analysis will depend upon the accuracy of your study casts. These relationships must be checked against the results of the clinical exam.</p></pageText><resources><resource resourceType="image" resourceWidth="600" resourceHeight="360" resourceLocation="spaceanalysis/images/scr23-1.jpg" thumbnailWidth="133" thumbnailHeight="80" thumbnailLocation="spaceanalysis/images/scr23-1_s.jpg"><label>Image 1</label><caption/></resource><resource resourceType="image" resourceWidth="600" resourceHeight="360" resourceLocation="spaceanalysis/images/scr23-2.jpg" thumbnailWidth="133" thumbnailHeight="80" thumbnailLocation="spaceanalysis/images/scr23-2_s.jpg"><label>Image 2</label><caption/></resource></resources></page><page pageType="content"><title>Measuring Instrument</title><pageText><p>Second, you will need some type of measuring device. Measurements can best be made with a Boley gauge.</p>
+<p>The beaks of the Boley gauge should be sharpened, as illustrated here, to permit better access to the interproximal areas. Measurements must be made to the nearest tenth of a millimeter, so accurate instruments are imperative.</p></pageText><resources><resource resourceType="image" resourceWidth="600" resourceHeight="393" resourceLocation="spaceanalysis/images/scr24.jpg" thumbnailWidth="122" thumbnailHeight="80" thumbnailLocation="spaceanalysis/images/scr24_s.jpg"><label>Boley gauge with sharpened tips</label><caption><p>Digital calipers also can be used for measurement of tooth width. They are more precise but also need thin, not thick, tips to be accurate for tooth measurements.</p></caption></resource></resources></page><page pageType="content"><title>Steps in Space Analysis (cont.)</title><pageText><p>This is the space analysis form you will use. When measurements are made and information is collected, it will be entered on this form.</p>
+<p>As a guide to completing the space analysis and its interpretations, we will follow the space analysis form in a section-by-section manner.</p></pageText><resources><resource resourceType="image" resourceWidth="328" resourceHeight="450" resourceLocation="spaceanalysis/images/6-37.gif" thumbnailWidth="58" thumbnailHeight="80" thumbnailLocation="spaceanalysis/images/6-37_s.gif"><label>Space analysis form</label><caption/></resource></resources></page><page pageType="content"><title>Space Analysis Form, Section 1</title><pageText><p>Section 1 on the space analysis form is a determination of the available 
+mandibular arch length. This is calculated by measuring the continuous arch 
+length over the contacts of the mandibular teeth between the mesial of the 
+permanent first molar on the right, and the mesial of the permanent first 
+molar on the left.</p></pageText><resources><resource resourceType="image" resourceWidth="600" resourceHeight="394" resourceLocation="spaceanalysis/images/scr26-1.jpg" thumbnailWidth="122" thumbnailHeight="80" thumbnailLocation="spaceanalysis/images/scr26-1_s.jpg"><label/><caption/></resource></resources></page><page pageType="content"><title>Space Analysis Form, Section 1 (cont.)</title><pageText><p>A simple way to accomplish this is to divide the arch into segments in the area 
+of certain teeth. Remember, you’re not measuring teeth. You’re 
+measuring the dimensions of the alveolar process, so the lines separating the 
+segments are marked on the alveolar process, below the teeth.</p>
+
+<p>Segment “a” extends from the mesial of the permanent first molar 
+on the right to the mesial of the primary right canine, not along the facial 
+surface, but approximately over the contacts.</p>
+
+<p>Segment “b” is from the mesial of the primary right canine to 
+the midline, again over the contacts.</p>
+
+<p>Segment “c” is from the midline to the mesial of the primary left 
+canine.</p>
+
+<p>Segment “d” is from the mesial of the primary left canine to the 
+mesial of the permanent left first molar.</p>
+
+<p>Other segments can be measured as long as one is careful not to measure the 
+same space twice.</p></pageText><resources><resource resourceType="image" resourceWidth="540" resourceHeight="450" resourceLocation="spaceanalysis/images/scr27.jpg" thumbnailWidth="96" thumbnailHeight="80" thumbnailLocation="spaceanalysis/images/scr27_s.jpg"><label/><caption/></resource></resources></page><page pageType="content"><title>Space Analysis Form, Section 1 (cont.)</title><pageText><p>The length of each segment should be measured precisely, using the Boley gauge 
+as shown in these images. Segments A and D, and segments B and C, are measured 
+the same way on each side.</p></pageText><resources><resource resourceType="image" resourceWidth="600" resourceHeight="368" resourceLocation="spaceanalysis/images/scr28-1.jpg" thumbnailWidth="130" thumbnailHeight="80" thumbnailLocation="spaceanalysis/images/scr28-1_s.jpg"><label>Image 1</label><caption><p>segment A, from a point on the alveolar process below the contact point of 
+the first molar, to a point on the alveolar process approximately below the 
+mesial of the canine</p></caption></resource><resource resourceType="image" resourceWidth="600" resourceHeight="384" resourceLocation="spaceanalysis/images/scr28-2.jpg" thumbnailWidth="125" thumbnailHeight="80" thumbnailLocation="spaceanalysis/images/scr28-2_s.jpg"><label>Image 2</label><caption><p>segment B, from the point in the canine region to the midline</p></caption></resource><resource resourceType="image" resourceWidth="600" resourceHeight="390" resourceLocation="spaceanalysis/images/scr28-3.jpg" thumbnailWidth="123" thumbnailHeight="80" thumbnailLocation="spaceanalysis/images/scr28-3_s.jpg"><label>Image 3</label><caption><p>segment C</p></caption></resource><resource resourceType="image" resourceWidth="600" resourceHeight="403" resourceLocation="spaceanalysis/images/scr28-4.jpg" thumbnailWidth="119" thumbnailHeight="80" thumbnailLocation="spaceanalysis/images/scr28-4_s.jpg"><label>Image 4</label><caption><p>segment D</p></caption></resource></resources></page><page pageType="content"><title>Space Analysis Form, Section 1 (cont.)</title><pageText><p>These measured dimensions are recorded under Section 1 and totaled. The total 
+of the segments is the available mandibular space. Straight-line segments, obviously, 
+are an approximation of the curved space, but the error is small enough to be acceptable.</p></pageText><resources><resource resourceType="image" resourceWidth="600" resourceHeight="389" resourceLocation="spaceanalysis/images/scr29.jpg" thumbnailWidth="123" thumbnailHeight="80" thumbnailLocation="spaceanalysis/images/scr29_s.jpg"><label/><caption/></resource></resources></page><page pageType="content"><title>Space Analysis Form, Section 2</title><pageText><p>The next step is to complete Section 2, which is measurement of the 
+mesiodistal width of the lower incisors (teeth #23, 24, 25 and 26) 
+(image 1).</p>
+
+<p>The greatest mesiodistal width of each tooth should be measured accurately 
+with a sharp Boley gauge as shown in image 1. This time you are measuring 
+individual teeth.</p>
+
+<p>These measurements are then recorded on the form and totaled under Section 
+2 (image 2).</p></pageText><resources><resource resourceType="image" resourceWidth="600" resourceHeight="389" resourceLocation="spaceanalysis/images/scr30-1.jpg" thumbnailWidth="123" thumbnailHeight="80" thumbnailLocation="spaceanalysis/images/scr30-1_s.jpg"><label>Image 1</label><caption><p>Measurement of individual mandibular incisor teeth</p></caption></resource><resource resourceType="image" resourceWidth="600" resourceHeight="320" resourceLocation="spaceanalysis/images/scr30-2.jpg" thumbnailWidth="150" thumbnailHeight="80" thumbnailLocation="spaceanalysis/images/scr30-2_s.jpg"><label>Image 2</label><caption><p>Section 2 completed</p></caption></resource></resources></page><page pageType="content"><title>Space Analysis Form, Section 3</title><pageText><p>Section 3 calculates the available maxillary arch length. Once again, the 
+measurement is of the continuous arch circumference (from the mesial of the 
+permanent right first molar to the mesial of the permanent left first molar 
+over the existing contacts of the teeth). Dividing the arch into posterior and 
+anterior segments, marking the segment ends on the alveolar ridge, is helpful.</p></pageText><resources><resource resourceType="image" resourceWidth="600" resourceHeight="443" resourceLocation="spaceanalysis/images/scr30.jpg" thumbnailWidth="108" thumbnailHeight="80" thumbnailLocation="spaceanalysis/images/scr30_s.jpg"><label/><caption/></resource></resources></page><page pageType="content"><title>Space Analysis Form, Section 3 (cont).</title><pageText><p>Segment “e” is marked along the alveolar process from the mesial 
+of the permanent right first molar to the mesial of the primary 
+right canine.</p>
+
+<p>Segment “f” is from the mesial of the primary right canine to the 
+midline.</p>
+
+<p>Segment “g” is from the midline to the mesial of the primary left 
+canine.</p>
+
+<p>Segment “h” is from the mesial of the primary left canine to the 
+mesial of the permanent left first molar.</p></pageText><resources><resource resourceType="image" resourceWidth="600" resourceHeight="443" resourceLocation="spaceanalysis/images/scr30.jpg" thumbnailWidth="108" thumbnailHeight="80" thumbnailLocation="spaceanalysis/images/scr30_s.jpg"><label/><caption/></resource></resources></page><page pageType="content"><title>Space Analysis Form, Section 3 (cont).</title><pageText><p>The dimensions for each of the segments are recorded on the form in Section 
+3 and totaled. This total is the available maxillary space.</p></pageText><resources><resource resourceType="image" resourceWidth="600" resourceHeight="370" resourceLocation="spaceanalysis/images/scr33.jpg" thumbnailWidth="130" thumbnailHeight="80" thumbnailLocation="spaceanalysis/images/scr33_s.jpg"><label/><caption/></resource></resources></page><page pageType="content"><title>Space Analysis Form, Section 4</title><pageText><p>Section 4 calculates the mesiodistal maxillary incisor width. The maxillary incisors are measured at their greatest width for teeth 7, 8, 9 and 10 (image 1).</p>
+<p>After measuring these teeth, the dimensions should be recorded in the appropriate spaces and totaled. This will give the combined maxillary incisor width (image 2).</p></pageText><resources><resource resourceType="image" resourceWidth="600" resourceHeight="420" resourceLocation="spaceanalysis/images/scr34-1.jpg" thumbnailWidth="114" thumbnailHeight="80" thumbnailLocation="spaceanalysis/images/scr34-1_s.jpg"><label>Image 1</label><caption><p>Each individual maxillary incisor is accurately measured</p></caption></resource><resource resourceType="image" resourceWidth="600" resourceHeight="343" resourceLocation="spaceanalysis/images/scr34-2.jpg" thumbnailWidth="140" thumbnailHeight="80" thumbnailLocation="spaceanalysis/images/scr34-2_s.jpg"><label>Image 2</label><caption><p>Section 4 completed</p></caption></resource></resources></page><page pageType="content"><title>Space Analysis Form, Section 5</title><pageText><p>Section 5 is completion of the mandibular space analysis. The first step 
+(5a) is to transcribe the total mandibular space available from Section 1.</p></pageText><resources><resource resourceType="image" resourceWidth="600" resourceHeight="380" resourceLocation="spaceanalysis/images/scr35.jpg" thumbnailWidth="126" thumbnailHeight="80" thumbnailLocation="spaceanalysis/images/scr35_s.jpg"><label/><caption/></resource></resources></page><page pageType="content"><title>Space Analysis Form, Section 5 (cont.)</title><pageText><p>The second step (5b) is to transcribe total measured mandibular incisor width 
+from Section 2. This total will also be used in the next step.</p></pageText><resources><resource resourceType="image" resourceWidth="600" resourceHeight="381" resourceLocation="spaceanalysis/images/scr36.jpg" thumbnailWidth="126" thumbnailHeight="80" thumbnailLocation="spaceanalysis/images/scr36_s.jpg"><label/><caption/></resource></resources></page><page pageType="content"><title>Space Analysis Form, Section 5 (cont.)</title><pageText><p>To complete steps 5c and 5d, one must refer to the formula for the mandibular 
+space prediction at the bottom of the form.</p>
+
+<p>The total mandibular incisor width from Section 2 is divided by 2, and 
+10.5 mm is added to produce a sum that is an estimation of the width of the 
+mandibular unerupted canine and premolars in one mandibular quadrant.</p></pageText><resources><resource resourceType="image" resourceWidth="600" resourceHeight="134" resourceLocation="spaceanalysis/images/scr37.jpg" thumbnailWidth="166" thumbnailHeight="37" thumbnailLocation="spaceanalysis/images/scr37_s.jpg"><label/><caption/></resource></resources></page><page pageType="content"><title>Space Analysis Form, Section 5 (cont.)</title><pageText><p>The estimated size of the unerupted mandibular canine and premolars in one 
+quadrant is recorded twice, at lines 5c and 5d for the right and left sides 
+respectively.</p></pageText><resources><resource resourceType="image" resourceWidth="600" resourceHeight="342" resourceLocation="spaceanalysis/images/scr38.jpg" thumbnailWidth="141" thumbnailHeight="80" thumbnailLocation="spaceanalysis/images/scr38_s.jpg"><label/><caption/></resource></resources></page><page pageType="content"><title>Space Analysis Form, Section 5 (cont.)</title><pageText><p>Lines 5b, 5c and 5d are then added together to give the total space required. 
+This sum is entered on line 5e.</p></pageText><resources><resource resourceType="image" resourceWidth="600" resourceHeight="333" resourceLocation="spaceanalysis/images/scr39.jpg" thumbnailWidth="144" thumbnailHeight="80" thumbnailLocation="spaceanalysis/images/scr39_s.jpg"><label/><caption/></resource></resources></page><page pageType="content"><title>Space Analysis Form, Section 5 (cont.)</title><pageText><p>Line 5e is then subtracted from 5a to determine the estimate of the space 
+discrepancy for the mandibular arch (5f).</p>
+
+<p>If space required is larger than space available, the discrepancy is recorded 
+as a negative number. If there is more space available than required, the 
+number is positive. In this example the patient has a -6.4mm discrepancy.</p></pageText><resources><resource resourceType="image" resourceWidth="600" resourceHeight="320" resourceLocation="spaceanalysis/images/scr40.jpg" thumbnailWidth="150" thumbnailHeight="80" thumbnailLocation="spaceanalysis/images/scr40_s.jpg"><label/><caption/></resource></resources></page><page pageType="content"><title>Space Analysis Form, Section 6</title><pageText><p>In Section 6, the maxillary space analysis is completed by first transcribing 
+on to 6a the results of the measurements from Section 3 (total available maxillary space).</p></pageText><resources><resource resourceType="image" resourceWidth="600" resourceHeight="392" resourceLocation="spaceanalysis/images/scr41.jpg" thumbnailWidth="123" thumbnailHeight="80" thumbnailLocation="spaceanalysis/images/scr41_s.jpg"><label/><caption/></resource></resources></page><page pageType="content"><title>Space Analysis Form, Section 6 (cont.)</title><pageText><p>Next transcribe to line 6b the total maxillary incisor width derived from 
+Section 4.</p></pageText><resources><resource resourceType="image" resourceWidth="600" resourceHeight="401" resourceLocation="spaceanalysis/images/scr42.jpg" thumbnailWidth="120" thumbnailHeight="80" thumbnailLocation="spaceanalysis/images/scr42_s.jpg"><label/><caption/></resource></resources></page><page pageType="content"><title>Space Analysis Form, Section 6 (cont.)</title><pageText><p>Next transcribe to line 6b the total maxillary incisor width derived from 
+Section 4.</p></pageText><resources><resource resourceType="image" resourceWidth="600" resourceHeight="401" resourceLocation="spaceanalysis/images/scr42.jpg" thumbnailWidth="120" thumbnailHeight="80" thumbnailLocation="spaceanalysis/images/scr42_s.jpg"><label/><caption/></resource></resources></page><page pageType="content"><title>Space Analysis Form, Section 7</title><pageText><p>In order to interpret the numerical results of the space analysis, additional 
+information must be evaluated for each individual patient.</p>
+
+<p>This additional information is compiled in Sections 7-10. First, it is 
+necessary to determine the skeletal status of the patient. This will enable 
+us to project the mandibular incisor stability and its space implications. 
+Remember, the position of the lower incisors is likely to change as a child with a 
+skeletal Class II or Class III malocclusion grows. It also allows us to determine 
+whether the mesial molar shift should be calculated.</p></pageText><resources><resource resourceType="image" resourceWidth="600" resourceHeight="360" resourceLocation="spaceanalysis/images/scr45.jpg" thumbnailWidth="133" thumbnailHeight="80" thumbnailLocation="spaceanalysis/images/scr45_s.jpg"><label/><caption/></resource></resources></page><page pageType="content"><title>Space Analysis Form, Section 7 (cont.)</title><pageText><p>The information for Section #7 is obtained from the results of the facial 
+profile analysis that is found on the reverse side of the space analysis form.</p>
+
+<p>The facial profile analysis for the patient used in this example revealed a 
+Class I skeletal pattern. If a patient has a Class I skeletal pattern, one 
+would not expect mandibular incisor compensation with growth. Therefore, the 
+space available would remain unchanged.</p></pageText><resources><resource resourceType="image" resourceWidth="600" resourceHeight="407" resourceLocation="spaceanalysis/images/scr46.jpg" thumbnailWidth="118" thumbnailHeight="80" thumbnailLocation="spaceanalysis/images/scr46_s.jpg"><label/><caption/></resource></resources></page><page pageType="content"><title>Space Analysis Form, Section 7 (cont.)</title><pageText><p>The information for Section #7 is obtained from the results of the facial 
+profile analysis that is found on the reverse side of the space analysis form.</p>
+
+<p>The facial profile analysis for the patient used in this example revealed a 
+Class I skeletal pattern. If a patient has a Class I skeletal pattern, one 
+would not expect mandibular incisor compensation with growth. Therefore, the 
+space available would remain unchanged.</p></pageText><resources><resource resourceType="image" resourceWidth="600" resourceHeight="407" resourceLocation="spaceanalysis/images/scr46.jpg" thumbnailWidth="118" thumbnailHeight="80" thumbnailLocation="spaceanalysis/images/scr46_s.jpg"><label/><caption/></resource></resources></page><page pageType="content"><title>Space Analysis Form, Section 7 (cont.)</title><pageText><p>However, in a Class II skeletal pattern (image 1), it is necessary to realize 
+that the space available may change with growth.</p>
+
+<p>In this mandibular composite tracing of a Class II patient, the original 
+tracing is a solid line and the progress tracing is a dashed line (image 2).</p>
+
+<p>It is evident that the mandibular incisors moved in a facial direction during 
+growth. The lower incisors tend to compensate in a facial direction for the 
+retrusive (Class II) mandible in some Class II patients, and this may actually 
+increase the space available in the mandibular arch.</p></pageText><resources><resource resourceType="image" resourceWidth="600" resourceHeight="408" resourceLocation="spaceanalysis/images/scr47-1.jpg" thumbnailWidth="118" thumbnailHeight="80" thumbnailLocation="spaceanalysis/images/scr47-1_s.jpg"><label>Image 1</label><caption><p>Class II patient profile and facial form analysis</p></caption></resource><resource resourceType="image" resourceWidth="561" resourceHeight="450" resourceLocation="spaceanalysis/images/scr47-2.gif" thumbnailWidth="100" thumbnailHeight="80" thumbnailLocation="spaceanalysis/images/scr47-2_s.gif"><label>Image 2</label><caption><p>Mandibular superimposition for Class II patient: note space changes</p></caption></resource></resources></page><page pageType="content"><title>Space Analysis Form, Section 7 (cont.)</title><pageText><p>This patient demonstrates a Class III skeletal pattern. In such cases, the 
+mandibular incisor often compensates by tipping lingually (image 1).</p>
+
+<p>In this mandibular composite tracing of a Class III patient, the original 
+tracing is a solid line and the progress tracing is a dashed line (image 2). 
+Note that the lower incisors moved lingually to compensate for the protrusive 
+mandible. When a patient has a Class III skeletal pattern, the space analysis 
+results can be misleading, because the space available is subject to change 
+and may actually be reduced in the mandibular arch. This should be noted in 
+your interpretation.</p></pageText><resources><resource resourceType="image" resourceWidth="600" resourceHeight="401" resourceLocation="spaceanalysis/images/scr48-1.jpg" thumbnailWidth="120" thumbnailHeight="80" thumbnailLocation="spaceanalysis/images/scr48-1_s.jpg"><label>Image 1</label><caption><p>Class III patient profile and facial form analysis</p></caption></resource><resource resourceType="image" resourceWidth="478" resourceHeight="450" resourceLocation="spaceanalysis/images/scr48-2.gif" thumbnailWidth="85" thumbnailHeight="80" thumbnailLocation="spaceanalysis/images/scr48-2_s.gif"><label>Image 2</label><caption><p>Mandibular superimposition for changes in a Class III patient</p></caption></resource></resources></page><page pageType="content"><title>Space Analysis Form, Section 8</title><pageText><p>Section 8 deals with molar relationships.</p>
+
+<p>This image shows the profile analysis and the casts viewed from the right 
+for the Class I example patient. The existing molar relationships should 
+correlate with the skeletal relationships. If they do not, you should be 
+able to explain this inconsistency.</p>
+
+<p>Dental relationships for the right and left sides should be recorded on the 
+form after viewing the articulated casts.</p></pageText><resources><resource resourceType="image" resourceWidth="600" resourceHeight="415" resourceLocation="spaceanalysis/images/scr49.jpg" thumbnailWidth="116" thumbnailHeight="80" thumbnailLocation="spaceanalysis/images/scr49_s.jpg"><label/><caption/></resource></resources></page><page pageType="content"><title>Space Analysis Form, Section 8 (cont.)</title><pageText><p>If the jaw relationship is Class I and there is a Class II molar 
+relationship, this usually indicates maxillary space loss (image 1). One 
+would suspect a maxillary space shortage, which should be confirmed by the 
+numerical data of the space analysis.</p>
+
+<p>Remember, canine relationships are often a useful clue to the previous dental 
+relationships even when posterior teeth have drifted.</p>
+
+<p>The casts of this patient show a Class II molar relationship and a maxillary 
+space shortage of 5 mm, both of which are due to the patient’s maxillary 
+right first molar moving mesially after premature loss of the 2nd primary 
+molar (image 2).</p></pageText><resources><resource resourceType="image" resourceWidth="290" resourceHeight="450" resourceLocation="spaceanalysis/images/scr51-1.jpg" thumbnailWidth="52" thumbnailHeight="80" thumbnailLocation="spaceanalysis/images/scr51-1_s.jpg"><label>Image 1</label><caption><p>Class I skeletal patient with a Class II molar relationship</p></caption></resource><resource resourceType="image" resourceWidth="265" resourceHeight="450" resourceLocation="spaceanalysis/images/scr51-2.jpg" thumbnailWidth="47" thumbnailHeight="80" thumbnailLocation="spaceanalysis/images/scr51-2_s.jpg"><label>Image 2</label><caption><p>Class II molar relationship on the right side is due to mesial movement 
+of the maxillary right first molar</p></caption></resource></resources></page><page pageType="content"><title>Steps Section 8</title><pageText><p>Another possibility is a Class III molar relationship in combination with a 
+Class I skeletal pattern. (Image 1). This often indicates mandibular space 
+loss, which would be confirmed by a space shortage in the lower arch space 
+analysis figures.</p>
+
+<p>These casts illustrate such a patient. The Class III molar relationship and a 
+mandibular space shortage of 5mm are due to the mandibular right first molar 
+moving mesially (image 2).</p></pageText><resources><resource resourceType="image" resourceWidth="283" resourceHeight="450" resourceLocation="spaceanalysis/images/scr52-1.jpg" thumbnailWidth="50" thumbnailHeight="80" thumbnailLocation="spaceanalysis/images/scr52-1_s.jpg"><label>Image 1</label><caption><p>Class I skeletal patient with a Class III molar relationship</p></caption></resource><resource resourceType="image" resourceWidth="259" resourceHeight="450" resourceLocation="spaceanalysis/images/scr52-2.jpg" thumbnailWidth="46" thumbnailHeight="80" thumbnailLocation="spaceanalysis/images/scr52-2_s.jpg"><label>Image 2</label><caption><p>Class III molar relationship on the right side is due to mesial movement 
+of the mandibular right first molar. Note the forward drift of the maxillary 
+left first molar in the same patient</p></caption></resource></resources></page><page pageType="content"><title>Steps Section 8</title><pageText><p>Another possibility is a Class III molar relationship in combination with a 
+Class I skeletal pattern. (Image 1). This often indicates mandibular space 
+loss, which would be confirmed by a space shortage in the lower arch space 
+analysis figures.</p>
+
+<p>These casts illustrate such a patient. The Class III molar relationship and a 
+mandibular space shortage of 5mm are due to the mandibular right first molar 
+moving mesially (image 2).</p></pageText><resources><resource resourceType="image" resourceWidth="283" resourceHeight="450" resourceLocation="spaceanalysis/images/scr52-1.jpg" thumbnailWidth="50" thumbnailHeight="80" thumbnailLocation="spaceanalysis/images/scr52-1_s.jpg"><label>Image 1</label><caption><p>Class I skeletal patient with a Class III molar relationship</p></caption></resource><resource resourceType="image" resourceWidth="259" resourceHeight="450" resourceLocation="spaceanalysis/images/scr52-2.jpg" thumbnailWidth="46" thumbnailHeight="80" thumbnailLocation="spaceanalysis/images/scr52-2_s.jpg"><label>Image 2</label><caption><p>Class III molar relationship on the right side is due to mesial movement of 
+the mandibular right first molar. Note the forward drift of the maxillary left 
+first molar in the same patient</p></caption></resource></resources></page><page pageType="content"><title>Steps Section 8 (cont.)</title><pageText><p>Likewise, if a patient has a Class III skeletal pattern, one would expect a 
+bilateral Class III molar relationship.</p>
+
+<p>Caution must be exercised in interpreting the results in a Class III patient 
+because as growth continues, the lower incisors may move lingually and the upper 
+incisors facially.</p>
+
+<p>Note that this patient is Class III skeletally and dentally. Mixed dentition 
+space analysis probably would underestimate the potential mandibular space 
+discrepancy and severity of mandibular incisor crowding, but might overestimate 
+the situation for the maxillary arch.</p></pageText><resources><resource resourceType="image" resourceWidth="288" resourceHeight="450" resourceLocation="spaceanalysis/images/scr54.jpg" thumbnailWidth="51" thumbnailHeight="80" thumbnailLocation="spaceanalysis/images/scr54_s.jpg"><label/><caption/></resource></resources></page><page pageType="content"><title>Steps Section 8 (cont.)</title><pageText><p>Even in a skeletal Class I child like our example, the molar relationship may 
+not be Class I. For this patient, the right side is Class I and needs no 
+adjustment for molar shift. But the left side, shown in the lower half of 
+this frame, is end-to-end, and the magnitude of the molar shift needs to be 
+measured.</p>
+
+<p>This is the distance between the two lines marked on the casts. The 
+mesio-buccal cusp of the upper 1st molar should occlude in the buccal 
+groove of the lower first molar. The distance we’re interested in is the 
+discrepancy between those two points.</p></pageText><resources><resource resourceType="image" resourceWidth="286" resourceHeight="450" resourceLocation="spaceanalysis/images/scr55.jpg" thumbnailWidth="51" thumbnailHeight="80" thumbnailLocation="spaceanalysis/images/scr55_s.jpg"><label/><caption/></resource></resources></page><page pageType="content"><title>Steps Section 8 (cont.)</title><pageText><p>Even in a skeletal Class I child like our example, the molar relationship may 
+not be Class I. For this patient, the right side is Class I and needs no 
+adjustment for molar shift. But the left side, shown in the lower half of 
+this frame, is end-to-end, and the magnitude of the molar shift needs to be 
+measured.</p>
+
+<p>This is the distance between the two lines marked on the casts. The 
+mesio-buccal cusp of the upper 1st molar should occlude in the buccal 
+groove of the lower first molar. The distance we’re interested in is the 
+discrepancy between those two points.</p></pageText><resources><resource resourceType="image" resourceWidth="286" resourceHeight="450" resourceLocation="spaceanalysis/images/scr55.jpg" thumbnailWidth="51" thumbnailHeight="80" thumbnailLocation="spaceanalysis/images/scr55_s.jpg"><label/><caption/></resource></resources></page><page pageType="content"><title>Steps Section 8 (cont.)</title><pageText><p>The skeletal Class I patient whose space anlysis we’ve been doing has a 
+Class I molar relationship on the right side and end-to-end on the left 
+side. This has been indicated in Section 8.</p>
+
+<p>Section #9 should be completed ONLY if the patient exhibits a Class I 
+skeletal relationship and one or both molars are in an end-to-end relationship 
+or not quite Class I.</p></pageText><resources><resource resourceType="image" resourceWidth="600" resourceHeight="148" resourceLocation="spaceanalysis/images/scr56.jpg" thumbnailWidth="166" thumbnailHeight="41" thumbnailLocation="spaceanalysis/images/scr56_s.jpg"><label/><caption/></resource></resources></page><page pageType="content"><title>Steps Section 9</title><pageText><p>With a Class I skeletal relationship and an end-to-end molar relationship, a 
+Class I molar relationship may be achieved during development in one of three 
+ways:</p>
+
+<ol class="spaced"><li>A shift of the mandibular first permanent molar mesially into the leeway 
+space</li>
+
+<li>More mandibular than maxillary growth, which will move the mandible 
+forward relative to the maxilla</li>
+
+<li>A combination of molar shift and growth.</li>
+</ol></pageText><resources><resource resourceType="image" resourceWidth="408" resourceHeight="450" resourceLocation="spaceanalysis/images/3-43.gif" thumbnailWidth="73" thumbnailHeight="80" thumbnailLocation="spaceanalysis/images/3-43_s.gif"><label/><caption/></resource></resources></page><page pageType="content"><title>Steps Section 9: Leeway Space</title><pageText><p>The leeway space is simply the difference in the total widths of the primary 
+molars and canines as compared to the combined width of the permanent teeth 
+which replace them.</p>
+
+<p>In this image, dimension “A” represents the width of the permanent 
+teeth and is somewhat smaller than dimension “B”, which represents 
+the width of the primary teeth.</p></pageText><resources><resource resourceType="image" resourceWidth="289" resourceHeight="450" resourceLocation="spaceanalysis/images/scr58.jpg" thumbnailWidth="51" thumbnailHeight="80" thumbnailLocation="spaceanalysis/images/scr58_s.jpg"><label/><caption/></resource></resources></page><page pageType="content"><title>Steps Section 9: Leeway Space (cont.)</title><pageText><p>In the late mixed dentition when the primary molars are exfoliated, arch 
+length decreases. As shown here, distance “B” decreases to 
+distance “B prime” when the primary teeth are replaced.</p>
+
+<p>Since this shift is likely to occur when a Class I skeletal relationship and 
+end-to-end molars are present, it is necessary to record the magnitude of 
+this change.</p></pageText><resources><resource resourceType="image" resourceWidth="294" resourceHeight="450" resourceLocation="spaceanalysis/images/scr59.jpg" thumbnailWidth="52" thumbnailHeight="80" thumbnailLocation="spaceanalysis/images/scr59_s.jpg"><label/><caption/></resource></resources></page><page pageType="content"><title>Steps Section 9: Leeway Space (cont.)</title><pageText><p>To determine how much shortening of available space will occur due to a 
+mesial shift, draw a vertical line at the mesiobuccal cusp tip of the 
+permanent maxillary first molar and another line in the buccal groove of 
+the permanent mandibular first molar. The distance between these lines with 
+the models in occlusion represents the space required to achieve a Class I 
+occlusion.</p>
+
+<p>The total of this space for right and left sides will not be available for 
+eruption of the permanent premolars and canines.</p></pageText><resources><resource resourceType="image" resourceWidth="341" resourceHeight="450" resourceLocation="spaceanalysis/images/scr60.jpg" thumbnailWidth="61" thumbnailHeight="80" thumbnailLocation="spaceanalysis/images/scr60_s.jpg"><label/><caption/></resource></resources></page><page pageType="content"><title>Steps Section 10</title><pageText><p>The next section, Section 10, lip posture of the patient, was assessed during 
+the facial profile analysis.</p>
+
+<p>The lip posture should have been recorded as protrusive, normal or retrusive. 
+You made this judgment by looking at the lip prominence relative to the base 
+of the nose and the chin, the nasolabial angle, and lip competence.</p>
+
+<p>On a sketch of the profile or a cephalometric tracing, it can be helpful to 
+draw the "E line" from the nose to the chin as shown in this image, 
+and examine the position of the lips relative to it. The lips should be about 
+on the line. If they're well ahead of it, they're probably protrusive; if 
+they're behind it, they're retrusive. But the size of the nose and chin 
+obviously affect this line, which only works if nose and chin are normal.</p></pageText><resources><resource resourceType="image" resourceWidth="600" resourceHeight="396" resourceLocation="spaceanalysis/images/scr62.gif" thumbnailWidth="121" thumbnailHeight="80" thumbnailLocation="spaceanalysis/images/scr62_s.gif"><label/><caption><p>Protrusive lips and incisors on left; retrusive on right</p></caption></resource></resources></page><page pageType="content"><title>Steps Section 10 (cont.)</title><pageText><p>If the lips are over-supported and protrusive, the incisors usually are 
+protrusive.</p>
+
+<p>Conversely, if the lips are under-supported, a retrusive relationship of the 
+incisors can be inferred. In either case, correction of incisor position will 
+generally be desirable, and this correction will definitely influence the 
+amount of space available.</p>
+
+<p>Moving incisors lingually to reduce incisor protrusion also reduces the 
+amount of space available. Conversely, if the incisors are tipped facially 
+to provide more lip support, an increase in space available is realized.</p></pageText><resources><resource resourceType="image" resourceWidth="600" resourceHeight="396" resourceLocation="spaceanalysis/images/scr62.gif" thumbnailWidth="121" thumbnailHeight="80" thumbnailLocation="spaceanalysis/images/scr62_s.gif"><label/><caption><p>Protrusive lips and incisors on left; non-protrusive on right</p></caption></resource></resources></page><page pageType="content"><title>Steps Section 10 (cont.)</title><pageText><p>This patient illustrates the use of the E-line in judging protrusion. The E 
+line is constructed by connecting the tip of the nose to the most anterior point 
+of the soft tissue pogonion. Normally, the lower lip should lie just behind the 
+line, as this patient.</p>
+
+<p>A change in lower incisor position or lip posture would be inadvisable in this 
+patient. But remember that the E line can be altered by large chins and noses, 
+and you can’t judge protrusion just from it.</p></pageText><resources><resource resourceType="image" resourceWidth="600" resourceHeight="448" resourceLocation="spaceanalysis/images/scr64.jpg" thumbnailWidth="107" thumbnailHeight="80" thumbnailLocation="spaceanalysis/images/scr64_s.jpg"><label/><caption/></resource></resources></page><page pageType="content"><title>Steps Section 10 (cont.)</title><pageText><p>In the patient shown here, the lips are considerably in front of the E-line, 
+which serves to confirm the clinical judgment that the lips and incisors are 
+protrusive.</p>
+
+<p>A reduction of incisor and lip protrusion in this patient, while esthetically 
+desirable, would reduce the available arch length. Since he’s skeletal 
+Class II, there already were concerns about the accuracy of space analysis 
+for him, and the space analysis would not be the major factor in determining 
+his treatment plan.</p>
+
+<p>Remember, the degree of acceptable protrusion is influenced by racial and 
+ethic considerations.</p></pageText><resources><resource resourceType="image" resourceWidth="600" resourceHeight="402" resourceLocation="spaceanalysis/images/scr65.jpg" thumbnailWidth="119" thumbnailHeight="80" thumbnailLocation="spaceanalysis/images/scr65_s.jpg"><label/><caption/></resource></resources></page><page pageType="content"><title>Steps Section 10 (cont.)</title><pageText><p>This patient’s upper and lower lips are situated behind the E line, which 
+confirms the clinical judgment that they are retrusive and under-supported 
+by the incisors.</p>
+
+<p>It would be possible to move the maxillary and mandibular incisors facially 
+in this patient if an increase in arch length were necessary.</p>
+
+<p>One must be cautious and realize that there is not always a direct 
+relationship between incisor position and lip posture.</p></pageText><resources><resource resourceType="image" resourceWidth="600" resourceHeight="421" resourceLocation="spaceanalysis/images/scr66.jpg" thumbnailWidth="114" thumbnailHeight="80" thumbnailLocation="spaceanalysis/images/scr66_s.jpg"><label/><caption/></resource></resources></page><page pageType="content"><title>Steps Section 10 (cont.)</title><pageText><p>This patient’s upper and lower lips are situated behind the E line, which 
+confirms the clinical judgment that they are retrusive and under-supported 
+by the incisors.</p>
+
+<p>It would be possible to move the maxillary and mandibular incisors facially 
+in this patient if an increase in arch length were necessary.</p>
+
+<p>One must be cautious and realize that there is not always a direct 
+relationship between incisor position and lip posture.</p></pageText><resources><resource resourceType="image" resourceWidth="600" resourceHeight="421" resourceLocation="spaceanalysis/images/scr66.jpg" thumbnailWidth="114" thumbnailHeight="80" thumbnailLocation="spaceanalysis/images/scr66_s.jpg"><label/><caption/></resource></resources></page></pages></section><section><title>Cases</title><pages><page pageType="content"><title>Case Review #1</title><pageText><p>Now you will be asked to apply some common sense in your observations.</p>
+<p>On this screen and the ones following, study the casts shown to determine whether the space analysis result that one of your fellow students calculated is correct, or instead is an over- or under-estimate of the space needed. Assume normal skeletal and soft tissue relationships and no molar shift.</p>
+<p>Is this patient really 4 mm short in the lower arch?</p></pageText><resources><resource resourceType="image" resourceWidth="293" resourceHeight="450" resourceLocation="spaceanalysis/images/scr68.jpg" thumbnailWidth="52" thumbnailHeight="80" thumbnailLocation="spaceanalysis/images/scr68_s.jpg"><label>Case #1, dental casts</label><caption><p>Student analysis: -4 mm space discrepancy in the lower arch. Correct?</p></caption></resource></resources></page><page pageType="content"><title>Case Review #1 (cont.)</title><pageText><p>Because of the minimal irregularity of the incisors and the available leeway space, this is an overestimation of the space needed. If there is a space discrepancy, it is quite small.</p></pageText><resources><resource resourceType="image" resourceWidth="293" resourceHeight="450" resourceLocation="spaceanalysis/images/scr68.jpg" thumbnailWidth="52" thumbnailHeight="80" thumbnailLocation="spaceanalysis/images/scr68_s.jpg"><label>Case #1, casts</label><caption><p>It would take about 2 mm additional space to align the lower incisors, and 2-3 mm space will be available on each side during the transition from primary molars to canines--so the space analysis result of -4 mm almost surely results from an error in calculating either space available or space required.</p></caption></resource></resources></page><page pageType="content"><title>Case Review #2</title><pageText><p>The space analysis form produced for this patient shows a -1 mm space discrepancy for both arches. Is this patient really only 1 mm short of space?</p></pageText><resources><resource resourceType="image" resourceWidth="250" resourceHeight="450" resourceLocation="spaceanalysis/images/scr70.jpg" thumbnailWidth="44" thumbnailHeight="80" thumbnailLocation="spaceanalysis/images/scr70_s.jpg"><label>Case #2, casts</label><caption><p>The space analysis report is a -1 mm space discrepancy. Correct?</p></caption></resource></resources></page><page pageType="content"><title>Case Review #2 (cont.)</title><pageText><p>Given the availability of leeway space, this appears to be a good estimation (if the patient is skeletal Class I). Crowding of this extent in the early mixed dentition has the potential to improve during the transition to the full permanent dentition.</p></pageText><resources><resource resourceType="image" resourceWidth="250" resourceHeight="450" resourceLocation="spaceanalysis/images/scr70.jpg" thumbnailWidth="44" thumbnailHeight="80" thumbnailLocation="spaceanalysis/images/scr70_s.jpg"><label>Case #2, dental casts</label><caption><p>It would require about 3 mm space to bring the right lateral incisor into alignment, and perhaps another 2 mm to align the other incisors--but 2-3 mm leeway space on both sides will be available, so a -1 mm discrepancy is a reasonable estimate.</p></caption></resource></resources></page><page pageType="content"><title>Case Review #3</title><pageText><p>Based on your observation of these casts, is this patient really 3 mm short of space in both arches, as the space analysis form shows?</p></pageText><resources><resource resourceType="image" resourceWidth="283" resourceHeight="450" resourceLocation="spaceanalysis/images/scr72.jpg" thumbnailWidth="50" thumbnailHeight="80" thumbnailLocation="spaceanalysis/images/scr72_s.jpg"><label>Case #3, dental casts</label><caption><p>Space analysis report: -3 mm in both arches. Correct?</p></caption></resource></resources></page><page pageType="content"><title>Case Review #3 (cont.)</title><pageText><p>For this patient, the space analysis result almost surely underestimates the size of the discrepancy.</p>
+<p>You can see on the casts that the mandibular teeth are aligned, but no primary canines are present. In the maxillary arch the permanent lateral incisors have not erupted, and there is almost no space available for them.</p>
+<p>This patient is really closer to -7 mm in each arch.</p></pageText><resources><resource resourceType="image" resourceWidth="283" resourceHeight="450" resourceLocation="spaceanalysis/images/scr72.jpg" thumbnailWidth="50" thumbnailHeight="80" thumbnailLocation="spaceanalysis/images/scr72_s.jpg"><label>Case #3, dental casts</label><caption><p>In the mandibular arch, there is very little space for the permanent canines, about 1 mm on one side and 2 mm on the other. The canines are about 7 mm wide, 14 mm for both. So the initial discrepancy would be 11 mm, and even if 4 mm would be gained from leeway space, the discrepancy would be about 7 mm--not the -1 mm reported from the analysis. In the maxillary arch there is little or no room for the lateral incisors, which will be about 6 mm wide, so the math would be the same.</p></caption></resource></resources></page><page pageType="content"><title>Performing a Space Analysis</title><pageText><p>Now it is time to apply what has been presented in this program. Let’s perform a space analysis for the patient whose casts are shown here (image 1). Notice that there is irregularity in both the maxillary and mandibular arches.</p>
+<p>Using the method previously described for measurement and the prediction formula at the bottom of the form, Sections 1 through 6 have been completed (Image 2).</p></pageText><resources><resource resourceType="image" resourceWidth="278" resourceHeight="450" resourceLocation="spaceanalysis/images/scr74-1.jpg" thumbnailWidth="49" thumbnailHeight="80" thumbnailLocation="spaceanalysis/images/scr74-1_s.jpg"><label>Image 1</label><caption><p>Casts for performance of space analysis</p></caption></resource><resource resourceType="image" resourceWidth="330" resourceHeight="450" resourceLocation="spaceanalysis/images/scr74-2.jpg" thumbnailWidth="59" thumbnailHeight="80" thumbnailLocation="spaceanalysis/images/scr74-2_s.jpg"><label>Image 2</label><caption><p>Partially completed space analysis form.</p></caption></resource></resources></page><page pageType="content"><title>Performing a Space Analysis (cont.)</title><pageText><p>The patient’s face and profile tracing reveal a Class I skeletal relationship (with a mild Class II tendency?), normal vertical relationships, and slightly protrusive lip posture (image 1).</p>
+<p>The dental casts reveal an end-to-end relationship on the right and left sides and incisors in both arches that look upright (image 2).</p>
+<p>The information obtained from the profile analysis and casts is recorded in Section 7-10 (image 3).</p>
+<p>Now, synthesize the information in all sections and write out what you’d put in the final space on the MDA form, the interpretation of the results. Do that before you look at the next screen.</p></pageText><resources><resource resourceType="image" resourceWidth="600" resourceHeight="393" resourceLocation="spaceanalysis/images/scr75-1.jpg" thumbnailWidth="122" thumbnailHeight="80" thumbnailLocation="spaceanalysis/images/scr75-1_s.jpg"><label>Image 1, Profile photo and drawing</label><caption><p>Profile analysis should tell you whether there is a skeletal jaw discrepancy in the a-p or vertical planes, and whether there is incisor protrusion or retrusion.</p></caption></resource><resource resourceType="image" resourceWidth="276" resourceHeight="450" resourceLocation="spaceanalysis/images/scr75-2.jpg" thumbnailWidth="49" thumbnailHeight="80" thumbnailLocation="spaceanalysis/images/scr75-2_s.jpg"><label>Image 2, Dental casts in occlusion</label><caption><p>Note the end-to-end molar occlusion.</p></caption></resource><resource resourceType="image" resourceWidth="600" resourceHeight="447" resourceLocation="spaceanalysis/images/scr75-3.jpg" thumbnailWidth="107" thumbnailHeight="80" thumbnailLocation="spaceanalysis/images/scr75-3_s.jpg"><label>Image 3, Profile and occlusion data added to space analysis form.</label><caption><p>Now you have the data on the form--what is your conclusion about space for the permanent teeth for this patient?</p></caption></resource></resources></page><page pageType="content"><title>Interpretation of Space Analysis Result</title><pageText><p>How does your interpretation compare with the one below?</p>
+<p>In this case, there are small maxillary (-0.9mm) and mandibular (-1.6mm) space deficiencies predicted when space required is compared to space available. When this is combined with the molar shift (3.4mm), there appears to be a more significant demand for space in the mandibular arch (1.6mm + 3.4mm). The upright lower incisor position seen in the dental casts suggests that additional arch circumference could be created by proclining the lower incisors. But this patient’s lips appear well related or slightly protrusive, so proclining the lower incisors might make her lips protrusive or incompetent. Her face is not compatible with more than a very little forward movement of the incisors.</p>
+<p>An alternate approach, which will be discussed in detail in Level 3, might be to try space management with a lower lingual arch in the late mixed dentition to prevent loss of the leeway space and prevent the molar shift. The lower incisors can be proclined slightly to accommodate the 1.6mm of predicted crowding. The upper molars will then have to be distalized to obtain a Class I molar relationship.</p></pageText><resources/></page><page pageType="content"><title>Alternate Technique: Digital Models</title><pageText><p>With the development of advanced computer technology, digital dental models are becoming more widely used in dental and orthodontic practices. Digital models can be easily manipulated in three dimensions and also eliminate physical storage space requirements (image 1). Note that they are displayed with symmetric bases, so that they look like actual casts that have been trimmed in the standard way. A symmetric base makes it easier to pick up asymmetries in the dental arch.</p>
+<p>A virtual space analysis can be preformed on the digital models on a computer screen. Using an on-screen tool, the user measures the individual size of the teeth (image 2) and the circumference of the dental arches. With this information, the computer program can perform different predictions of the size of the unerupted teeth (for instance, Tanaka-Johnston or Moyers) as selected.</p>
+<p>Whether the measurements are done on the computer or using a form as we have described, it is important to take everything into account that was considered in the sequence of steps in the space analysis procedure. The computer is just a tool to help you get the information--it can't be expected to do your thinking for you. Either way, you have to come to a conclusion as to what the space analysis result means and how you would use it in treatment planning.</p></pageText><resources><resource resourceType="image" resourceWidth="600" resourceHeight="450" resourceLocation="spaceanalysis/images/scr77-1.jpg" thumbnailWidth="107" thumbnailHeight="80" thumbnailLocation="spaceanalysis/images/scr77-1_s.jpg"><label>Image 1, Virtual dental casts.</label><caption><p>These images, scanned from actual casts or from impressions, are quite accurate and can be used for space analysis in the same way as dental casts.</p></caption></resource><resource resourceType="image" resourceWidth="600" resourceHeight="450" resourceLocation="spaceanalysis/images/scr77-2.jpg" thumbnailWidth="107" thumbnailHeight="80" thumbnailLocation="spaceanalysis/images/scr77-2_s.jpg"><label>Image 2, Tooth width measurements</label><caption><p>Tooth width is measured for each tooth as shown here, using the cursor.</p></caption></resource></resources></page><page pageType="content"><title>Referral to Self-Test</title><pageText><p>To develop skill in space analysis, you will need to do this a number of times--and that's true whether you do it with actual dental casts or digital models. The self-test for this module is to help you confirm why space analysis is carried out the way it is, and evaluate your understanding of the underlying principles.</p>
+<p>Before you take the self-test, be sure you do the assigned reading: pages 427-429 in the 5th edition of <i>Contemporary Orthodontics</i>; pages 195-201 in the 4th edition. Then use the self-test to be sure you have understood the material--and refer to this instructional module when you are assigned child patients who need space analysis as part of their diagnostic evaluation.</p></pageText><resources/></page></pages></section><section><title>Self-Test</title><pages><page pageType="test"><title>Question 1</title><pageText><p>In doing a space analysis, what is the significance of observing a skeletal 
+Class III relationship?</p></pageText><choices correctChoice="1"><choice>incisor position assumption is violated</choice><choice>tooth size correlation assumption is violated</choice><choice>molar repositioning assumption is violated</choice><choice>no significance, it makes no difference to space</choice></choices><correctResponse><p>That’s right. In a Class III patient, as in a Class II patient, the 
+incisor position is likely to change, thus changing the space available. 
+Usually the lower incisor moves lingually in a child with a Class III growth 
+pattern, decreasing the available space.</p></correctResponse><incorrectResponse><p>That’s wrong. In a Class III patient, as in a Class II patient, the 
+incisor position is likely to change, thus changing the space available. 
+Usually the lower incisor moves lingually in a child with a Class III growth 
+pattern, decreasing the available space. Tooth size correlations and molar 
+repositioning are not a major component of the problem with these patients.</p></incorrectResponse><resources><resource resourceType="image" resourceWidth="600" resourceHeight="401" resourceLocation="spaceanalysis/images/scr48-1.jpg" thumbnailWidth="120" thumbnailHeight="80" thumbnailLocation="spaceanalysis/images/scr48-1_s.jpg"><label/><caption/></resource></resources></page><page pageType="test"><title>Question 2</title><pageText><p>In space analysis, how do you account for the change in first permanent molar 
+position that may occur during the transition to the permanent dentition?</p></pageText><choices correctChoice="2"><choice>measure the distance from lower buccal cusp to upper groove</choice><choice>measure the distance from upper buccal cusp to lower groove</choice><choice>measure the size difference between upper and lower premolars</choice><choice>subtract the average mesial movement from space available</choice></choices><correctResponse><p>That’s right, the correct procedure is to measure the distance the lower 
+molar would have to move forward to obtain a Class I relationship, which is the 
+distance from upper buccal cusp to lower groove.</p></correctResponse><incorrectResponse><p>That’s wrong. The correct procedure is to measure the distance the lower 
+molar would have to move forward to obtain a Class I relationship, which is the 
+distance from upper buccal cusp to lower groove.</p></incorrectResponse><resources><resource resourceType="image" resourceWidth="600" resourceHeight="450" resourceLocation="spaceanalysis/images/scr55-bottom.jpg" thumbnailWidth="107" thumbnailHeight="80" thumbnailLocation="spaceanalysis/images/scr55-bottom_s.jpg"><label/><caption/></resource></resources></page><page pageType="test"><title>Question 3</title><pageText><p>Cephalometric analysis shows that in your patient, the lower lip is slightly 
+behind the E line. Your interpretation is</p></pageText><choices correctChoice="2"><choice>slight protrusion</choice><choice>normal lip position</choice><choice>slight retrusion</choice><choice>severe retrusion, the lip should be in front of the E line</choice></choices><correctResponse><p>That’s right. The lower lip normally is slightly behind the E line, 
+although the E line can be affected by the size of the nose or chin and should 
+not be the sole judge of lip position.</p></correctResponse><incorrectResponse><p>That’s wrong. The lower lip normally is slightly behind the E line, 
+although the E line can be affected by the size of the nose or chin and should 
+not be the sole judge of lip position.</p></incorrectResponse><resources><resource resourceType="image" resourceWidth="600" resourceHeight="448" resourceLocation="spaceanalysis/images/scr64.jpg" thumbnailWidth="107" thumbnailHeight="80" thumbnailLocation="spaceanalysis/images/scr64_s.jpg"><label/><caption/></resource></resources></page><page pageType="test"><title>Question 4</title><pageText><p>Why do prediction tables based on tooth size correlations work better for 
+Caucasian than other population groups?</p></pageText><choices correctChoice="4"><choice>Caucasian teeth are more predictable</choice><choice>upper lateral incisor variation is less in Caucasians</choice><choice>lower premolars are extremely variable in Orientals</choice><choice>published tables are based largely on data from Caucasians</choice></choices><correctResponse><p>That’s right. There’s no reason to think that the teeth of other 
+racial groups are less predictable, but the size relationships are somewhat 
+different. Ideally, a prediction table would be available for each specific 
+population group, but these specialized tables simply don’t exist.</p></correctResponse><incorrectResponse><p>That’s wrong. The difference in accuracy is because published data are 
+based on Caucasian samples. There’s no reason to think that the teeth 
+of other racial groups are less predictable, but the size relationships are 
+somewhat different. Ideally, a prediction table would be available for each 
+specific population group, but these specialized tables simply don’t 
+exist.</p></incorrectResponse><resources/></page><page pageType="test"><title>Question 5</title><pageText><p>In space analysis, why is the prediction formula different for the 
+maxillary and mandibular teeth?</p></pageText><choices correctChoice="3"><choice>it isn’t, the same formula works</choice><choice>different formula required because the correlation coefficients are different for the two arches</choice><choice>different formula required because the correlations are different for the two arches</choice><choice>different formula required because the method is different for the upper from the lower arch</choice></choices><correctResponse><p>That’s right; the correlations themselves are different even though 
+the method and the correlation coefficients are the same.</p></correctResponse><incorrectResponse><p>That’s wrong. The correlations themselves are different even though the 
+method and the correlation coefficients are the same.</p></incorrectResponse><resources/></page><page pageType="test"><title>Question 6</title><pageText><p>During the mixed dentition, which is the preferred method of measuring 
+space available for the permanent teeth?</p></pageText><choices correctChoice="4"><choice>measure the width of each tooth individually and sum the numbers</choice><choice>measure the intercanine and intermolar widths and sum the numbers</choice><choice>form a wire to the ideal catenary curve and measure its perimeter</choice><choice>measure the length of arch segments from first molar to first molar</choice></choices><correctResponse><p>That’s right, measuring the length of arch segments is preferred. A 
+catenary curve from molar to molar is another possibility but is probably less 
+accurate. Intermolar and intercanine widths cannot provide space available, 
+which is a perimeter measurement. Measuring the teeth individually isn’t 
+possible until they erupt and would give you space required, not space 
+available.</p></correctResponse><incorrectResponse><p>No, that’s wrong. Measuring the length of arch segments is preferred. A 
+catenary curve from molar to molar is another possibility but is probably less 
+accurate. Intermolar and intercanine widths cannot provide space available, 
+which is a perimeter measurement, and measuring the teeth individually 
+isn’t possible until they erupt and would give you space required, not 
+space available.</p></incorrectResponse><resources><resource resourceType="image" resourceWidth="540" resourceHeight="450" resourceLocation="spaceanalysis/images/scr27.jpg" thumbnailWidth="96" thumbnailHeight="80" thumbnailLocation="spaceanalysis/images/scr27_s.jpg"><label/><caption/></resource></resources></page><page pageType="test"><title>Question 7</title><pageText><p>In doing a space analysis, what is the significance of observing a skeletal 
+Class II relationship?</p></pageText><choices correctChoice="1"><choice>incisor position assumption is violated</choice><choice>tooth size correlation assumption is violated</choice><choice>molar repositioning assumption is violated</choice><choice>no significance, it makes no difference to space</choice></choices><correctResponse><p>That’s right. In a Class II patient, the incisor position is likely to 
+change, thus changing the space available. Usually the lower incisor moves 
+facially in a child with a Class II growth pattern.</p></correctResponse><incorrectResponse><p>That’s wrong. In a Class II patient, the incisor position is likely to 
+change, thus changing the space available. Usually the lower incisor moves 
+facially in a child with a Class II growth pattern.</p></incorrectResponse><resources><resource resourceType="image" resourceWidth="600" resourceHeight="408" resourceLocation="spaceanalysis/images/scr47-1.jpg" thumbnailWidth="118" thumbnailHeight="80" thumbnailLocation="spaceanalysis/images/scr47-1_s.jpg"><label/><caption/></resource></resources></page><page pageType="test"><title>Question 8</title><pageText><p>Which of the following is not a frequent cause of error in space analysis?</p></pageText><choices correctChoice="4"><choice>inaccurate measurements of space available</choice><choice>inaccurate measurement of incisor width</choice><choice>incorrectly trimmed dental casts</choice><choice>they’re all important causes of error</choice></choices><correctResponse><p>That’s right; they’re all important causes of error.</p></correctResponse><incorrectResponse><p>That’s wrong. They’re all important causes of error. Incorrectly 
+trimmed dental casts, so that molar position is shown incorrectly, is one 
+of the more important.</p></incorrectResponse><resources/></page><page pageType="test"><title>Question 9</title><pageText><p>Which of the following is not a valid method for calculating the space required 
+for the unerupted permanent teeth?</p></pageText><choices correctChoice="3"><choice>radiographic evaluation</choice><choice>tooth size correlation</choice><choice>jaw size-tooth size correlation</choice><choice>radiographic plus tooth size correlation</choice></choices><correctResponse><p>That is correct. Jaw size-tooth size correlation is not a valid way to predict 
+how much space is required, but the others are valid methods.</p></correctResponse><incorrectResponse><p>No, that’s wrong. Jaw size-tooth size correlation is not a valid way to 
+predict how much space is required, but the others are valid methods.</p></incorrectResponse><resources/></page><page pageType="test"><title>Question 10</title><pageText><p>If your patient has protrusive lips as judged from facial form analysis, how 
+would that affect your interpretation of space analysis results?</p></pageText><choices correctChoice="2"><choice>patient has more space than the analysis indicators</choice><choice>patient has less space than the analysis indicates</choice><choice>space may increase as incisor becomes more protrusive</choice><choice>space may increase as molar moves forward less than it would otherwise</choice></choices><correctResponse><p>That’s right. In a child with protrusive incisors, space analysis tends 
+to overestimate the amount of space, because some space may be needed to reduce 
+the protrusion.</p></correctResponse><incorrectResponse><p>That’s wrong. In a child with protrusive incisors, space analysis tends 
+to overestimate the amount of space, because some space may be needed to 
+reduce the protrusion. The incisor protrusion is unlikely to change 
+spontaneously, and it doesn’t affect molar shift.</p></incorrectResponse><resources><resource resourceType="image" resourceWidth="600" resourceHeight="402" resourceLocation="spaceanalysis/images/scr65.jpg" thumbnailWidth="119" thumbnailHeight="80" thumbnailLocation="spaceanalysis/images/scr65_s.jpg"><label/><caption/></resource></resources></page><page pageType="test"><title>Question 11</title><pageText><p>Which of the following is not a factor to consider in interpreting the results 
+of space analysis?</p></pageText><choices correctChoice="4"><choice>skeletal classification</choice><choice>dental classification</choice><choice>incisor position</choice><choice>dental arch growth</choice><choice>they all must be considered</choice></choices><correctResponse><p>That’s right. A valid assumption of the mixed dentition analysis is that 
+there is no significant growth of the dental arches anterior to the mesial of 
+the first permanent molars, so growth in this area does not have to be 
+considered. Skeletal classification, dental classification and incisor 
+position are all key variables in mixed dentition analysis.</p></correctResponse><incorrectResponse><p>No, that’s wrong. A valid assumption of the mixed dentition analysis is 
+that there is no significant growth of the dental arches anterior to the 
+mesial of the first permanent molars, so growth in this area does not have to 
+be considered. Skeletal classification, dental classification and incisor 
+position are all key variables in mixed dentition analysis.</p></incorrectResponse><resources/></page><page pageType="test"><title>Question 12</title><pageText><p>Which of the following is a way that Class I molars are achieved in a child 
+who is skeletally Class I but has flush terminal plane primary molars?</p></pageText><choices correctChoice="2"><choice>distal shift of the upper molar</choice><choice>mesial shift of the lower molar</choice><choice>differential forward growth of the upper jaw</choice><choice>restriction of mandibular growth</choice></choices><correctResponse><p>That’s right, mesial shift of the lower molar, due to tooth movement 
+and/or differential forward growth of the lower jaw, is the only one of these 
+items that could lead to achievement of Class I molars. Upper molars 
+don’t shift distally during normal development, and both forward 
+growth of the upper jaw and restriction of mandibular growth would make 
+things worse, not better.</p></correctResponse><incorrectResponse><p>No that’s wrong. Mesial shift of the lower molar, due to tooth movement 
+and/or differential forward growth of the lower jaw, is the only one of these 
+items that could lead to achievement of Class I molars. Upper molars 
+don’t shift distally during normal development, and both forward 
+growth of the upper jaw and restriction of mandibular growth would make 
+things worse, not better.</p></incorrectResponse><resources/></page><page pageType="test"><title>Question 13</title><pageText><p>(A) The size of the unerupted mandibular canine and premolars can be 
+established better from the size of the maxillary than the mandibular 
+incisors because (B) there is an excellent correlation between the size of the 
+upper incisors and the lower canines/premolars.</p></pageText><choices correctChoice="5"><choice>A true, B true, A and B related</choice><choice>A true, B true, A and B not related</choice><choice>A true, B false</choice><choice>A false, B true</choice><choice>A and B false</choice></choices><correctResponse><p>That’s correct, both statements are false. There isn’t a good 
+correlation between the size of upper incisors and other teeth because upper 
+lateral incisors are so variable in size. That’s why the size of both 
+upper and lower canines/premolars can be estimated better from the size of the 
+lower incisors.</p></correctResponse><incorrectResponse><p>That’s wrong. Both statements are false. There isn’t a good 
+correlation between the size of upper incisors and other teeth because upper 
+lateral incisors are so variable in size. That’s why the size of both 
+upper and lower canines/premolars can be estimated better from the size of the 
+lower incisors.</p></incorrectResponse><resources/></page><page pageType="test"><title>Question 14</title><pageText><p>(A) During the mixed dentition, space available for the permanent teeth often 
+is less than the space required because (B) the primary incisors are 
+significantly smaller than the permanent incisors that replace them.</p></pageText><choices correctChoice="2"><choice>A true, B true, A and B related</choice><choice>A true, B true, A and B not related</choice><choice>A true, B false</choice><choice>A false, B true</choice><choice>A and B false</choice></choices><correctResponse><p>That’s right, both statements are true but they’re not related. 
+Crowding has multiple causes, and the size difference between primary and 
+permanent incisors is not a major one.</p></correctResponse><incorrectResponse><p>That’s wrong. Both statements are true but they’re not related. 
+Crowding has multiple causes, and the size differences between primary and 
+permanent incisors is not a major one.</p></incorrectResponse><resources/></page><page pageType="test"><title>Question 15</title><pageText><p>Which of the following is not a key assumption in mixed dentition space 
+analysis?</p></pageText><choices correctChoice="2"><choice>There is a high correlation between the size of anterior and posterior teeth.</choice><choice>Jaw growth occurs primarily in the tooth bearing area of the jaws.</choice><choice>The patient fits the reference population group.</choice><choice>The incisors will not move facially or lingually during further growth.</choice><choice>Repositioning of the molars during the premolar exchange is predictable.</choice></choices><correctResponse><p>That’s right, the key assumption is that jaw growth does not occur in 
+the tooth bearing areas of the jaw, so the statement that it does is incorrect.</p></correctResponse><incorrectResponse><p>No, that’s wrong. The key assumption is that jaw growth does not occur 
+in the tooth bearing areas of the jaw, so the statement that it does is 
+incorrect. The other statements are correct as written.</p></incorrectResponse><resources/></page><page pageType="test"><title>Question 16</title><pageText><p>What is suggested by a unilateral Class II molar relationship in a child who 
+is skeletal Class I?</p></pageText><choices correctChoice="1"><choice>loss of space in the upper arch</choice><choice>loss of space in the lower arch</choice><choice>Class III growth pattern with uprighting of the lower incisors</choice><choice>eruption along a wider perimeter</choice></choices><correctResponse><p>That’s right, a Class II molar on one side in a child who is skeletal 
+Class I suggests space loss in the upper arch.</p></correctResponse><incorrectResponse><p>That’s wrong. A Class II molar on one side in a child who is skeletal 
+Class I suggests space loss in the upper arch. The lower molar is in the 
+correct anteroposterior position while the upper molar is further forward due 
+to space loss, hence creating a Class II molar relationship.</p></incorrectResponse><resources><resource resourceType="image" resourceWidth="290" resourceHeight="450" resourceLocation="spaceanalysis/images/scr51-1.jpg" thumbnailWidth="52" thumbnailHeight="80" thumbnailLocation="spaceanalysis/images/scr51-1_s.jpg"><label/><caption/></resource></resources></page></pages></section></sections></presentation>

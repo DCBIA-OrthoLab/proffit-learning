@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Modules</title>
+  <link rel="stylesheet" href="modules.css" />
+</head>
+<body>
+  <header class="topbar">
+    <div class="brand">
+      <div class="brand-title" id="presTitle"></div>
+      <div class="brand-subtitle" id="presSubtitle"></div>
+    </div>
+    <div class="actions">
+      <input id="search" type="search" placeholder="Search among modules" />
+    </div>
+  </header>
+
+  <main class="layout">
+    <aside class="sidebar" id="sidebar">
+      <div class="sidebar-header">
+        <div class="sidebar-title">Summary</div>
+        <div class="sidebar-meta" id="counts"></div>
+      </div>
+      <nav id="toc" class="toc" aria-label="Table des matières"></nav>
+    </aside>
+
+    <section class="content" id="content">
+      <!-- Page d'accueil ou contenu du module -->
+      <div id="page" class="page">
+        <div class="page-title" id="pageTitle">Loading...</div>
+        <div class="page-body" id="pageBody"></div>
+        <div class="page-media" id="pageMedia"></div>
+        <div id="pageNavigation"></div>
+      </div>
+    </section>
+  </main>
+
+  <dialog id="imgModal" class="modal">
+    <button class="modal-close" id="modalClose" aria-label="Close">×</button>
+    <div class="modal-controls">
+      <button class="modal-zoom-btn" id="zoomOutBtn" aria-label="Zoom out">−</button>
+      <span class="modal-zoom-level" id="zoomLevel">100%</span>
+      <button class="modal-zoom-btn" id="zoomInBtn" aria-label="Zoom in">+</button>
+      <button class="modal-reset-btn" id="resetBtn" aria-label="Reset zoom">Reset</button>
+    </div>
+    <div class="modal-image-container">
+      <img id="modalImg" alt="" class="modal-img" />
+    </div>
+    <figcaption id="modalCaption" class="modal-caption"></figcaption>
+  </dialog>
+
+  <script src="app.js"></script>
+  <script>
+    // Vérifier que l'utilisateur a un token (qu'il est loggé)
+    const token = localStorage.getItem("token");
+    if (!token) {
+      // Pas de token = pas loggé, rediriger
+      window.location.href = "index.html";
+    }
+    
+    // Bouton logout (optionnel, à ajouter quelque part)
+    function logout() {
+      localStorage.removeItem("token");
+      window.location.href = "index.html";
+    }
+  </script>
+</body>
+</html>

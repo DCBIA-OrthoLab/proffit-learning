@@ -1,0 +1,500 @@
+<?xml version="1.0" encoding="utf-8"?>
+<presentation><title>Biologic Response to Orthodontic Force</title><subtitle/><additionalInfo>William R. Proffit<br/>Dept. of Orthodontics, UNC School of Dentistry</additionalInfo><splashImage imageLocation="biologyorthotx/images/titlepage.jpg" imageWidth="600" imageHeight="450"/><sections><section><title>Periodontal and Bone Response to Normal Function</title><pages><page pageType="content"><title>Learning Objectives</title><pageText><p>It is easy to think about moving teeth as a mechanical problem that requires an engineering solution, and in fact an orthodontic appliance can be analyzed like any mechanical device—but the engineering solution doesn’t predict what will happen when the orthodontic appliance is used.</p>
+<p>Why not? Because tooth movement requires remodeling of the bone that supports the teeth, and the objective of the appliance is not to move the teeth mechanically, but to use gentle force to produce the biologic response that allows tooth movement and/or affects growth of the jaws and face. That concept can be a bit difficult to really accept, but it is the key to understanding clinical orthodontic treatment.</p>
+<p>In this module, the goal is to explore the principles that underlie the biology of treatment, looking at both the local (dentoalveolar) and distant (jaw / face) responses to orthodontic force.</p>
+<p>In addition to viewing this module, read Chapter 8, pages 278-311 in the 5th edition of <i>Contemporary Orthodontics</i> (or Chapter 9, pages 331-358 in the 4th edition).</p></pageText><resources/></page><page pageType="content"><title>Biting Force and Tooth Movement</title><pageText><p>You certainly have already noticed, perhaps without thinking much about it, that 
+your teeth are repeatedly subjected to heavy loads during mastication but are 
+stable in their position. How can we explain that a tooth stays in position 
+quite nicely despite the forces of occlusion, which normally range up to 50 kg 
+and can be much higher at maximum effort—and yet the same tooth can be 
+made to move with light force from an orthodontic appliance?</p>
+
+<p>The first thing to remember is that the periodontal ligament space (image 1) 
+functions very nicely as a shock absorber. In between the tooth and the alveolar 
+bone is the periodontal ligament (PDL), which of course consists of cellular 
+elements in a fluid-filled chamber. For the shock absorber effect, the cellular 
+elements are irrelevant—it’s the fluid that’s important. When 
+you bite down, the fluid is incompressible, and the first thing that happens is 
+that the alveolar bone bends. The tooth (or teeth) moves relative to the jaw, 
+but not relative to the alveolar bone. After one second or so, the fluid 
+begins to be squeezed out, and at that point the cellular elements begin to 
+feel pressure. If you bite down on what you thought was a peanut and it 
+doesn’t break apart, you probably maintain the force and bite a little 
+harder. If it still doesn’t shatter, you begin to feel pain because the 
+cellular elements are being loaded more as the fluid continues to be squeezed 
+out—and you stop biting. Maybe they put one of the finest little 
+Virginia rocks in the bag of Virginia peanuts!</p>
+
+<p>Note in the attached chart (image 2) the time course of heavy pressure against 
+a tooth. Over the time of a very few seconds, the physiologic response is bone 
+bending, then pain if the heavy pressure is maintained.</p></pageText><resources><resource resourceType="image" resourceWidth="202" resourceHeight="450" resourceLocation="biologyorthotx/images/fig_9-1a.jpg" thumbnailWidth="36" thumbnailHeight="80" thumbnailLocation="biologyorthotx/images/fig_9-1a_s.jpg"><label>Image 1, Periodontal structures</label><caption><p>Diagrammatic representation of periodontal structures (which are shown in pale red). The collagen fibers in the PDL are oriented so that they resist force that pushes the tooth into its socket.</p></caption></resource><resource resourceType="image" resourceWidth="600" resourceHeight="450" resourceLocation="biologyorthotx/images/fig_9-1b.gif" thumbnailWidth="107" thumbnailHeight="80" thumbnailLocation="biologyorthotx/images/fig_9-1b_s.gif"><label>Image 2</label><caption/></resource></resources></page><page pageType="content"><title>Bone Bending as a Stimulus to Bone Maintenance</title><pageText><p>Bone bending turns out to be important for more than just allowing us to withstand heavy forces during mastication. Have you thought about why the alveolar bone resorbs and all but disappears over time after a tooth is extracted? We know now that bone bending is necessary to maintain normal calcification and remodeling. Somewhere in orbit at this moment an astronaut is pedaling away on an exercise bike or standing on a vibrating platform, trying to prevent decalcification of his skeleton by causing the bending of arm, leg and other bones that happens as you function against the pull of gravity. It’s not just alveolar bone that bends under normal function. The mandible bends every time you open wide, and some bending occurs in all bones that are subjected to external forces.</p>
+<p>Bone bending produces an interesting electrical effect, the generation of a piezo-electric current (image 1). Force against a crystalline structure (many nonbiologic crystals, but also bone and collagen) mechanically distorts the crystals. This produces a rapid current flow as electrons move to a different location within the crystal lattice, which quickly declines as they reach their new position. When the force that produced bending is removed, the electrons move back to their original position, and a reverse current flow is observed. As you walk down the street, there is a rhythmic current flow with each step. When you chew, the same rhythmic current flow occurs in your alveolar bone and throughout your jaws.</p>
+<p>So why is alveolar bone lost when a tooth is extracted? After the tooth is gone, it doesn’t get the rhythmic loading necessary to generate the piezo-electric currents, and the result is decalcification and resorption.</p></pageText><resources><resource resourceType="image" resourceWidth="497" resourceHeight="450" resourceLocation="biologyorthotx/images/fig_9-2.gif" thumbnailWidth="88" thumbnailHeight="80" thumbnailLocation="biologyorthotx/images/fig_9-2_s.gif"><label/><caption><p>Force application to a crystalline structure generates a current flow as 
+electrons move to a new location, and when the force is removed, a reverse 
+current flow is observed.</p></caption></resource></resources></page><page pageType="content"><title>Piezo-electricity and Orthodontic Tooth Movement</title><pageText><p>When biologic piezo-electricity was discovered in the 1960s, it was 
+immediately thought that perhaps orthodontic tooth movement would be more 
+effective if pulsed rather than continuous forces were used. Fortunately 
+for the complexity of orthodontic appliances, experiments showed that this 
+was not the case.</p>
+
+<p>The bottom line: piezo-electric currents are important for maintenance of 
+calcification of bones that are loaded during function, which very much 
+includes alveolar bone, but are irrelevant for orthodontic tooth movement.</p>
+
+<p>Does that mean electrical signals have no role in the bone remodeling that 
+makes orthodontic tooth movement possible? No, because it has been demonstrated 
+that electrical fields can alter cell membrane potentials and the ability of 
+molecules to enter cells. Will the time come that a patient is to plug in 
+their braces rather than connect the rubber bands? Perhaps, but it seems 
+quite unlikely. The classic theory of how cells are affected by orthodontic 
+force, the pressure-tension theory, remains the basis of our understanding 
+of orthodontic tooth movement. Let’s take a look at that theory now.</p></pageText><resources><resource resourceType="image" resourceWidth="600" resourceHeight="450" resourceLocation="biologyorthotx/images/bioelectricity_and_movement.gif" thumbnailWidth="107" thumbnailHeight="80" thumbnailLocation="biologyorthotx/images/bioelectricity_and_movement_s.gif"><label/><caption/></resource></resources></page></pages></section><section><title>Response to Sustained Orthodontic Force</title><pages><page pageType="content"><title>Sustained versus Short-Duration Force</title><pageText><p>What happens when force against a tooth, which creates pressure in the PDL, is maintained? If the force is heavy, as with the multi-kilogram force generated during chewing or clenching the teeth tightly, severe pain is felt immediately. If the force is lighter, perhaps 50 or 100 grams, immediate pain does not occur.</p>
+<p>Suppose you activate a spring that presses against a tooth with a force of 100 grams? What’s the first thing that happens? That’s right, the tooth is displaced and the alveolar bone bends. But this time the force is not released. Within a few seconds the bone begins to spring back, creating pressure in the PDL. Then fluid begins to be expressed from the pressure side, and although the tooth stays in the same position relative to the head or other external references, now it is displaced relative to the alveolar bone. This displacement maintains pressure in the PDL on one side and creates tension on the other.</p></pageText><resources><resource resourceType="image" resourceWidth="600" resourceHeight="450" resourceLocation="biologyorthotx/images/table_9-2a.gif" thumbnailWidth="107" thumbnailHeight="80" thumbnailLocation="biologyorthotx/images/table_9-2a_s.gif"><label/><caption/></resource></resources></page><page pageType="content"><title>Pressure-Tension Effects</title><pageText><p>The pressure-tension explanation for orthodontic tooth movement relies on 
+chemical rather than electrical signals as the stimulus for cell 
+differentiation and ultimately tooth movement. There is no doubt that 
+chemical messengers are important in the cascade of events that lead to 
+remodeling of alveolar bone. Because this theory explains the course of 
+events reasonably well, it is the basis of our current understanding.</p>
+
+<p>From the perspective of pressure-tension and release of chemical messengers, 
+application of a light but sustained force to a tooth has 
+two effects:</p>
+
+<ol class="spaced"><li>mechanical distortion of cells in the periodontal ligament, which causes 
+release of the contents of some cells, and</li>
+
+<li>a decrease in blood flow in the PDL on the side opposite the direction 
+of force application, where the PDL is compressed, and an increase in blood 
+flow on the other side, where the PDL is under tension. This leads to a 
+change in oxygen and carbon dioxide levels in the PDL. Both effects lead 
+to the release of chemical messengers from affected cells.</li>
+</ol><p>Classic animal experiments by David Khouw in Goldhaber’s lab at 
+Harvard in the 1960s allow visualization of the blood flow change. He 
+infused India ink into experimental animals while the animal was being 
+sacrificed, so that blood vessels in the periodontal ligament could be 
+seen easily. Note in images 1,2 and 3 the effect on blood flow of 
+compressing the PDL, while image 4 shows the effect on the tension side.</p></pageText><resources><resource resourceType="image" resourceWidth="600" resourceHeight="310" resourceLocation="biologyorthotx/images/fig_9-4a.jpg" thumbnailWidth="155" thumbnailHeight="80" thumbnailLocation="biologyorthotx/images/fig_9-4a_s.jpg"><label>Image 1</label><caption/></resource><resource resourceType="image" resourceWidth="600" resourceHeight="449" resourceLocation="biologyorthotx/images/fig_9-4b.jpg" thumbnailWidth="107" thumbnailHeight="80" thumbnailLocation="biologyorthotx/images/fig_9-4b_s.jpg"><label>Image 2</label><caption/></resource><resource resourceType="image" resourceWidth="579" resourceHeight="450" resourceLocation="biologyorthotx/images/fig_9-4c.jpg" thumbnailWidth="103" thumbnailHeight="80" thumbnailLocation="biologyorthotx/images/fig_9-4c_s.jpg"><label>Image 3</label><caption/></resource><resource resourceType="image" resourceWidth="600" resourceHeight="442" resourceLocation="biologyorthotx/images/fig_9-5.jpg" thumbnailWidth="109" thumbnailHeight="80" thumbnailLocation="biologyorthotx/images/fig_9-5_s.jpg"><label>Image 4</label><caption/></resource></resources></page><page pageType="content"><title>Pressure-Tension Effects (cont.)</title><pageText><p>The same effects on vessels in the PDL are shown diagrammatically in the 
+attached drawings. As pressure increases, the PDL is increasingly compressed, 
+and if the pressure is high enough, blood flow is totally cut off.</p>
+
+<p>What is the result of totally cutting off blood flow? Necrosis of the tissue 
+in that area, of course. In early studies of the effects of sustained force, 
+someone thought that the PDL tissue where blood flow was cut off resembled 
+hyaline cartilage, and still sometimes these areas are called hyalinized. 
+Perhaps that’s an acceptable euphemism—it sounds better than 
+necrotic, but a better description is sterile necrosis.</p></pageText><resources><resource resourceType="image" resourceWidth="452" resourceHeight="450" resourceLocation="biologyorthotx/images/fig_9-6a.jpg" thumbnailWidth="80" thumbnailHeight="80" thumbnailLocation="biologyorthotx/images/fig_9-6a_s.jpg"><label>Image 1</label><caption><p>no pressure</p></caption></resource><resource resourceType="image" resourceWidth="448" resourceHeight="450" resourceLocation="biologyorthotx/images/fig_9-6b.jpg" thumbnailWidth="80" thumbnailHeight="80" thumbnailLocation="biologyorthotx/images/fig_9-6b_s.jpg"><label>Image 2</label><caption><p>light pressure, mild compression of vessels</p></caption></resource><resource resourceType="image" resourceWidth="448" resourceHeight="450" resourceLocation="biologyorthotx/images/fig_9-6c.jpg" thumbnailWidth="80" thumbnailHeight="80" thumbnailLocation="biologyorthotx/images/fig_9-6c_s.jpg"><label>Image 3</label><caption><p>heavier pressure, moderate compression</p></caption></resource><resource resourceType="image" resourceWidth="450" resourceHeight="450" resourceLocation="biologyorthotx/images/fig_9-6d.jpg" thumbnailWidth="80" thumbnailHeight="80" thumbnailLocation="biologyorthotx/images/fig_9-6d_s.jpg"><label>Image 4</label><caption><p>heavy pressure, vessels totally occluded</p></caption></resource></resources></page><page pageType="content"><title>Cascade of Events Leading to Tooth Movement</title><pageText><p>As shown in the slide with the first screen in this module, within minutes after pressure and tension are created within the PDL by sustained light force, oxygen / carbon dioxide levels are altered, and prostaglandins and cytokines are released.</p>
+<p>As outlined with the slide with this screen, this sequence continues as the chemical messengers affect cellular activity, and enzyme levels change. Within a few hours, metabolic changes can be detected. In experiments with cats, Davidovitch detected increased cyclic AMP levels at about 4 hours, which suggests that cell differentiation is beginning.</p>
+<p>With ideally light pressure, early remodeling of the tooth socket by osteoclasts and osteoblasts can be observed at about 2 days, and tooth movement by frontal resorption (resorption of alveolar bone alongside the PDL) begins.</p></pageText><resources><resource resourceType="image" resourceWidth="600" resourceHeight="450" resourceLocation="biologyorthotx/images/table_9-2c.gif" thumbnailWidth="107" thumbnailHeight="80" thumbnailLocation="biologyorthotx/images/table_9-2c_s.gif"><label/><caption/></resource></resources></page><page pageType="content"><title>Cascade of Events with Heavier Sustained Pressure</title><pageText><p>Now let’s look at the sequence and timing of events leading to tooth movement if heavier force is used, so that there is enough pressure in the PDL to totally occlude blood vessels in some areas on the compression side.</p>
+<p>What’s the first thing that happens with heavier sustained force? The same thing that happens with any application of force to a tooth: bone bending. With sustained force the alveolar bone springs back and the PDL is placed under compression in some areas and tension in others.</p>
+<p>Let’s look at the sequence after that. In 3-5 seconds blood vessels are totally occluded in some compressed areas and mechanically-distorted cells are leaking cytokines and prostaglandins. Within a few minutes, blood flow ceases in those areas, and cell death begins. After some hours, there are no cells in the PDL to differentiate into the osteoclasts and osteoblasts needed for remodeling of the socket. Where are the cells going to come from?</p>
+<p>There are two answers to that question: (1) from adjacent PDL areas that are not necrotic, and (2) from bone marrow spaces outside the lamina dura. If the necrotic area is tiny, cells from adjacent areas would be the major source. If it’s larger, the bone marrow is the more likely source via a process called undermining resorption. Take a careful look at the sequence of events in this chart, and then we’ll examine undermining resorption more closely.</p></pageText><resources><resource resourceType="image" resourceWidth="600" resourceHeight="450" resourceLocation="biologyorthotx/images/table_9-2b.gif" thumbnailWidth="107" thumbnailHeight="80" thumbnailLocation="biologyorthotx/images/table_9-2b_s.gif"><label/><caption/></resource></resources></page><page pageType="content"><title>Undermining Resorption</title><pageText><p>Undermining resorption has that name because when there are large necrotic areas in the PDL, it is necessary for osteoclasts to resorb the lamina dura from its underside. The necrotic area sends a chemical signal to stimulate the formation of osteoclasts, but it takes a few days for this to penetrate through the lamina dura into the bone marrow. So instead of 2 days for remodeling to begin, it’s 3-5 days before an osteoclastic attack on the underside of the lamina dura begins. Note the typical Howship’s lacunae on the underside of the lamina dura in this image from Dr. Khouw’s research (image 1).</p>
+<p>It takes 7-14 days for the lamina dura to be removed, and at that point tooth movement begins with a sudden jump in the direction of the force. If heavy force still is present, there’s another delay while further undermining resorption occurs, so light force actually produces more tooth movement early in treatment than heavy force (image 2). One indicator that force is too heavy is that the tooth gets quite loose. The periodontal ligament space enlarges during orthodontic tooth movement, so there’s always some increase in mobility while tooth movement is occuring, but a really loose tooth reflects loss of a lot of the lamina dura.</p></pageText><resources><resource resourceType="image" resourceWidth="579" resourceHeight="450" resourceLocation="biologyorthotx/images/fig_9-07.jpg" thumbnailWidth="103" thumbnailHeight="80" thumbnailLocation="biologyorthotx/images/fig_9-07_s.jpg"><label>Image 1</label><caption/></resource><resource resourceType="image" resourceWidth="600" resourceHeight="403" resourceLocation="biologyorthotx/images/fig_9-8.gif" thumbnailWidth="119" thumbnailHeight="80" thumbnailLocation="biologyorthotx/images/fig_9-8_s.gif"><label>Image 2</label><caption><p>Diagrammatic representation of the time course of tooth movement with frontal 
+vs undermining resorption</p></caption></resource></resources></page></pages></section><section><title>Force Distribution and Types of Tooth Movement</title><pages><page pageType="content"><title>Tipping: the Simplest Form of Tooth Movement</title><pageText><p>Tipping of a tooth occurs when a single force is applied to the crown of a tooth. Why does the tooth tip?  Because the resistance to movement of a tooth is created almost entirely by its root, the force against the crown is at a distance to the “center of resistance”, which is at the center of the root, about halfway down.</p>
+<p>You should remember from the physics course you once had to take that a force at a distance produces a moment, which rotates the tooth around the center of resistance (as a force at a distance would rotate any other object). Because of the rotation, the heaviest pressure / tension in the periodontal ligament is felt at the apex of the root and at the crest of the alveolar bone, and both decrease progressively toward the center of resistance. In this circumstance, the center of resistance also is the center of rotation. We will look in some detail at the physics in a later module. For now, concentrate on the biologic effect.</p>
+<p>Both human and animal experiments indicate that tipping forces should not exceed approximately 50 grams, and for small teeth it should be less than that. Heavier force creates pressure high enough to create necrotic areas in the PDL that require undermining resorption.</p></pageText><resources><resource resourceType="image" resourceWidth="600" resourceHeight="419" resourceLocation="biologyorthotx/images/fig_9-9.jpg" thumbnailWidth="115" thumbnailHeight="80" thumbnailLocation="biologyorthotx/images/fig_9-9_s.jpg"><label/><caption><p>Tipping, created by a single force against the crown of the tooth that also produces a moment.</p></caption></resource></resources></page><page pageType="content"><title>Bodily Movement</title><pageText><p>If you want to move a tooth bodily (create as much root as crown movement in the same direction), it is necessary to apply two forces simultaneously to the crown of the tooth, so that there is both a force to move the crown and a couple (another pair of forces applied at a distance) to prevent tipping. This loads the entire PDL area, so that there is equal compression all along one side of the root. </p>
+<p>If twice as much of the PDL is loaded in bodily movement as in tipping, you would think that twice as much force would be needed. That’s correct, about 100 grams is the ideal amount to produce bodily movement.</p></pageText><resources><resource resourceType="image" resourceWidth="600" resourceHeight="439" resourceLocation="biologyorthotx/images/fig_9-10.jpg" thumbnailWidth="109" thumbnailHeight="80" thumbnailLocation="biologyorthotx/images/fig_9-10_s.jpg"><label/><caption><p>Bodily movement, created by the combination of a force (straight arrow) and a moment (curved arrow).</p></caption></resource></resources></page><page pageType="content"><title>Rotation, Extrusion and Torque</title><pageText><p>Other types of tooth movement are rotation, extrusion, torque and intrusion. Intrusion is a special case we will discuss in the next screen.</p>
+<p>You would think that rotation of a tooth around its long axis would potentially load the entire volume of the PDL, not just an area on one side of the tooth. Extrusion, pulling the tooth gently out of the socket (gently, we don’t want to extract it!) also could load the entire PDL volume. Would that mean that much higher force would be needed for either of these movements? The answer is no. In fact, it is impossible to rotate or extrude a tooth without compressing areas similar to those that are loaded in tipping. Why? Because the roots are irregularly shaped, not conical, as soon as a tooth responds to either of these directions of force, it tips as well as rotating or extruding. For that reason, the ideal force for rotation and extrusion is the same as for tipping, ~50 grams.</p>
+<p>Torque is the type of tooth movement in which the root apex is moved further than the crown of the tooth in the desired direction. To accomplish this, a relatively larger moment to move the root is needed than the moment to produce bodily movement. This produces a loading diagram intermediate between what is needed for bodily movement and tipping, and therefore an intermediate force of ~75 grams is needed.</p></pageText><resources/></page><page pageType="content"><title>Intrusion: A Special Case</title><pageText><p>Until recently, orthodontic intrusion was so difficult that many orthodontists considered it impossible. Now we know that successful intrusion is possible only if exceptionally light force is applied down the long axis of the tooth, so that the PDL is compressed just at the apex of the root.</p>
+<p>That makes sense, of course, when you remember that force against the crown becomes pressure in the PDL. Intrusion compresses only a small area at the root apex, and so a small force produces the same pressure that a larger force would if it were distributed over a larger area of the PDL. The optimum force for intrusion is ~10 grams, less for smaller teeth, perhaps a bit more for larger ones like canines, definitely more (but still small) for multi-rooted teeth.</p></pageText><resources><resource resourceType="image" resourceWidth="382" resourceHeight="450" resourceLocation="biologyorthotx/images/fig_9-11.jpg" thumbnailWidth="68" thumbnailHeight="80" thumbnailLocation="biologyorthotx/images/fig_9-11_s.jpg"><label/><caption><p>A force for intrusion creates pressure primarily in the small volume of the PDL at the apex of the root.</p></caption></resource></resources></page><page pageType="content"><title>Force Magnitudes for Tooth Movement</title><pageText><p>This table summarizes the amount of force needed to produce different types 
+of tooth movement. The way to think about it is to realize that there is 
+only one optimum pressure in the PDL, and different forces are needed to 
+obtain that optimum pressure depending on the type of tooth movement that 
+is desired.</p></pageText><resources><resource resourceType="image" resourceWidth="600" resourceHeight="450" resourceLocation="biologyorthotx/images/s03_p05_01.jpg" thumbnailWidth="107" thumbnailHeight="80" thumbnailLocation="biologyorthotx/images/s03_p05_01s.jpg"><label/><caption/></resource></resources></page><page pageType="content"><title>Force Duration</title><pageText><p>Does the force to move a tooth have to be there every minute in order to get the tooth to move? If so, that would require a major effort in cooperation by the patient. Wearing a removable appliance all the time is impossible. You have to take it out to clean it and brush your teeth, and it’s so difficult to eat while wearing it that you almost have to take it out for meals. With a fixed appliance, if you’re wearing rubber bands, you’d have to remove them at least briefly to brush your teeth and put on new ones, even if you wore them during eating.</p>
+<p>Orthodontists have run many inadvertent experiments on how many hours an appliance has to be worn, simply by using removable appliances and observing the results. Anything that can be removed by a patient will be—the only question is how many hours it will be in the mouth instead of out.</p>
+<p>With removable appliances there is a threshold somewhere between 4 and 8 hours per day, below which no tooth movement happens. Above the threshold, the amount of tooth movement increases with increasing hours per day, with decreasing returns toward the top of the curve. A theoretic plot of tooth movement efficiency versus duration of force is shown in the attached image. The concept it illustrates is correct, but the details simply aren’t known.</p></pageText><resources><resource resourceType="image" resourceWidth="600" resourceHeight="438" resourceLocation="biologyorthotx/images/fig_9-12.gif" thumbnailWidth="110" thumbnailHeight="80" thumbnailLocation="biologyorthotx/images/fig_9-12_s.gif"><label/><caption/></resource></resources></page><page pageType="content"><title>Force Decay: Continuous vs. Interrupted Force</title><pageText><p>We already have said that light force is the best way to move teeth, because it is more biologically acceptable. Now we can modify that in an important way: the best way to move teeth is with light continuous force.</p>
+<p>If the force against a tooth or teeth is light enough to avoid undermining resorption but is maintained as the tooth moves, a relatively slow progression of tooth movement will result from frontal resorption, which is resorption on the PDL side of the lamina dura that lines the tooth socket. If the force is heavy, tooth movement will be delayed until undermining resorption (from the underside of the lamina dura) occurs. Then the tooth will adjust its position rapidly, and if the heavy force is still present so that another area of the PDL loses its blood supply, there will be no opportunity for tissue repair and another round of undermining resorption will be generated. This can be quite destructive.</p>
+<p>The bottom line: light continuous force is good, heavy continuous force is not.</p>
+<p>Ideally one would use a perfect spring to apply orthodontic force—but of course this isn’t a perfect world, and for all practical purposes there aren’t any perfect springs. A perfect spring is one whose force would not change when a tooth began to move away from it. Real springs show a decline in force, perhaps all the way to zero, as a tooth moves.</p>
+<p>From a real world perspective, continuous force doesn’t mean that the force doesn’t change. It means that force is maintained all the time between adjustment appointments even though some force decay occurs, as this image shows.</p>
+<p/></pageText><resources><resource resourceType="image" resourceWidth="600" resourceHeight="398" resourceLocation="biologyorthotx/images/fig_9-13a.gif" thumbnailWidth="121" thumbnailHeight="80" thumbnailLocation="biologyorthotx/images/fig_9-13a_s.gif"><label/><caption><p>An ideal spring (dashed green line) would maintain the same force as a tooth moved, but with any real spring the force     decays at least a little. Force that is maintained until the spring is re-activated can be considered continuous.</p></caption></resource></resources></page><page pageType="content"><title>Continuous vs Interrupted Force</title><pageText><p>In contrast, a spring with poorer force decay characteristics might produce a force that dropped to zero before the patient returned for reactivation. This is defined as interrupted force. If the initial force level is light enough, the tooth will move a small amount by frontal resorption and then stop until the spring is activated again. If the initial force level is heavy but decays to zero after the first movement of the tooth, the tooth will move only when undermining resorption has occurred—and stop there, since the force has now dropped to zero. This provides an opportunity for regeneration and repair of the PDL before force is applied again.</p>
+<p>It is difficult to keep orthodontic force low enough to totally avoid necrotic PDL areas, so some areas of undermining resorption probably are generated in almost every patient. The heavier forces that produce this response are physiologically acceptable only if the force declines to zero before the next reactivation appointment.</p>
+<p>That leads to an interesting paradox: the more perfect the spring (the slower its force decays), the more careful the clinician must be to apply only light force. Springs with poor force decay characteristics produce only interrupted force. They are not capable of causing the biologic damage that can occur with heavy continuous force. Heavy continuous force must be avoided; heavy interrupted force can be clinically acceptable even though this is less efficient and more likely to produce pain.</p></pageText><resources><resource resourceType="image" resourceWidth="600" resourceHeight="390" resourceLocation="biologyorthotx/images/fig_9-13b.gif" thumbnailWidth="123" thumbnailHeight="80" thumbnailLocation="biologyorthotx/images/fig_9-13b_s.gif"><label/><caption><p>If the force declines to zero before a spring is re-activated, it is defined as interrupted force.</p></caption></resource></resources></page><page pageType="content"><title>Intermittent Force</title><pageText><p>Continuous force is impossible with a removable appliance, since the force 
+falls to zero as soon as it is removed and is reestablished when the appliance 
+is inserted again. The result is intermittent force, which also shows force 
+decay as tooth movement occurs. Intermittent force would also become 
+interrupted force if after some tooth movement, there was no reestablishment 
+of force when the removable appliance was reinserted.</p></pageText><resources><resource resourceType="image" resourceWidth="600" resourceHeight="395" resourceLocation="biologyorthotx/images/fig_9-13c.gif" thumbnailWidth="122" thumbnailHeight="80" thumbnailLocation="biologyorthotx/images/fig_9-13c_s.gif"><label/><caption><p>With a removable appliance, the force falls to zero when the appliance is removed, and is felt again when it is re-inserted. Such a force can be intermittently continuous if maintained until the next re-activation of the spring, or both intermittent and interrupted if the force falls to zero.</p></caption></resource></resources></page><page pageType="content"><title>Reactivation Intervals</title><pageText><p>A clinical rule is that orthodontic appliances should not be reactivated 
+more frequently than every 3 weeks, and a 4- to 6-week interval between 
+appointments is more typical. Undermining resorption takes 7 to 14 days. 
+When this is the mode of tooth movement and when force levels decay rapidly, 
+tooth movement is essentially completed in that amount of time. Another 2 
+weeks or so is needed for repair before the appliance is reactivated.</p>
+
+<p>So with a springy appliance that produces light force, there is no need for 
+frequent reactivation at short intervals, while with a less springy appliance 
+that produces heavy force initially, a repair period is needed. You might 
+think that if patients were seen every week to reactivate the orthodontic 
+appliance, faster tooth movement would have to result. Bad idea—the 
+result might be heavy continuous force and significant tissue damage.</p></pageText><resources/></page></pages></section><section><title>Deleterious Effects of Orthodontic Force</title><pages><page pageType="content"><title>Pain</title><pageText><p>If heavy sustained pressure is applied to a tooth, pain develops immediately 
+as the PDL is literally crushed. If you activate an orthodontic appliance and 
+there is immediate pain, it’s obvious that too much force is being 
+used, and action to reduce the force is required. There is no immediate pain 
+with appropriate force magnitudes.</p>
+
+<p>Several hours later, however, the patient usually feels a mild aching 
+sensation, and the teeth are sensitive to pressure so that biting something 
+hard hurts. The pain typically lasts 2-4 days, then disappears until the next 
+activation of the appliance. At that point the same cycle may recur, but 
+almost always the greatest pain follows the first activation. There is a 
+great deal of variation: some patients report no pain, others have considerable 
+pain with even very light force.</p>
+
+<p>The pain is related to the development of ischemic areas in the PDL that are 
+on the way to sterile necrosis. During the first 24 hours, having the patient 
+bite repeatedly on a plastic wafer or chew gum decreases pain—probably 
+because this displaces the tooth temporarily and allows spurts of blood flow 
+through compressed areas.</p></pageText><resources/></page><page pageType="content"><title>Effects on the Dental Pulp</title><pageText><p>You would expect a light sustained force against the crown of a tooth to 
+produce a PDL response, but not an effect on the pulp. The increased 
+sensitivity to biting force after initial activation of an orthodontic 
+appliance, however, suggests inflammation at the root apex, and this 
+probably is related to mild pulpitis that occurs during the first few days.</p>
+
+<p>The mild pulpitis has no long term significance. Loss of tooth vitality 
+during orthodontic treatment almost never occurs. When this does happen, 
+usually there is a history of previous trauma to that tooth, but poor 
+control of heavy orthodontic force also can be the culprit. If heavy 
+continuous force is used, a large abrupt movement of the tooth after 
+undermining resorption can result in severance of the blood vessels 
+entering the pulp. It also is possible to sever these vessels by moving 
+the root apex through the labial cortical plate. Fortunately, this is 
+hard to do,  but it has occurred.</p>
+
+<p>Because tooth movement is a PDL phenomenon, not a pulpal one, moving 
+endodontically-treated teeth should be possible, and this is correct. 
+There is no contraindication to orthodontic repositioning of a non-vital 
+but endodontically treated tooth. This is most likely to be needed in an 
+adult before definitive restorative or prosthodontic treatment is done.</p></pageText><resources><resource resourceType="image" resourceWidth="600" resourceHeight="344" resourceLocation="biologyorthotx/images/endo_pan.jpg" thumbnailWidth="140" thumbnailHeight="80" thumbnailLocation="biologyorthotx/images/endo_pan_s.jpg"><label/><caption><p>For this patient, the endo-treated maxillary lateral incisor will respond to orthodontic force like the other teeth.</p></caption></resource></resources></page><page pageType="content"><title>Effects on Root Structure</title><pageText><p>The goal of orthodontic force is to generate remodeling of alveolar bone so a tooth can move. For many years it was thought that osteoclasts did not attack tooth roots. Now we know that roots often are attacked by clast cells, but that repair of the root also occurs.</p>
+<p>In the absence of necrotic (hyalinized) PDL areas, uncalcified cementum on the root surface protects against osteoclastic attack, but cementum adjacent to a necrotic area is “marked” or stained by adjacent necrotic tissue in the PDL, and clast cells attack this area when the PDL is repaired. Cementum (and dentin if the attack penetrates all the way through the cementum) is removed, and then new cementum is formed to fill in the defect in the tooth root.</p>
+<p>In this figure, which is a coronal section of a premolar being moved to the right before it was extracted for study (which is ethical if premolar extraction was required anyway), note the area of compression of the PDL on the right side and the tension area on the left side. Osteoblasts and bone formation can be seen in the tension area; osteoclastic activity is apparent on the compression side; and areas of root resorption with penetration into the dentin also can be seen on that side. These areas would be filled in with new cementum under normal conditions. So root remodeling is a feature of orthodontic tooth movement—but there would be a loss of root structure only if repair did not replace the resorbed cementum.</p></pageText><resources><resource resourceType="image" resourceWidth="600" resourceHeight="400" resourceLocation="biologyorthotx/images/fig_9-22.jpg" thumbnailWidth="120" thumbnailHeight="80" thumbnailLocation="biologyorthotx/images/fig_9-22_s.jpg"><label/><caption><p>Resorption penetrating into the dentin (courtesy Dr. Birte Melsen).</p></caption></resource></resources></page><page pageType="content"><title>Apical Root Resorption</title><pageText><p>Repair of the damaged root does restore its original contours along the side 
+of the root and at the apex—unless the attack on the root surface at 
+the apex leads to coalescence of craters. This can create islands of root 
+structure that are separated from the root surface. Once that happens, the 
+island resorbs and is lost, as image 1 shows diagrammatically. This is why 
+permanent loss of root structure related to orthodontic treatment occurs 
+primarily at the apex.</p>
+
+<p>Several studies have shown that in general, root length for most teeth 
+decreases about 1 mm for each year of complete fixed appliance treatment, 
+but of course there is considerable individual variation. The data presented 
+in image 2 come from a study comparing treatment changes in patients treated 
+for Class I crowding at the Univ. of Washington. One group, who had had 
+serial extraction earlier, had an average of 15 months in a fixed 
+appliance. The other group, who had extractions just before their fixed 
+appliance started, had an average of 24 months. Note that some loss of root 
+length occurred in the 15 months group, but a bit more occurred for most 
+teeth as the treatment time increased. All other things being equal, the 
+longer the treatment time, the greater the root resorption.</p>
+
+<p>Resorption of this magnitude, 1 or 2 mm (usually referred to as moderate 
+generalized resorption) is a finding, not a problem (images 3 and 4). It is 
+best considered as an inevitable part of comprehensive orthodontic treatment.</p></pageText><resources><resource resourceType="image" resourceWidth="600" resourceHeight="206" resourceLocation="biologyorthotx/images/fig_9-23.gif" thumbnailWidth="166" thumbnailHeight="57" thumbnailLocation="biologyorthotx/images/fig_9-23_s.gif"><label>Image 1</label><caption><p>diagrammatic representation of apical resorption</p></caption></resource><resource resourceType="image" resourceWidth="600" resourceHeight="450" resourceLocation="biologyorthotx/images/table_9-4_avg_root_change.gif" thumbnailWidth="107" thumbnailHeight="80" thumbnailLocation="biologyorthotx/images/table_9-4_avg_root_change_s.gif"><label>Image 2</label><caption/></resource><resource resourceType="image" resourceWidth="600" resourceHeight="401" resourceLocation="biologyorthotx/images/fig_9-24a.jpg" thumbnailWidth="120" thumbnailHeight="80" thumbnailLocation="biologyorthotx/images/fig_9-24a_s.jpg"><label>Image 3</label><caption><p>mild blunting of root apices</p></caption></resource><resource resourceType="image" resourceWidth="600" resourceHeight="405" resourceLocation="biologyorthotx/images/fig_9-24b.jpg" thumbnailWidth="118" thumbnailHeight="80" thumbnailLocation="biologyorthotx/images/fig_9-24b_s.jpg"><label>Image 4</label><caption><p>moderate apical root resorption (loss of less than 1/4 of root length)</p></caption></resource></resources></page><page pageType="content"><title>Severe Generalized Resorption</title><pageText><p>There are three types of apical root resorption that can be seen after 
+orthodontic treatment: (1) mild to moderate generalized resorption, which 
+we have already discussed; (2) severe generalized resorption, and (3) severe 
+localized resorption. Now let’s look at the severe varieties.</p>
+
+<p>Severe generalized resorption describes the loss of most of the roots of most 
+of the teeth. It is quite rare—the average dentist is likely to 
+encounter only one or two such cases in a career. But if you see one, you 
+won’t forget it.</p>
+
+<p>Why a few individuals have resorption of this type remains unknown. We know a 
+lot of things that don’t cause it. Among those is orthodontic treatment. 
+Severe generalized resorption is as likely to occur in people who never had 
+orthodontic treatment as in those who did.</p></pageText><resources><resource resourceType="image" resourceWidth="600" resourceHeight="309" resourceLocation="biologyorthotx/images/severe_gen_resorption_pan.jpg" thumbnailWidth="155" thumbnailHeight="80" thumbnailLocation="biologyorthotx/images/severe_gen_resorption_pan_s.jpg"><label/><caption><p>Severe generalized resorption--which fortunately is quite rare</p></caption></resource></resources></page><page pageType="content"><title>Severe Localized Resorption</title><pageText><p>Severe localized resorption, as seen in this image, is defined as loss of 
+more than ¼ of the root of some teeth. It also is uncommon but occurs 
+in 2-3% of orthodontic patients, and is related to the treatment. The 
+maxillary incisors are by far the most likely teeth to be affected. Other 
+teeth can be affected, but this is uncommon.</p>
+
+<p>Why does this happen to some patients but not to the great majority? There 
+seem to be two major factors: 
+(1) some individuals clearly are more susceptible to root resorption than 
+others, and (2) one aspect of tooth movement, bringing the root apices into 
+contact with cortical bone, is a definite risk factor.</p></pageText><resources><resource resourceType="image" resourceWidth="600" resourceHeight="406" resourceLocation="biologyorthotx/images/fig_9-24c.jpg" thumbnailWidth="118" thumbnailHeight="80" thumbnailLocation="biologyorthotx/images/fig_9-24c_s.jpg"><label/><caption/></resource></resources></page><page pageType="content"><title>Severe Localized Resorption (cont.)</title><pageText><p>At this point it is not known why some individuals are susceptible, but we do know that in them resorption starts earlier and advances more rapidly. As a result, as part of informed consent, orthodontic patients and parents should be told that significant root resorption is unlikely but possible.</p>
+<p>Root contact with cortical bone is most likely to occur when the root apices of maxillary incisors are moved lingually, either as the crown is tipped facially (which leads to root apices moving lingually) or as the roots of the incisors are torqued lingually. A study at North Carolina reported that the chance of severe resorption was increased 20-fold when the incisor roots contacted the lingual cortical plate. This becomes a limitation on how much maxillary incisors can be moved during treatment.</p>
+<p>The bottom line: It is good practice to take a panoramic radiograph 6-9 months after orthodontic treatment begins to check the status of roots. If obvious resorption is occurring at that point, keeping treatment as short as possible and compromising treatment goals may be necessary.</p></pageText><resources><resource resourceType="image" resourceWidth="600" resourceHeight="406" resourceLocation="biologyorthotx/images/fig_9-24c.jpg" thumbnailWidth="118" thumbnailHeight="80" thumbnailLocation="biologyorthotx/images/fig_9-24c_s.jpg"><label/><caption><p>Severe localized resorption, with loss of &gt;1/4th of root length, is most likely to affect maxillary incisors.</p></caption></resource></resources></page></pages></section><section><title>Distant Effects of Orthodontic Force: Growth Modification</title><pages><page pageType="content"><title>Growth Modification?</title><pageText><p>Because orthodontic force applied to the teeth also is felt by the facial 
+skeleton, it has the potential to modify growth of the jaws. If this were 
+successful, it would provide a way to treat skeletal problems. It seems 
+reasonable that pressures resisting the normal downward and forward growth of 
+either jaw could diminish the amount of growth, while adding to the pressures 
+that pull the jaws downward and forward could increase the growth. The 
+clinical effectiveness of some treatment procedures aimed at modifying growth 
+has been demonstrated in recent years, but it is important to understand 
+that some things are more possible than others and that the amount of skeletal 
+change is relatively small.</p>
+
+<p>The goal of this section is to help you understand how growth modification 
+works, and to put its effectiveness for various possible changes into 
+perspective.</p></pageText><resources/></page><page pageType="content"><title>Principles in Growth Modification</title><pageText><p>When growth modification is considered, at least three principles should be 
+kept in mind:</p>
+
+<ol class="spaced"><li>You can’t modify growth that isn’t happening. That means 
+treatment at a period of rapid growth usually is the best plan, and for 
+practical purposes, it means that the adolescent growth spurt is the 
+preferred time for most growth modification treatment (but not all, as we 
+will discuss below).</li>
+
+<li>When growth modification is desired, tooth movement almost always is 
+undesirable. Correction of a malocclusion is not a primary goal of growth 
+modification treatment, correction of an improper jaw relationship is. The 
+less a malocclusion is corrected by tooth movement, and the more it is 
+corrected by favorable jaw growth, the more successful the growth modification 
+treatment is.</li>
+
+<li>The hours of the day are not created equal relative to growth. In fact, 
+almost all skeletal growth (and tooth eruption) occurs in a critical time 
+period between early evening and midnight. Whatever the growth modification 
+device is, it’s important for it to be worn during these hours—but 
+wearing it all the time may be neither necessary nor desirable.</li>
+</ol></pageText><resources/></page><page pageType="content"><title>Restraint of Maxillary Growth</title><pageText><p>Excessive maxillary growth contributes to both Class II and long face 
+problems. Since formation of new bone as the sutures above and behind the 
+maxilla are pulled apart by soft tissue growth is a major mechanism of 
+growth, a force to restrain growth at the sutures ought to be effective.</p>
+
+<p>Extra-oral force to restrain maxillary growth that is produced by a headgear 
+device (image 1) has been used in orthodontics for many years. Because of the 
+large area of the sutures, a heavier force than is recommended for tooth 
+movement is generally considered necessary for effective restraint. A force 
+of about 250 grams per side (500 gm total) is thought to be about the minimum. 
+Because this force often is applied just to the maxillary first molars, 
+its effect on the teeth is a matter of concern. As we have discussed, heavy 
+continuous force against the teeth is undesirable. Intermittent force is 
+less effective for tooth movement, and it makes sense to suggest that the 
+headgear should be worn during the early evening (don’t wait until you 
+go to bed!) and night, but perhaps not during the day. The force duration 
+should be at least 12 hours per day. Whether this really limits tooth 
+movement without compromising the skeletal effect has not been clearly 
+demonstrated.</p>
+
+<p>A change in the direction of maxillary growth often is observed with headgear 
+treatment (image 2). Note that the maxilla actually moved slightly back in 
+this individual as he grew while wearing his headgear consistently. Not all 
+treatment results are so favorable, however. Clinical 
+trials indicate that there is about a 75% chance of an improvement in a 
+skeletal Class II jaw relationship with headgear treatment during adolescence. 
+Although this surely is affected by the degree of the patient’s 
+cooperation, it appears that cooperation is not the whole story. For whatever 
+reason, some children respond better than others.</p></pageText><resources><resource resourceType="image" resourceWidth="448" resourceHeight="450" resourceLocation="biologyorthotx/images/fig_9-26.jpg" thumbnailWidth="80" thumbnailHeight="80" thumbnailLocation="biologyorthotx/images/fig_9-26_s.jpg"><label>Image 1</label><caption><p>Because the maxilla grows downward and forward, upward-backward force with high-pull headgear to restrain growth at the sutures usually is preferred.</p></caption></resource><resource resourceType="image" resourceWidth="358" resourceHeight="450" resourceLocation="biologyorthotx/images/fig_9-27.gif" thumbnailWidth="64" thumbnailHeight="80" thumbnailLocation="biologyorthotx/images/fig_9-27_s.gif"><label>Image 2</label><caption><p>For this boy, the cephalometric superimposition shows that the maxilla grew downward and slightly backward as face height increased—so the HP headgear controlled a-p growth better than vertical growth.</p></caption></resource></resources></page><page pageType="content"><title>Augmentation of Maxillary Growth</title><pageText><p>Increasing the amount of forward growth of the maxilla by pulling forward 
+with a face mask (reverse headgear) (image 1) has not been as successful 
+as restraint of maxillary growth, especially when the treatment is done during 
+adolescence. Part of the problem is getting enough force at the maxillary 
+sutures to pull them apart, but a bigger problem is the anatomy of the 
+sutures.</p>
+
+<p>Human autopsy material has shown the morphology of the mid-palatal suture at 
+different ages, and the other maxillary sutures are similar. In the images 
+with this screen, the two halves of the maxilla are shown below, with the 
+nasal septum above. Note in image 2 that the mid-palatal suture is an open 
+straight-line structure in infants and young children. It shows some 
+convolutions in childhood (early mixed dentition) (image 3), and by late 
+childhood / early adolescence the suture is so interdigitated (image 4) that 
+opening it requires micro-fractures of the bone spicules along the suture 
+line. After the adolescent growth spurt opening the suture is possible only 
+with surgical assistance.</p>
+
+<p>If you want to move the maxilla forward you have to do so at an early age, 
+before the sutures become so locked up. So maxillary advancement to augment 
+growth is an exception to the rule about treatment during adolescence. It 
+has to be done before adolescence, during the elementary school years.</p></pageText><resources><resource resourceType="image" resourceWidth="296" resourceHeight="450" resourceLocation="biologyorthotx/images/fig_13-10b.jpg" thumbnailWidth="53" thumbnailHeight="80" thumbnailLocation="biologyorthotx/images/fig_13-10b_s.jpg"><label>Image 1</label><caption/></resource><resource resourceType="image" resourceWidth="513" resourceHeight="450" resourceLocation="biologyorthotx/images/fig_9-25a.jpg" thumbnailWidth="91" thumbnailHeight="80" thumbnailLocation="biologyorthotx/images/fig_9-25a_s.jpg"><label>Image 2</label><caption><p>Mid-palatal suture in the early preschool years</p></caption></resource><resource resourceType="image" resourceWidth="488" resourceHeight="450" resourceLocation="biologyorthotx/images/fig_9-25b.jpg" thumbnailWidth="87" thumbnailHeight="80" thumbnailLocation="biologyorthotx/images/fig_9-25b_s.jpg"><label>Image 3</label><caption><p>Mid-palatal suture in the mixed dentition</p></caption></resource><resource resourceType="image" resourceWidth="418" resourceHeight="450" resourceLocation="biologyorthotx/images/fig_9-25c.jpg" thumbnailWidth="74" thumbnailHeight="80" thumbnailLocation="biologyorthotx/images/fig_9-25c_s.jpg"><label>Image 4</label><caption><p>Mid-palatal suture in late childhood</p></caption></resource></resources></page><page pageType="content"><title>Restraint of Mandibular Growth</title><pageText><p>You have learned already that the mandible grows downward and forward as it is pulled in that direction by the growth of the soft tissues in which it is embedded—so a force opposing that direction of growth should effectively restrain growth. Unfortunately this just doesn’t work very well. A chin cup or other restraining device attached to the chin (image 1) may rotate the mandible down and back, so that growth is more down and less forward, but it’s remarkably ineffective in preventing the mandible from growing.</p>
+<p>There are several explanations for this ineffectiveness, none totally satisfying: children are not willing to wear it enough hours of the day, it’s difficult to load the whole TM joint area instead of just a part of it (image 2); a force large enough to be effective may be painful; a chin cup is uncomfortable to wear even if it isn’t painful; and so on.</p>
+<p>For patients with excessive mandibular growth, the only really successful treatment has been surgery to reduce the size of the mandible after adolescent growth has stopped.</p></pageText><resources><resource resourceType="image" resourceWidth="349" resourceHeight="450" resourceLocation="biologyorthotx/images/fig_8-31b.jpg" thumbnailWidth="62" thumbnailHeight="80" thumbnailLocation="biologyorthotx/images/fig_8-31b_s.jpg"><label>Image 1</label><caption><p>A typical chin-cup appliance, attempting to control excessive mandibular—which unfortunately is not very effective.</p></caption></resource><resource resourceType="image" resourceWidth="593" resourceHeight="450" resourceLocation="biologyorthotx/images/fig_9-28.gif" thumbnailWidth="105" thumbnailHeight="80" thumbnailLocation="biologyorthotx/images/fig_9-28_s.gif"><label>Image 2</label><caption><p>Force against the chin tends to be concentrated on part of the growing condyle, not on all of it.</p></caption></resource></resources></page><page pageType="content"><title>TADs to Modify Class III Growth?</title><pageText><p>A new and potentially important way to augment maxillary growth and perhaps restrain mandibular growth, which was developed by Dr. Hugo DeClerck, is the use of Class III elastics from miniplates at the base of the zygomatic arch to miniplates mesial to the mandibular canines (image 1). The optimal time for this treatment is later than that for facemask. It is done as early as possible, but now the bone must be mature enough to retain bone screws, which means that age 10 1/2 or 11 (early adolescence) is about as early as it can begin, and age 13 or so is too old for a good response. Maturation, not age, is the determinant—early adolescence is OK, late adolescence is not.</p>
+<p>Heavy force is not necessary—about 150 gm on each side is sufficient—but the elastics need to be worn essentially full-time. For most orthodontic treatment, light force of long duration is optimal, and this result suggests that this also is true for growth modification.</p>
+<p>Most of the patients show increased maxillary growth (images 2 and 3 show maximum change, not the average), but in some, the effect is largely restraint of forward growth of the mandible. The average amount of maxillary change with this method is twice as much forward movement of the maxilla than is achieved with facemask treatment.</p></pageText><resources><resource resourceType="image" resourceWidth="600" resourceHeight="400" resourceLocation="biologyorthotx/images/s05_p06_01.jpg" thumbnailWidth="120" thumbnailHeight="80" thumbnailLocation="biologyorthotx/images/s05_p06_01s.jpg"><label>Image 1: Class III elastics to miniplates</label><caption><p>Class III elastics to skeletal anchors in children in early adolescence have the potential to modify maxillary and mandibular growth.</p></caption></resource><resource resourceType="image" resourceWidth="600" resourceHeight="400" resourceLocation="biologyorthotx/images/s05_p06_02.jpg" thumbnailWidth="120" thumbnailHeight="80" thumbnailLocation="biologyorthotx/images/s05_p06_02s.jpg"><label>Image 2: Before / after treatment</label><caption><p>Note the increased prominence of the mid-face after treatment for one year.</p></caption></resource><resource resourceType="image" resourceWidth="577" resourceHeight="450" resourceLocation="biologyorthotx/images/s05_p06_03.jpg" thumbnailWidth="103" thumbnailHeight="80" thumbnailLocation="biologyorthotx/images/s05_p06_03s.jpg"><label>Image 3: Before / after treatment</label><caption><p>The changes for this patient included forward movement of the zygomatic arch.</p></caption></resource></resources></page><page pageType="content"><title>TADs to Modify Class IIIs Growth? (cont.)</title><pageText><p>The images with this screen are color maps showing the change from before to after treatment for six patients treated with Class III elastics to bone plates. The 3D images from CBCT were superimposed on the cranial base. The patient whose clinical photos you saw in the previous screen is image 1.</p>
+<p>Note the variation in outcomes seen individually in images 1-6,and collectively in image 7. In this view of pre- and post-treatment superimpositions, movement out of the screen (forward) is shown by the red color--the darker the red, the more the area moved forward. Movement into the screen (backward) is shown by blue--the darker the blue, the more the mandible moved back. As you can see, the outcomes ranged from major advancement of the midface (images 1 and 3) to smaller changes in the maxilla (images 2 and 4)to very little change at all (image 5) to significant (and surprising) backward movement of the mandible, which could occur only with repositioning or remodeling of the condyle and/or TM joint.</p>
+<p>Data for long-term outcomes of this treatment approach are not yet available, and there is no way at present to predict whether the major effect will be on the maxilla or mandible--but Class III elastics to TADs seems likely to largely replace face mask treatment, because the average effect is greater and it is much easier for patients to wear elastics. Extra-oral force to the chin is rarely used now because it is ineffective, and the effect on the mandible of elastics to TADs is less than the effect on the maxilla, so growth modification for true mandibular prognathism is less likely to be a major use of the new method.</p>
+<p>The effects of this type of treatment are discussed further in later sections of this module.</p>
+<p/></pageText><resources><resource resourceType="image" resourceWidth="600" resourceHeight="420" resourceLocation="biologyorthotx/images/s05_p07_01.jpg" thumbnailWidth="114" thumbnailHeight="80" thumbnailLocation="biologyorthotx/images/s05_p07_01s.jpg"><label>3D superimposition, frontal view</label><caption><p>The amount of change relative to the cranial base during treatment is shown in these color maps. Note the variation in response, from major advancement of the midface to little or no effect on the maxilla but restraint of mandibular growth.</p></caption></resource></resources></page><page pageType="content"><title>Augmentation of Mandibular Growth</title><pageText><p>The soft tissues pull the mandible forward, and the condylar process grows upward and backward in response, so a device to further move the mandible forward ought to make it grow larger. Mandibular deficiency is the major cause of skeletal Class II problems. Not surprisingly, appliances to try to make the mandible grow have played a prominent role in growth modification treatment.</p>
+<p>There are dozens if not hundreds of devices to hold the mandible forward and encourage it to grow (images 1, 2 and 3). They can be removable (images 1 and 2) or fixed (image 3), but cooperation by the patient is important even with a fixed appliance. They’re referred to generically as “functional appliances”, but function has little to do with their effect. The name of the game is holding the mandible forward so that the condyle is down and forward from the glenoid fossa.</p>
+<p>The typical outcome of functional appliance treatment is encouraging on one hand, and discouraging on the other. It often happens that in the short term, an acceleration of mandibular growth is observed, but in a longer term the growth rate tends to decline so that the mandible no longer is growing as much as might have been expected without the appliance (image 4). Does the mandible end up larger than it would have been without treatment? Perhaps a little bit, only a millimeter or two.</p>
+<p>The interesting result is that although the theory behind their use is totally different, the long-term outcome of headgear and functional appliance treatment is remarkably similar. More restraint of maxillary growth is seen with headgear, but the reaction to holding the mandible forward is a restraining force against the maxilla, so maxillary restraint usually occurs with any type of functional appliance. How much skeletal change can you get? On the average, 4-5 mm of forward movement of the mandible relative to the maxilla, perhaps somewhat more in the short term--but post-treatment growth tends to decrease the long-term skeletal change.</p></pageText><resources><resource resourceType="image" resourceWidth="600" resourceHeight="400" resourceLocation="biologyorthotx/images/fig13-27b.jpg" thumbnailWidth="120" thumbnailHeight="80" thumbnailLocation="biologyorthotx/images/fig13-27b_s.jpg"><label>Image 1</label><caption><p>Bionator appliance: a block of plastic between the teeth guides the patient 
+into advancement of the mandible</p></caption></resource><resource resourceType="image" resourceWidth="414" resourceHeight="450" resourceLocation="biologyorthotx/images/fig13-29a.jpg" thumbnailWidth="74" thumbnailHeight="80" thumbnailLocation="biologyorthotx/images/fig13-29a_s.jpg"><label>Image 2</label><caption><p>The Frankel appliance: shields hold the lower lip and cheeks away from the 
+teeth while the mandible is held forward by a wire framework and lingual pad</p></caption></resource><resource resourceType="image" resourceWidth="600" resourceHeight="330" resourceLocation="biologyorthotx/images/s05_p08_03.jpg" thumbnailWidth="146" thumbnailHeight="80" thumbnailLocation="biologyorthotx/images/s05_p08_03s.jpg"><label>Image 3: Herbst appliance</label><caption><p>The Herbst appliance, a fixed functional appliance, holds the mandible forward all the time and forces the patient to function in that jaw relationship.</p></caption></resource><resource resourceType="image" resourceWidth="581" resourceHeight="450" resourceLocation="biologyorthotx/images/fig_8-19.gif" thumbnailWidth="103" thumbnailHeight="80" thumbnailLocation="biologyorthotx/images/fig_8-19_s.gif"><label>Image 4</label><caption><p>The usual response to a functional appliance is short-term acceleration of 
+mandibular growth, followed by slow growth later so that there is little or no long-term increase in size</p></caption></resource></resources></page></pages></section><section><title>Retention</title><pages><page pageType="content"><title>Why Is Retention Necessary?</title><pageText><p>If you have had orthodontic treatment, you know that when the braces come 
+off, some type of retainer follows, and the orthodontist tells you quite 
+severely that you’d better wear it or your teeth won’t stay 
+straight. Perhaps you didn’t believe that, didn’t wear the 
+retainer, and found out for yourself that the teeth really will move 
+spontaneously for a while after treatment. Why is that?</p>
+
+<p>There are three major reasons for retention:</p>
+
+<ol class="spaced"><li>the gingival and periodontal tissues require time for reorganization 
+after the orthodontic appliances are removed;</li>
+
+<li>the teeth may be in an inherently unstable position, so that soft 
+tissue pressures constantly produce a relapse tendency; and</li>
+
+<li>changes produced by growth may alter the treatment result.</li>
+</ol><p>Let’s consider these reasons one at the time.</p></pageText><resources/></page><page pageType="content"><title>PDL / Gingival Reorganization</title><pageText><p>Disruption of the collagen fiber bundles in the PDL and widening of the PDL space are necessary to allow tooth movement to occur. Even if active tooth movement stops, reorganization of the PDL does not occur as long as each tooth is tightly splinted to the one next to it by a heavy archwire. After the braces are removed, reorganization of the PDL takes 3-4 months, and only at that point does the slight mobility that is normal after treatment disappear. During this time the teeth will be unstable against occlusal and soft tissue pressures that can be resisted later. For this reason, every patient needs retainers for at least a few months.</p>
+<p>Gingival fibers are stretched when a tooth is moved a considerable distance or is rotated significantly. These fibers remodel quite slowly, and are still capable of rotating a tooth back towards its original position even a year after treatment. This becomes a reason for more prolonged retention after correction of severe crowding. For a tooth or teeth that had correction of severe rotations, like the maxillary incisors shown in these images, it is wise to sever the gingival fiber network around them (which must be done carefully to maintain the interdental papillae) before the braces are removed. Without this it can be almost impossible to maintain the rotation correction.</p></pageText><resources><resource resourceType="image" resourceWidth="600" resourceHeight="400" resourceLocation="biologyorthotx/images/fig_16-16a.jpg" thumbnailWidth="120" thumbnailHeight="80" thumbnailLocation="biologyorthotx/images/fig_16-16a_s.jpg"><label>Image 1</label><caption><p>Sectioning the supra-crestal gingival elastic fibers is important if 
+correction of rotation is to be maintained</p></caption></resource><resource resourceType="image" resourceWidth="600" resourceHeight="400" resourceLocation="biologyorthotx/images/fig_16-16b.jpg" thumbnailWidth="120" thumbnailHeight="80" thumbnailLocation="biologyorthotx/images/fig_16-16b_s.jpg"><label>Image 2</label><caption><p>Completion of fiber section surgery--an important adjunctive procedure 
+in orthodontic treatment</p></caption></resource></resources></page><page pageType="content"><title>Unstable Tooth Positions</title><pageText><p>How far can you move teeth before the pressures of the lips/cheeks or tongue 
+change enough to be a long-term factor in their stability? The question is 
+asked correctly if you put it that way, because it’s how far the 
+teeth were moved, not how their position after treatment compares to 
+“standards” derived from population averages, that determines 
+long-term stability. As a general 
+rule (to which there are exceptions), the lower arch can be considered a 
+foundation on which the upper arch rests, so how far the lower teeth were 
+moved is important.</p>
+
+<p>For a typical patient, the magnitude of change that is likely to be stable is 
+shown in the attached figure. Note that the incisors can be advanced a little 
+but not a lot, that stable expansion across the canines is extremely limited, 
+and that the amount of stable transverse expansion is greater as you go 
+posteriorly.</p>
+
+<p>If the teeth are in an unstable position (for instance, after major arch 
+expansion), the only possibilities are permanent retention or accepting 
+relapse after retainers are discontinued.</p></pageText><resources><resource resourceType="image" resourceWidth="491" resourceHeight="450" resourceLocation="biologyorthotx/images/fig_8-11.gif" thumbnailWidth="87" thumbnailHeight="80" thumbnailLocation="biologyorthotx/images/fig_8-11_s.gif"><label/><caption><p>The magnitude of change in position of the lower teeth that is likely to be stable without permanent retention.</p></caption></resource></resources></page><page pageType="content"><title>Growth Effects</title><pageText><p>Continued growth after treatment creates a problem in two circumstances:</p>
+<ol class="spaced"><li>Patients who received growth modification treatment for a skeletal problem. You’ve already learned that the pattern of growth tends to be constant. If treatment changed it, growth after treatment still will be in the same pattern as it was originally. So the more a Class II, Class III, long face or asymmetric patient grows after treatment, the more likely it is that some of the correction will be lost. In these patients, the retainer may need to be a modification of a functional appliance, and it will need to be worn at night until the patient’s late teens or early twenties.</li>
+<li>Patients without a skeletal problem whose incisors were aligned with some expansion (image 1) or who had space closure in the maxillary incisor area (image 2). You will remember that there’s normally a little late mandibular growth in the late teens that occurs after maxillary growth has essentially ceased. This has the potential to create lower incisor crowding, even in an individual who never had orthodontic treatment. The late mandibular growth carries the lower incisors forward, which tends to increase pressure from the lip against the lower incisors, and also creates pressure against the upper incisors that can re-open space in that area. For that reason it is a good idea to bond a retainer in the lower incisor segment that remains there at least until the early adult years, or to continue night-time wear of a removable mandibular retainer, and also to maintain a maxillary retainer, at least until the late growth has occurred. If significant forward movement of the lower incisors occurred during treatment, a retainer will be needed indefinitely.</li>
+</ol><p>Do you still have a retainer even though you’re now in dental school? If you’re in the approximately 50% of dental students who had orthodontic treatment, maybe you should.</p></pageText><resources><resource resourceType="image" resourceWidth="600" resourceHeight="400" resourceLocation="biologyorthotx/images/fig_17-11a.jpg" thumbnailWidth="120" thumbnailHeight="80" thumbnailLocation="biologyorthotx/images/fig_17-11a_s.jpg"><label>Image 1</label><caption><p>Bonded lower retainer to maintain alignment as late growth occurs.</p></caption></resource><resource resourceType="image" resourceWidth="600" resourceHeight="400" resourceLocation="biologyorthotx/images/fig_17-11b.jpg" thumbnailWidth="120" thumbnailHeight="80" thumbnailLocation="biologyorthotx/images/fig_17-11b_s.jpg"><label>Image 2</label><caption><p>Bonded maxillary incisor retainer to prevent space re-opening related 
+to late mandibular growth.</p></caption></resource></resources></page><page pageType="content"><title>Summary</title><pageText><p>To summarize this discussion of the biology of orthodontics:</p>
+
+<ul class="spaced"><li>Orthodontic tooth movement requires sustained light force.</li>
+
+<li>The optimal force depends on the type of tooth movement. Force against a 
+tooth creates pressure in the PDL. There is only one optimal pressure, but 
+varying forces are needed to obtain it, depending on how much of the PDL is 
+loaded.</li>
+
+<li>Light continuous force (which may decline as teeth move, but not to zero) is 
+the most effective and biologically benign way to move teeth. Heavy 
+intermittent force, which declines to zero so that there is a repair 
+period before the force is resumed, can be acceptable. Heavy continuous 
+force must be avoided.</li>
+
+<li>Moderate pain for 2-4 days is to be expected when orthodontic treatment is 
+initiated. The magnitude of the pain is related to the magnitude of the force 
+being used, because heavier force creates larger ischemic (and eventually 
+necrotic) areas in the PDL.</li>
+</ul></pageText><resources/></page><page pageType="content"><title>Summary (cont.)</title><pageText><ul class="spaced"><li>Modest apical root resorption (1-2 mm) accompanies almost all orthodontic 
+tooth movement. More severe root resorption is seen in 2-3% of orthodontic 
+patients.</li>
+
+<li>Growth modification via forces to the teeth can produce a few millimeters of 
+improvement in jaw relationships, with restraint of mandibular growth being 
+the least effective.</li>
+
+<li>
+<p>Retention after orthodontic treatment is needed for three reasons:</p>
+<ol class="spaced"><li>it takes 3-4 months for PDL reorganization to occur</li>
+<li>teeth may be in an unstable position, particularly after rotation 
+correction or excessive expansion</li>
+<li>growth after treatment can affect stability, especially in patients 
+who had a skeletal problem, but also in those who exerience late mandibular 
+growth that often causes crowding of lower incisors.</li>
+</ol></li>
+</ul></pageText><resources/></page><page pageType="content"><title>Referral to Self-Test</title><pageText><p>The self-test section of this program is designed to help you be sure you have understood the material.</p>
+<p>Now that you have gone through the module, do the assigned reading in <i>Contemporary Orthodontics </i>(pages 331-347 in 5th ed.; pages 329-347, 4th ed.) Then take the self-test, and use it as a guide for further study and review.</p>
+<p>Copyright 2013, UNC Dept. of Orthodontics</p></pageText><resources/></page></pages></section><section><title>Self-Test</title><pages><page pageType="test"><title>Question 1</title><pageText><p>Which of the following is not correct regarding piezo-electricity?</p></pageText><choices correctChoice="3"><choice>important for maintaining calcification</choice><choice>affected by exercise level</choice><choice>important for orthodontic signaling</choice><choice>occurs in both biologic and non-biologic crystals</choice><choice>all are correct</choice></choices><correctResponse><p>That’s right. Piezo-electricity is important for maintaining 
+calcification, it’s affected by exercise level because it's generated by 
+bone bending during function, and it occurs in both biologic and non-biologic 
+crystalline materials—but it is not important for orthodontic signaling.</p></correctResponse><incorrectResponse><p>No, that’s wrong. Piezo-electricity is important for maintaining 
+calcification, it’s affected by exercise level because it's generated by 
+bone bending during function, and it occurs in both biologic and non-biologic 
+crystalline materials—but it is not important for orthodontic signaling.</p></incorrectResponse><resources><resource resourceType="image" resourceWidth="497" resourceHeight="450" resourceLocation="biologyorthotx/images/fig_9-2.gif" thumbnailWidth="88" thumbnailHeight="80" thumbnailLocation="biologyorthotx/images/fig_9-2_s.gif"><label/><caption/></resource></resources></page><page pageType="test"><title>Question 2</title><pageText><p>Why is some shortening of tooth roots likely to occur after prolonged 
+orthodontic treatment?</p></pageText><choices correctChoice="3"><choice>it isn’t, osteoclasts don’t attack cementum</choice><choice>cementum repair only occurs along the sides of the tooth, not at the apex</choice><choice>craters in cementum fill in, but cementum islands are cut off and lost</choice><choice>unstained and therefore unprotected cementum is found mostly at the root apex</choice><choice>poor blood supply around the apex prevents cementum repair in that area</choice></choices><correctResponse><p>That’s right, stained or marked cementum adjacent to necrotic areas is 
+likely to be found around the apex of the tooth because it is easy to severely 
+compress the PDL in that area. This leads to attack by clast cells during 
+repair, and if the resulting craters coalesce, cementum islands that resorb 
+during repair may be formed.</p></correctResponse><incorrectResponse><p>No, that’s wrong. Stained or marked cementum adjacent to necrotic areas 
+is likely to be found around the apex of the tooth because it is easy to 
+severely compress the PDL in that area.This leads to attack by clast cells 
+during repair, and if the resulting craters coalesce, cementum islands that 
+resorb during repair may be formed.</p></incorrectResponse><resources><resource resourceType="image" resourceWidth="600" resourceHeight="206" resourceLocation="biologyorthotx/images/fig_9-23.gif" thumbnailWidth="166" thumbnailHeight="57" thumbnailLocation="biologyorthotx/images/fig_9-23_s.gif"><label/><caption/></resource></resources></page><page pageType="test"><title>Question 3</title><pageText><p>Force against a tooth creates pressure in the periodontal ligament. If an 
+equal force is used for the following types of tooth movement, which will 
+have the lightest pressure?</p></pageText><choices correctChoice="5"><choice>intrusion</choice><choice>tipping</choice><choice>rotation</choice><choice>torque</choice><choice>translation</choice></choices><correctResponse><p>That’s right, with equal amounts of force against the crown, translation 
+(bodily movement) would produce the lightest pressure because the force is 
+distributed over the largest PDL area, and intrusion would have the highest 
+pressure because the force is concentrated on a small area.</p></correctResponse><incorrectResponse><p>No, that’s incorrect. With equal amounts of force against the crown, 
+translation (bodily movement) would produce the lightest pressure because the 
+force is distributed over the largest PDL area, and intrusion would have the 
+highest pressure because the force is concentrated on a small area.</p></incorrectResponse><resources><resource resourceType="image" resourceWidth="600" resourceHeight="270" resourceLocation="biologyorthotx/images/fig_9-10_9-11.gif" thumbnailWidth="166" thumbnailHeight="75" thumbnailLocation="biologyorthotx/images/fig_9-10_9-11_s.gif"><label/><caption/></resource></resources></page><page pageType="test"><title>Question 4</title><pageText><p>What’s the first thing that happens when an orthodontic spring is 
+applied against a tooth?</p></pageText><choices correctChoice="1"><choice>the tooth moves relative to the facial skeleton</choice><choice>the tooth moves within the periodontal ligament space</choice><choice>distorted cells release prostaglandins and cytokines</choice><choice>blood flow decreases in some areas and increases in others</choice><choice>it depends on how much force the spring exerts, could be 1 or 2</choice></choices><correctResponse><p>That’s correct, the tooth moves relative to the facial skeleton as the 
+alveolar bone bends, but it doesn’t move within the PDL space until 1-2 
+seconds pass and the bone begins to spring back as fluid is squeezed out. 
+Cell distortion and blood flow changes all start a minute or two after that.</p></correctResponse><incorrectResponse><p>No, that’s incorrect. The tooth moves relative to the facial skeleton 
+as the alveolar bone bends, but it doesn’t move within the PDL space 
+until 1-2 seconds pass and the bone begins to spring back as fluid is squeezed 
+out. Cell distortion and blood flow changes all start a minute or two after 
+that.</p></incorrectResponse><resources/></page><page pageType="test"><title>Question 5</title><pageText><p>What’s the chance that severe shortening of the maxillary 
+incisors (&gt;25% of the root length) will occur during typical 
+orthodontic treatment?</p></pageText><choices correctChoice="3"><choice>less than 0.5%</choice><choice>1%</choice><choice>2-3%</choice><choice>4-5%</choice><choice>10%</choice></choices><correctResponse><p>That is correct. The best data suggest that there is a 2-3% chance of severe 
+resorption, with the maxillary incisors most likely to be affected, 
+during typical treatment (which has about a 2-year duration). Fortunately, 
+even when this occurs the chance of premature loss of the affected teeth 
+remains very low.</p></correctResponse><incorrectResponse><p>No, that’s incorrect. The best data suggest that there is a 2-3% 
+chance of severe localized resorption, with the maxillary incisors most 
+likely to be affected, during typical treatment (which has about a 2-year 
+duration). Fortunately, even when this occurs the chance of premature loss 
+of the affected teeth remains very low.</p></incorrectResponse><resources/></page><page pageType="test"><title>Question 6</title><pageText><p>What is the chance that severe generalized resorption (loss of much of the 
+root of most of the teeth) will occur during typical orthodontic treatment?</p></pageText><choices correctChoice="1"><choice>less than 0.5%</choice><choice>1%</choice><choice>2-3%</choice><choice>4-5%</choice><choice>10%</choice></choices><correctResponse><p>That’s right, severe generalized resorption is quite rare, with a 
+prevalence of much less than 0.5%. It is as likely to occur in patients 
+who don’t have orthodontic treatment as in those who do, so 
+orthodontics isn’t the cause—but the cause remains unknown.</p></correctResponse><incorrectResponse><p>That’s wrong. Severe generalized resorption is quite rare, with a 
+prevalence of much less than 0.5%. It is as likely to occur in patients who 
+don’t have orthodontic treatment as in those who do, so orthodontics 
+isn’t the cause—but the cause remains unknown.</p></incorrectResponse><resources><resource resourceType="image" resourceWidth="600" resourceHeight="309" resourceLocation="biologyorthotx/images/severe_gen_resorption_pan.jpg" thumbnailWidth="155" thumbnailHeight="80" thumbnailLocation="biologyorthotx/images/severe_gen_resorption_pan_s.jpg"><label/><caption/></resource></resources></page><page pageType="test"><title>Question 7</title><pageText><p>What happens if orthodontic force is heavy enough to totally compress blood 
+vessels in the PDL?</p></pageText><choices correctChoice="2"><choice>hyaline cartilage forms in the compressed area</choice><choice>sterile necrotic areas develop in the compressed area</choice><choice>sterile necrotic areas develop in the pulp</choice><choice>persistent piezo-electric signals are observed</choice><choice>all the above</choice></choices><correctResponse><p>That’s right. Sterile necrotic areas develop in the compressed area. 
+These areas often are called hyalinized areas because some early observers 
+thought they looked like hyaline cartilage, but cartilage doesn’t form 
+there. Mild pulpitis can occur after activation of orthodontic appliances, 
+but there are no necrotic areas in the pulp. Persistent piezo-electric signals 
+are seen only during rhythmic function as bone bends, and have nothing to do 
+with PDL compression.</p></correctResponse><incorrectResponse><p>No, that’s wrong. Sterile necrotic areas develop in the compressed 
+area. These areas often are called hyalinized areas because some early 
+observers thought they looked like hyaline cartilage, but cartilage 
+doesn’t form there. Mild pulpitis can occur after activation of 
+orthodontic appliances, but there are no necrotic areas in the pulp. 
+Persistent piezo-electric signals are seen only during rhythmic function 
+as bone bends, and have nothing to do with PDL compression.</p></incorrectResponse><resources><resource resourceType="image" resourceWidth="579" resourceHeight="450" resourceLocation="biologyorthotx/images/fig_9-4c.jpg" thumbnailWidth="103" thumbnailHeight="80" thumbnailLocation="biologyorthotx/images/fig_9-4c_s.jpg"><label/><caption/></resource></resources></page><page pageType="test"><title>Question 8</title><pageText><p>When orthodontic appliances are removed, why are retainers needed full-time 
+for 3-4 months?</p></pageText><choices correctChoice="1"><choice>PDL reorganization takes 3-4 months</choice><choice>most patients are still growing when treatment ends</choice><choice>sometimes teeth have been moved into unstable positions</choice><choice>teeth are particularly likely to move post-treatment as they erupt</choice><choice>all the above</choice></choices><correctResponse><p>That’s right. All the response statements are reasons for retention, 
+but only the first one is the reason for full-time retention for a few months 
+after orthodontic treatment is completed. It takes 3-4 months for the PDL to 
+reorganize, and for that length of time the teeth need to be held against soft 
+tissue pressures that they may be able to withstand after the reorganization is 
+comleted. Growing patients, or patients whose teeth are not in stable 
+positions, need long-term retention but can wear retainers only part-time.</p></correctResponse><incorrectResponse><p>No, that’s incorrect. All the response statements are reasons for 
+retention, but only the first one is the reason for full-time retention 
+for a few months after orthodontic treatment is completed. It takes 3-4 
+months for the PDL to reorganize, and for that length of time the teeth 
+need to be held against soft tissue pressures that they may be able to 
+withstand after the reorganization is comleted. Growing patients, or patients 
+whose teeth are not in stable positions, need long-term retention but can wear 
+retainers only part-time.</p></incorrectResponse><resources/></page><page pageType="test"><title>Question 9</title><pageText><p>How many hours a day do you have to wear your removable orthodontic appliance 
+in order to gain any treatment effect?</p></pageText><choices correctChoice="4"><choice>no minimum, every little bit helps</choice><choice>at least 2 consecutive hours</choice><choice>at least 3-4 hours</choice><choice>at least 4-8 hours</choice><choice>at least 10-12 hours</choice></choices><correctResponse><p>That’s right, there is a time threshold somewhere between 4-8 hours. 
+If you wear your removable appliance that much, some treatment response will 
+occur (although if you wore it more there would be a better response). Less 
+than 4 hours is likely to produce no response.</p></correctResponse><incorrectResponse><p>No, that’s wrong. There is a time threshold somewhere between 4-8 hours. 
+If you wear your removable appliance that much, some treatment response will 
+occur (although if you wore it more there would be a better response). Less 
+than 4 hours is likely to produce no response.</p></incorrectResponse><resources><resource resourceType="image" resourceWidth="600" resourceHeight="438" resourceLocation="biologyorthotx/images/fig_9-12.gif" thumbnailWidth="110" thumbnailHeight="80" thumbnailLocation="biologyorthotx/images/fig_9-12_s.gif"><label/><caption/></resource></resources></page><page pageType="test"><title>Question 10</title><pageText><p>What’s the optimal force in grams to intrude a tooth?</p></pageText><choices correctChoice="1"><choice>approximately 10</choice><choice>approximately 20</choice><choice>approximately 50</choice><choice>approximately 75</choice><choice>approximately 100</choice></choices><correctResponse><p>That’s right, 10 grams (or even a bit less for a small tooth like a 
+lower incisor) is the optimal force for intrusion. The reason, of course, 
+is the small PDL area that’s compressed by an intrusive force.</p></correctResponse><incorrectResponse><p>No, that’s incorrect. 10 grams (or even a bit less for a small tooth 
+like a lower incisor) is the optimal force for intrusion. The reason, of 
+course, is the small PDL area that’s compressed by an intrusive force.</p></incorrectResponse><resources><resource resourceType="image" resourceWidth="382" resourceHeight="450" resourceLocation="biologyorthotx/images/fig_9-11.jpg" thumbnailWidth="68" thumbnailHeight="80" thumbnailLocation="biologyorthotx/images/fig_9-11_s.jpg"><label/><caption/></resource></resources></page><page pageType="test"><title>Question 11</title><pageText><p>How long does it take to generate chemical signals (for example, prostaglandin 
+release) when steady orthodontic pressure is applied against a tooth?</p></pageText><choices correctChoice="1"><choice>a minute or so</choice><choice>5-10 minutes</choice><choice>an hour or so</choice><choice>about 4 hours</choice><choice>could be any of the first three, depending on force magnitude</choice></choices><correctResponse><p>That’s right. Chemical signals begin to be generated almost immediately 
+after fluid is squeezed out of the PDL space and the ligament is compressed, 
+because mechanically distorted cells release some of their contents. Within 
+one minute the process is well underway. It takes about 4 hours to begin to 
+see evidence of secondary messengers that will lead to cell differentiation, 
+but release of signals started long before that.</p></correctResponse><incorrectResponse><p>No, that’s wrong. Chemical signals begin to be generated almost 
+immediately after fluid is squeezed out of the PDL space and the ligament 
+is compressed, because mechanically distorted cells release some of their 
+contents. Within one minute the process is well underway. It takes about 4 
+hours to begin to see evidence of secondary messengers that will lead to cell 
+differentiation, but release of signals started long before that.</p></incorrectResponse><resources/></page><page pageType="test"><title>Question 12</title><pageText><p>(A) Intermittent force from a fixed orthodontic appliance is inevitable 
+because (B) there is no such thing as a perfect spring—they all have 
+some decay of the force as teeth move.</p></pageText><choices correctChoice="4"><choice>A true, B true, A and B related</choice><choice>A true, B true, A and B not related</choice><choice>A true, B false</choice><choice>A false, B true</choice><choice>A and B false</choice></choices><correctResponse><p>That’s right, the first statement is false but the second one is true. 
+Decay of the force is reflected in whether the force still can be considered 
+continuous (doesn’t go to zero between appointments) or interrupted 
+(decays to zero before reactivation). Intermittent force is seen with 
+removable appliances, where the force goes to zero when the appliance 
+is removed and resumes when it is reinserted.</p></correctResponse><incorrectResponse><p>That’s wrong. The first statement is false but the second one is 
+true. With a fixed appliance, decay of the force is reflected in whether 
+the force still can be considered continuous (doesn’t go to zero 
+between appointments) or interrupted (decays to zero before reactivation). 
+Intermittent force is seen with removable appliances, where the force goes 
+to zero when the appliance is removed and resumes when it is reinserted.</p></incorrectResponse><resources><resource resourceType="image" resourceWidth="600" resourceHeight="395" resourceLocation="biologyorthotx/images/fig_9-13c.gif" thumbnailWidth="122" thumbnailHeight="80" thumbnailLocation="biologyorthotx/images/fig_9-13c_s.gif"><label/><caption/></resource></resources></page><page pageType="test"><title>Question 13</title><pageText><p>What is the optimal age to start facemask treatment for Class III correction?</p></pageText><choices correctChoice="2"><choice>age 4 to 6</choice><choice>age 6 to 8</choice><choice>age 8 to 10</choice><choice>age 10 to 12</choice><choice>any age is OK prior to adolescence</choice></choices><correctResponse><p>That’s right, the optimal age to start facemask treatment is 6 to 8, because the amount of favorable skeletal change tends to decrease as children get older than that. It often is wise to wait until the maxillary first permanent molars erupt so they can become part of the anchorage unit, but there is no advantage in waiting longer than that—if the patient is seen in time to start then, which means that early referral for maxillary deficient children Is potentially important.</p></correctResponse><incorrectResponse><p>No, that’s incorrect. The optimal age to start facemask treatment is 6 to 8, because the amount of favorable skeletal change tends to decrease as children get older than that. It often is wise to wait until the maxillary first permanent molars erupt so they can become part of the anchorage unit, and this usually occurs between ages 6 and 7, but there is no advantage in waiting longer than that—if the patient is seen in time to start then, which means that early referral for maxillary deficient children Is potentially important.</p></incorrectResponse><resources><resource resourceType="image" resourceWidth="296" resourceHeight="450" resourceLocation="biologyorthotx/images/fig_13-10b.jpg" thumbnailWidth="53" thumbnailHeight="80" thumbnailLocation="biologyorthotx/images/fig_13-10b_s.jpg"><label/><caption/></resource></resources></page><page pageType="test"><title>Question 14</title><pageText><p>What is the optimal age to start Class III elastics to skeletal anchors for Class III correction?</p></pageText><choices correctChoice="4"><choice>age 4 to 6</choice><choice>age 6 to 8</choice><choice>age 8 to 10</choice><choice>age 10 to 12</choice><choice>any age is OK prior to adolescence</choice></choices><correctResponse><p>That’s right, the best age to begin treatment with Class III elastics to skeletal anchors is age 10 to 12, the earliest age at which the skeletal anchors can be expected to be stable. In younger children the bone is too immature and screws are too likely to be displaced. Of course maturation, not chronologic age, is the key determinant, so an average child probably would be a better candidate for this treatment at age 11 than 10. In less mature children, treatment starting as late as age 13 can be effective.</p></correctResponse><incorrectResponse><p>No, that’s wrong. The best age to begin treatment with Class III elastics to skeletal anchors is age 10 to 12, the earliest age at which the skeletal anchors can be expected to be stable. In younger children the bone is too immature and screws are too likely to be displaced. Of course maturation, not chronologic age, is the key determinant, so an average child would be a better candidate for this treatment at age 11 than 10. In less mature children, treatment starting as late as age 13 can be effective.</p></incorrectResponse><resources><resource resourceType="image" resourceWidth="577" resourceHeight="450" resourceLocation="biologyorthotx/images/s05_p06_03.jpg" thumbnailWidth="103" thumbnailHeight="80" thumbnailLocation="biologyorthotx/images/s05_p06_03s.jpg"><label/><caption/></resource></resources></page></pages></section></sections></presentation>

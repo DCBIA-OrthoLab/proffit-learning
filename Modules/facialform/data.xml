@@ -1,0 +1,437 @@
+<?xml version="1.0" encoding="utf-8"?>
+<presentation><title>Facial Form Analysis</title><subtitle/><additionalInfo>William R. Proffit<br/>J.F. Camilla Tulloch<br/>Dept. of Orthodontics, UNC School of Dentistry</additionalInfo><splashImage imageLocation="facialform/images/titlepage2.jpg" imageWidth="600" imageHeight="450"/><sections><section><title>Frontal View: Symmetry and Facial Proportions</title><pages><page pageType="content"><title>Learning Objectives</title><pageText><p>In your clinical evaluation of a patient, analysis of facial proportions 
+and dental-facial relationships is an essential step in the diagnosis of 
+malocclusion. You must develop something like x-ray vision, visualizing the 
+underlying jaw relationships from looking at the patient, and you also must 
+be aware of how the teeth relate to the lips and cheeks. The purpose of this 
+program is to teach you how to do that.</p>
+
+<p>This program will cover the following major topics:</p>
+
+<p class="noSpaceAfter">Frontal view:</p>
+<ul class="noSpaceBefore"><li>symmetry</li>
+<li>vertical and transverse facial proportions</li>
+<li>tooth display</li>
+</ul><p class="noSpaceAfter">Lateral view:</p>
+<ul class="noSpaceBefore"><li>anteroposterior jaw relationships</li>
+<li>incisor protrusion or retrusion?</li>
+</ul></pageText><resources/></page><page pageType="content"><title>Normal Facial Asymmetry</title><pageText><p>The first step in facial form analysis is to examine the patient from the frontal (full face) view, and to evaluate whether there is enough facial asymmetry to create a problem.</p>
+<p>All normal faces have some asymmetry, and in most people the right side of the face is slightly larger than the left side (but it can be the other way around). The best way to appreciate the degree of normal asymmetry is to look at the difference in facial appearance between the real image, in the center in the illustration here, and the same face with the left and right sides duplicated. A perfectly symmetrical face doesn’t look real, because we almost never encounter an individual with no difference in the two sides of the face.</p></pageText><resources><resource resourceType="image" resourceWidth="600" resourceHeight="239" resourceLocation="facialform/images/6-9.jpg" thumbnailWidth="166" thumbnailHeight="66" thumbnailLocation="facialform/images/6-9_s.jpg"><label/><caption><p>Real image in center; on the left, two left sides as mirror image; on the right, two right sides. Note that for this boy as for most people, the right side of the face is larger.</p></caption></resource></resources></page><page pageType="content"><title>How Much Jaw Asymmetry is Too Much?</title><pageText><p>We don’t even see the normal asymmetry without techniques like the pictures you just looked at. At a certain point, however, facial asymmetry becomes noticeable, and when it does, the perceptions of those who view that face may be altered in an unfavorable way—which, of course, is likely to become a problem for that person. The face can be asymmetric in many different ways, but when noticeable asymmetry exists, the mandible almost always is involved (over 80% of patients with noticeable asymmetry have the mandible off to one side). An asymmetric nose is the second most likely aspect of asymmetry, and both the nose and chin are off the midline in many asymmetric faces.</p>
+<p>Modern computer graphics provide a way to ask the question, “How much is too much?” That has been done for many aspects of facial appearance with a series of computer-altered images, and then patients and doctors were asked which one they preferred, without being told exactly what was being altered—their instruction was “Just select the picture you find most ideal” from the image series.</p>
+<p>A series of increasingly asymmetric mandibles prepared in a similar graphics program allowed experiments to evaluate how far off the mandible has to be before it’s noticed. The answer is interesting: neither doctors nor patients consistently notice a 3 mm deviation of the chin, while both groups are likely to notice 4 mm.</p></pageText><resources/></page><page pageType="content"><title>Dental-Facial Midlines</title><pageText><p>A second important aspect of symmetry is the relationship of the midline of the upper and lower dental arches to the skeletal midline. The upper dental midline should coincide with the facial midline. As you might expect, a small deviation of a millimeter or two isn’t noticed, but larger deviations are.</p>
+<p>You’re likely to encounter a patient like this adult (image 1), who complained of a “crooked smile” in trying to describe the effect of a dental midline that’s off the facial midline. Of course jaw asymmetry also could be the cause of a crooked smile. Your patients may have difficulty in describing what’s wrong, but you need to be able to determine the source of the asymmetry.</p>
+<p>You’re also likely to see the midline off in a child (image 2). She may not have noticed—but her parents probably have, and if she has orthodontic treatment, that’s one thing that certainly will need to be corrected. The midline of the upper arch relative to the face is important because it is displayed with every smile. Getting the dental midlines so they coincide is important, too—but not if that would require displacing the maxillary teeth to one side.</p>
+<p>Studies with computer-altered images suggest that a dental midline off the center of the face becomes noticeable, and a potential problem, when it exceeds about 3 mm (image 3).</p></pageText><resources><resource resourceType="image" resourceWidth="388" resourceHeight="450" resourceLocation="facialform/images/midline_bowers.jpg" thumbnailWidth="69" thumbnailHeight="80" thumbnailLocation="facialform/images/midline_bowers_s.jpg"><label>Image 1</label><caption><p>Complaint: "My smile is crooked." The problem: the maxillary dental midline is displaced from the midline of the face.</p></caption></resource><resource resourceType="image" resourceWidth="386" resourceHeight="450" resourceLocation="facialform/images/midline_howard.jpg" thumbnailWidth="69" thumbnailHeight="80" thumbnailLocation="facialform/images/midline_howard_s.jpg"><label>Image 2</label><caption><p>Maxillary dental midline displaced from facial midline in a child. Correcting this would be a priority item in an orthodontic treatment plan.</p></caption></resource><resource resourceType="image" resourceWidth="600" resourceHeight="398" resourceLocation="facialform/images/mx_dev.jpg" thumbnailWidth="121" thumbnailHeight="80" thumbnailLocation="facialform/images/mx_dev_s.jpg"><label>Image 3</label><caption><p>Evaluation of patient/parent reactions to a displaced midline created by computer graphics indicates that the maximum tolerable deviation (before it is noticed and becomes a potential problem for the patient) is just under 3 mm.</p></caption></resource></resources></page><page pageType="content"><title>Transverse Facial Proportions</title><pageText><p>The second goal of frontal facial analysis is to evaluate facial proportions across the width of the face. In the frontal view the face can be divided into a central region and two lateral regions on each side. The five regions normally are quite close to the same width. They may not be when noticeable asymmetry exists.</p>
+<p>This image illustrates the transverse proportions of the face and the relationships of the mouth, nose and eyes in the transverse plane of space. Note that in a well-proportioned face:</p>
+<ul><li>the distance between the eyes is the same as the width of the eye</li>
+<li>the width of the nose is about the same as the distance between the eyes</li>
+<li>the width of the mouth equals the inter-pupillary distance</li>
+<li>the width of the mandible at the gonial angles equals the width across the eyes</li>
+</ul></pageText><resources><resource resourceType="image" resourceWidth="300" resourceHeight="450" resourceLocation="facialform/images/6-8.jpg" thumbnailWidth="53" thumbnailHeight="80" thumbnailLocation="facialform/images/6-8_s.jpg"><label/><caption><p>The face divided into fifths.</p></caption></resource></resources></page><page pageType="content"><title>Vertical Facial Proportions</title><pageText><p>Vertical facial proportions are seen in both the frontal (image 1) and lateral (image 2) views. The face can be divided into three vertical regions that are normally about the same size: hairline to bridge of nose (upper face), bridge of nose to bottom of nose (mid-face), and bottom of nose to bottom of chin (lower face). The medieval artists (da Vinci, Durer) who wrote the guidelines for drawing the human face expected the three regions to be the same size. In modern populations the lower third of the face usually is a little (but only a little) longer.</p>
+<p>It is interesting, and important to dentists, that the lower facial third has thirds. From the base of the nose to the mouth ideally is one-third of the total height of the lower third of the face, and from the mouth to the bottom of the chin is two-thirds.</p>
+<p>Deviations from these proportions quickly are perceived as abnormal, and if other people perceive your facial proportions to be abnormal, that can become a problem that you'd like your dentist / orthodontist to help you overcome.</p></pageText><resources><resource resourceType="image" resourceWidth="300" resourceHeight="450" resourceLocation="facialform/images/6-11a.jpg" thumbnailWidth="53" thumbnailHeight="80" thumbnailLocation="facialform/images/6-11a_s.jpg"><label>Image 1</label><caption><p>Normal vertical proportions, frontal view.</p></caption></resource><resource resourceType="image" resourceWidth="300" resourceHeight="450" resourceLocation="facialform/images/6-11b.jpg" thumbnailWidth="53" thumbnailHeight="80" thumbnailLocation="facialform/images/6-11b_s.jpg"><label>Image 2</label><caption><p>Normal vertical proportions, lateral view.</p></caption></resource></resources></page></pages></section><section><title>Frontal View: Tooth Display</title><pages><page pageType="content"><title>Anterior Tooth Display</title><pageText><p>An important aspect of dental-facial proportions is the extent to which the maxillary incisors can be seen when the patient is at rest and on smile. In planning dental treatment of any kind, an important objective is to obtain the appropriate amount of tooth display.</p>
+<p>The amount of tooth display at rest, of course, is determined by the amount of lip separation at rest. This can be zero but usually is 2-4 mm, more in younger children than older ones, and less or zero in adults.</p>
+<p>The amount of lip elevation in the “enjoyment smile” (“That’s the funniest thing I’ve heard in years!”) varies but is great enough to display much of the gingiva as well as the teeth. It’s the “social smile” that we use all the time (“Glad to meet you.”) to which dentists relate tooth display. For the social smile, the guideline is that 100% exposure of the maxillary incisor and perhaps exposure of a small amount of maxillary gingiva is ideal (image 1), and 75% exposure of the incisor is about the minimum for the best appearance (image 2).</p></pageText><resources><resource resourceType="image" resourceWidth="300" resourceHeight="450" resourceLocation="facialform/images/6-22a.jpg" thumbnailWidth="53" thumbnailHeight="80" thumbnailLocation="facialform/images/6-22a_s.jpg"><label>Image 1</label><caption><p>An ideal social smile for a patient in late adolescence displays 100% of the crown of the incisors and a small amount of gingiva.</p></caption></resource><resource resourceType="image" resourceWidth="300" resourceHeight="450" resourceLocation="facialform/images/6-22b.jpg" thumbnailWidth="53" thumbnailHeight="80" thumbnailLocation="facialform/images/6-22b_s.jpg"><label>Image 2</label><caption><p>Display of 75% of the maxillary incisors on a social smile is about the minimum for good facial esthetics.</p></caption></resource></resources></page><page pageType="content"><title>Anterior Tooth Display (cont.)</title><pageText><p>Perhaps the best way to appreciate the impact of incisor display is to look at the difference it can make to change incisor display with treatment.</p>
+<p>The girl in these before / after images had orthodontic treatment (with premolar extractions) to align her teeth and decrease their protrusion, and then (just before the braces were removed) had a lower border osteotomy of the mandible to bring her chin upward and forward. The genioplasty didn’t affect her dental occlusion, which was quite good before it was done, but it was an important part of the overall treatment. It elevated the lower lip, greatly decreased lip separation at rest and strain on closure, and improved the relationship of the lower lip with the maxillary incisors on smile. That’s the smile arc, which you’re going to learn more about as this module continues.</p></pageText><resources><resource resourceType="image" resourceWidth="302" resourceHeight="450" resourceLocation="facialform/images/scr10-2.jpg" thumbnailWidth="54" thumbnailHeight="80" thumbnailLocation="facialform/images/scr10-2_s.jpg"><label>Image 1</label><caption><p>Pre-treatment, age 11.</p></caption></resource><resource resourceType="image" resourceWidth="353" resourceHeight="450" resourceLocation="facialform/images/s02_p02_02.jpg" thumbnailWidth="63" thumbnailHeight="80" thumbnailLocation="facialform/images/s02_p02_02s.jpg"><label>Image 2</label><caption><p>Completion of orthodontics, age 15, before genioplasty to reduce the height of the lower 2/3rds of the lower third of the face.</p></caption></resource><resource resourceType="image" resourceWidth="295" resourceHeight="450" resourceLocation="facialform/images/scr10-1.jpg" thumbnailWidth="52" thumbnailHeight="80" thumbnailLocation="facialform/images/scr10-1_s.jpg"><label>Image 3</label><caption><p>Post-treatment, age 15. Note that the upper incisor display now is close to ideal, and the lower incisors are no longer exposed. Exposing those teeth on smile is a sign of aging.</p></caption></resource></resources></page><page pageType="content"><title>Posterior Tooth Display: Buccal Corridors</title><pageText><p>On smile it also is possible to see the maxillary posterior teeth, and their relationship to the cheeks should be noted during frontal facial examination. There should be a small separation between the teeth and the cheeks, which forms the buccal corridor.</p>
+<p>A wide buccal corridor detracts from the appearance of the smile and is an indication that widening the maxillary arch may be indicated in orthodontic treatment, just as it is in replacement of missing posterior teeth with full or partial dentures. By the same token, absence of a buccal corridor also detracts from the appearance of the smile—anything can be overdone, and that includes transverse expansion of the dental arch.</p></pageText><resources><resource resourceType="image" resourceWidth="300" resourceHeight="450" resourceLocation="facialform/images/6-23a.jpg" thumbnailWidth="53" thumbnailHeight="80" thumbnailLocation="facialform/images/6-23a_s.jpg"><label>Image 1</label><caption><p>Narrow maxillary arch with wide buccal corridors.</p></caption></resource><resource resourceType="image" resourceWidth="300" resourceHeight="450" resourceLocation="facialform/images/6-23b.jpg" thumbnailWidth="53" thumbnailHeight="80" thumbnailLocation="facialform/images/6-23b_s.jpg"><label>Image 2</label><caption><p>5-year recall (same patient--she changed her hair color) after orthodontic treatment with widening of maxillary arch.</p></caption></resource></resources></page><page pageType="content"><title>Smile Arc</title><pageText><p>The smile arc is the relationship of the curvature of the of the lower lip on smile to the contour of the maxillary dentition. These curves should match, as they do in the patient shown here. Evaluating the smile arc is an important aspect of evaluating tooth-lip relationships. A flat smile arc detracts from the appearance of the smile, and correcting this is a goal of orthodontic or prosthodontic treatment.</p></pageText><resources><resource resourceType="image" resourceWidth="297" resourceHeight="446" resourceLocation="facialform/images/scr12.jpg" thumbnailWidth="53" thumbnailHeight="80" thumbnailLocation="facialform/images/scr12_s.jpg"><label/><caption><p>An ideal smile arc, with the curvature of the arc of the maxillary incisors matching the curvature of the lower lip on smile.</p></caption></resource></resources></page><page pageType="content"><title>Smile Arc (cont.)</title><pageText><p>Studies with composite images have given different results as to what aspect of incisor display is most important in determining smile esthetics. It is apparent, however, that the smile arc is an important aspect of smile attractiveness. One recent study (which has not been widely replicated) called it the “deal breaker” as smiles are evaluated, i.e., if the smile arch is incorrect, other aspects of positioning the teeth relative to the lips for best appearance can’t overcome it.</p>
+<p>This girl’s treatment consisted of lengthening her maxillary incisors so that their vertical position matched the lip contour, and was done with dental laminates rather than orthodontics. The same guidelines for tooth-lip relationships apply to all types of dental treatment. Modern restorative dentistry can be an effective way of creating more display of the upper incisors.</p></pageText><resources><resource resourceType="image" resourceWidth="300" resourceHeight="450" resourceLocation="facialform/images/6-25a.jpg" thumbnailWidth="53" thumbnailHeight="80" thumbnailLocation="facialform/images/6-25a_s.jpg"><label>Image 1</label><caption><p>Flattened smile arc prior to treatment.</p></caption></resource><resource resourceType="image" resourceWidth="300" resourceHeight="450" resourceLocation="facialform/images/6-25b.jpg" thumbnailWidth="53" thumbnailHeight="80" thumbnailLocation="facialform/images/6-25b_s.jpg"><label>Image 2</label><caption><p>Corrected smile arc by lengthening short maxillary incisors with dental laminates.</p></caption></resource></resources></page></pages></section><section><title>Lateral View: A-P Jaw Relationships</title><pages><page pageType="content"><title>Detecting Jaw Relationships</title><pageText><p>It’s in evaluation of jaw relationships from a profile view that you really need to develop x-ray vision. Cephalometric radiographs make it easier to see the details of how the jaws relate to each other, but you can see abnormal versus normal jaw relationships well enough from careful clinical examination of the profile to make a correct diagnosis and determine which patients may need further evaluation.</p>
+<p>This works because the soft tissue contours usually reflect the hard tissue contours that underlie them. The position of the soft tissue chin is a function of the position of the bony chin beneath it. The base of the upper lip and nose reflects the position of the anterior maxilla, and the position of the upper incisor determines lip contour at the vermillion border. The contour of the lower lip similarly reflects the contours of the mandibular alveolar process and may be affected by the upper teeth. For this reason, profile analysis can tell you a lot about the position of the jaws and teeth.</p>
+<p>We don't yet routinely have images like the one shown here, which was specially made to superimpose the soft tissue profile over the cephalometric radiograph. In profile analysis your goal is to infer the jaw and tooth positions from what you see of the facial soft tissue relationships.</p></pageText><resources><resource resourceType="image" resourceWidth="493" resourceHeight="450" resourceLocation="facialform/images/tissue_plus_ceph.jpg" thumbnailWidth="88" thumbnailHeight="80" thumbnailLocation="facialform/images/tissue_plus_ceph_s.jpg"><label/><caption/></resource></resources></page><page pageType="content"><title>Class II Profile</title><pageText><p>A skeletal Class II problem means, of course, that the lower jaw is enough behind the upper jaw to make normal dental occlusion almost impossible. Can you see that in the profile appearance? Indeed you can. Sometimes it helps to quickly sketch the profile—because to draw it accurately, you have to look closely.</p>
+<p>Is it easier to see that the lower jaw is too far back in this patient (image 1) if you draw it (image 2)? For students who are just learning to evaluate jaw relationships, the drawing seems to help. Until you sharpen your eye, developing the x-ray vision we’ve talked about, a good way to be sure you see it is to look carefully so you can draw the profile accurately. What you’re trying to see is the relationship of the jaws, and of the teeth to the jaws, as in image 3. The underlying hard tissue relationships are reflected in the soft tissue profile.</p></pageText><resources><resource resourceType="image" resourceWidth="387" resourceHeight="450" resourceLocation="facialform/images/edwards_profile.jpg" thumbnailWidth="69" thumbnailHeight="80" thumbnailLocation="facialform/images/edwards_profile_s.jpg"><label>Image 1</label><caption><p>Do you see the mandibular deficiency that predicts she has a Class II malocclusion?</p></caption></resource><resource resourceType="image" resourceWidth="360" resourceHeight="450" resourceLocation="facialform/images/profile_outline.gif" thumbnailWidth="64" thumbnailHeight="80" thumbnailLocation="facialform/images/profile_outline_s.gif"><label>Image 2</label><caption><p>A drawing of the profile seen in image 1. A drawing like this, of course, is only valuable if it's accurate--and to draw it accurately, you have to look at it carefully.</p></caption></resource><resource resourceType="image" resourceWidth="417" resourceHeight="450" resourceLocation="facialform/images/6-41.gif" thumbnailWidth="74" thumbnailHeight="80" thumbnailLocation="facialform/images/6-41_s.gif"><label>Image 3</label><caption><p>The view of the facial skeleton and dentition that you would get from a radiograph. You can predict what this view would be like from careful examination of the overlying soft tissues.</p></caption></resource></resources></page><page pageType="content"><title>Class I Profile</title><pageText><p>In a normal face like this one (image 1), the bridge of the nose, the base of the nose, and the chin line up reasonably well in a straight or slightly curved convex line.</p>
+<p>Note that same relationship of the underlying bony structures can be seen in a lateral cephalometric relationship (image 2).</p></pageText><resources><resource resourceType="image" resourceWidth="289" resourceHeight="450" resourceLocation="facialform/images/harrelson_profile.jpg" thumbnailWidth="51" thumbnailHeight="80" thumbnailLocation="facialform/images/harrelson_profile_s.jpg"><label>Image 1</label><caption><p>Normal (Class I) profile--which means there is no jaw discrepancy, but is equally compatible with ideally aligned or crowded incisors.</p></caption></resource><resource resourceType="image" resourceWidth="556" resourceHeight="450" resourceLocation="facialform/images/harrelson_ceph.jpg" thumbnailWidth="99" thumbnailHeight="80" thumbnailLocation="facialform/images/harrelson_ceph_s.jpg"><label>Image 2</label><caption><p>Cephalometric radiograph, same patient.</p></caption></resource></resources></page><page pageType="content"><title>Class III Profile</title><pageText><p>This patient (image 1) has a concave facial profile that suggests a moderately severe skeletal Class III relationship. Note the relationships of the bridge of the nose, base of the upper lip, and chin. This is described as a Class III skeletal pattern because it usually accompanies Class III molar and canine dental relationships and negative (usually zero or less) overjet. Approximately 1-2% of the US population has this type of skeletal relationship, which is more prevalent (up to 14%) in Asians.</p>
+<p>In this girl, the Class III problem is due to a combination of a maxilla that is not as far forward as it should be, while the mandible is somewhat large. The profile sketch of a different individual (image 2) shows a similar situation. You already know that a skeletal Class III problem can be due to any combination of small / short maxilla and large / long mandible. You don’t need an x-ray to differentiate maxillary deficiency from mandibular excess.</p></pageText><resources><resource resourceType="image" resourceWidth="376" resourceHeight="450" resourceLocation="facialform/images/feeny_profile.jpg" thumbnailWidth="67" thumbnailHeight="80" thumbnailLocation="facialform/images/feeny_profile_s.jpg"><label>Image 1</label><caption><p>Class III profile, with a combination of mandibular excess and maxillary deficiency.</p></caption></resource><resource resourceType="image" resourceWidth="420" resourceHeight="450" resourceLocation="facialform/images/6-13c.gif" thumbnailWidth="75" thumbnailHeight="80" thumbnailLocation="facialform/images/6-13c_s.gif"><label>Image 2</label><caption><p>Drawing of a Class III profile.</p></caption></resource></resources></page><page pageType="content"><title>Short Face / Deep Overbite</title><pageText><p>Vertical jaw relationships also are seen in the profile view, and appear as disproportions in the middle and/or lower thirds of the face. A patient with a short face usually is disproportionately short in the lower third (image 1). What dental relationship would you expect to find when you look at this patient’s dental occlusion?</p>
+<p>That’s right, she almost surely has a deep overbite. A short face is also called a skeletal deep bite, simply because the jaw relationship predisposes to that dental relationship. You can see that better in a lateral cephalometric radiograph (image 2), but you can detect it just from the profile analysis.</p></pageText><resources><resource resourceType="image" resourceWidth="572" resourceHeight="450" resourceLocation="facialform/images/andrews_profile.jpg" thumbnailWidth="102" thumbnailHeight="80" thumbnailLocation="facialform/images/andrews_profile_s.jpg"><label>Image 1</label><caption><p>This girl's short lower facial third predicts that she has a deep overbite.</p></caption></resource><resource resourceType="image" resourceWidth="600" resourceHeight="450" resourceLocation="facialform/images/andrews_ceph.jpg" thumbnailWidth="107" thumbnailHeight="80" thumbnailLocation="facialform/images/andrews_ceph_s.jpg"><label>Image 2</label><caption><p>The girl's cephalometric radiograph, confirming the deep overbite that goes with her short face.</p></caption></resource></resources></page><page pageType="content"><title>Long Face / Open Bite</title><pageText><p>A patient with a long anterior face height is likely to be disproportionately long in middle third of the face because the maxilla has grown down more than normal. One of the effects is an increased display of maxillary gingiva (image 1). Excessive downward growth of the maxilla causes a downward-backward rotation of the mandible, shown diagrammatically in image 2. The profile view of this patient (image 3) shows the rotation.</p>
+<p>An easy way to detect downward-backward rotation of the mandible is to use a mirror handle to demonstrate the mandibular plane angle (image 4). The steeper the angle, the more likely it is that rotation has occurred.</p></pageText><resources><resource resourceType="image" resourceWidth="341" resourceHeight="450" resourceLocation="facialform/images/kirkland_front.jpg" thumbnailWidth="61" thumbnailHeight="80" thumbnailLocation="facialform/images/kirkland_front_s.jpg"><label>Image 1</label><caption><p>Long face, with excessive display of maxillary gingiva.</p></caption></resource><resource resourceType="image" resourceWidth="400" resourceHeight="450" resourceLocation="facialform/images/6-42d.gif" thumbnailWidth="71" thumbnailHeight="80" thumbnailLocation="facialform/images/6-42d_s.gif"><label>Image 2</label><caption><p>Downward-backward rotation of the mandible.</p></caption></resource><resource resourceType="image" resourceWidth="319" resourceHeight="450" resourceLocation="facialform/images/kirkland_profile.jpg" thumbnailWidth="57" thumbnailHeight="80" thumbnailLocation="facialform/images/kirkland_profile_s.jpg"><label>Image 3</label><caption><p>Downward-backward rotation of mandible (same patient as image 1).</p></caption></resource><resource resourceType="image" resourceWidth="300" resourceHeight="450" resourceLocation="facialform/images/6-20.jpg" thumbnailWidth="53" thumbnailHeight="80" thumbnailLocation="facialform/images/6-20_s.jpg"><label>Image 4</label><caption><p>Clinical determination of mandibular plane angle, which for this patient is within the normal range, but on the steep side.</p></caption></resource></resources></page><page pageType="content"><title>Critical Questions for Facial Form Analysis</title><pageText><p>There are six major questions to be answered in facial form analysis, 
+though not necessarily in this order:</p>
+
+<p>The first relates to anteroposterior skeletal jaw relationships: <i>What is the 
+anteroposterior position of each jaw and how do the jaws relate to 
+each other?</i></p>
+
+<p>The second is the vertical jaw relationship: <i>What are the vertical facial 
+proportions, especially in the lower 1/3 of the face?</i></p>
+
+<p>The third is the transverse jaw relationship: <i>Is the face symmetric?</i></p>
+
+<p>Fourth is the transverse position of the upper dental arch relative to the face: 
+<i>Are the upper incisors in the center of the face? Are the buccal corridors wide, 
+normal or narrow?</i></p>
+
+<p>Fifth is the vertical incisor position: <i>Are the incisors correctly 
+positioned vertically relative to the lips, so that incisor display 
+is optimal?</i></p>
+
+<p>We’ve answered these. Now let’s consider the last one:</p>
+
+<p><i>Do the incisors provide proper lip support, or are they retrusive 
+or protrusive?</i></p>
+
+<p>Facial form analysis and space analysis are the key diagnostic 
+procedures in evaluating potential orthodontic problems in children, 
+and this is where they overlap. As we will emphasize further in the 
+module on space analysis, you can’t interpret the result of space 
+analysis until you know where the incisors are positioned in the a-p 
+plane of space and, if the incisors need to be repositioned, the 
+direction in which they would be moved.</p></pageText><resources/></page></pages></section><section><title>Lateral View: Tooth-Lip Relationships</title><pages><page pageType="content"><title>Lip Position Related to Incisor Position</title><pageText><p>Lip position and incisor prominence are evaluated by viewing the profile with the patient’s lips relaxed, and observing the position of the upper lip relative to a true vertical line through the concavity at the base of the upper lip (soft tissue point A) (image 1). Then the position of the lower lip relative to a true vertical line through the bottom of the concavity between the lip and chin (soft tissue point B) is observed.</p>
+<p>If either lip is significantly forward from the reference line, it can be judged as protrusive; if it falls behind this line, it’s retrusive. For this girl, the lower lip is quite protrusive relative to the chin, while the prominence of the upper lip is normally-related to the base of the lip. If the lips are prominent, incompetent (separated at rest by more than 3-4 mm) (image 2) and strained on closure (image 3), the anterior teeth are excessively protrusive.</p></pageText><resources><resource resourceType="image" resourceWidth="300" resourceHeight="450" resourceLocation="facialform/images/6-17.jpg" thumbnailWidth="53" thumbnailHeight="80" thumbnailLocation="facialform/images/6-17_s.jpg"><label>Image 1</label><caption><p>Note the difference in the position of the upper lip to its base (soft tissue point A) and the lower lip relative to its base (soft tissue point B).</p></caption></resource><resource resourceType="image" resourceWidth="310" resourceHeight="450" resourceLocation="facialform/images/lip_incompetence.jpg" thumbnailWidth="55" thumbnailHeight="80" thumbnailLocation="facialform/images/lip_incompetence_s.jpg"><label>Image 2</label><caption><p>Excessive separation of the lips is seen particularly well in an oblique (three-quarter) view of the face.</p></caption></resource><resource resourceType="image" resourceWidth="307" resourceHeight="450" resourceLocation="facialform/images/lip_strain.jpg" thumbnailWidth="55" thumbnailHeight="80" thumbnailLocation="facialform/images/lip_strain_s.jpg"><label>Image 3</label><caption><p>Note the lip strain when she brings her lips together.</p></caption></resource></resources></page><page pageType="content"><title>Lip Position Related to Incisor Position (cont.)</title><pageText><p>Remember, if the lips are prominent, incompetent (separated at rest by more than 3-4 mm) (image 1) and strained on closure (image 2), the anterior teeth are excessively protrusive (image 3).</p>
+<p>The incisor protrusion is more obvious in the radiograph, but it can be detected easily from examining the profile, and you can judge just from the profile that in this girl the incisor protrusion is severe.</p></pageText><resources><resource resourceType="image" resourceWidth="375" resourceHeight="450" resourceLocation="facialform/images/6-16a.jpg" thumbnailWidth="67" thumbnailHeight="80" thumbnailLocation="facialform/images/6-16a_s.jpg"><label>Image 1</label><caption><p>Prominent and incompetent lips.</p></caption></resource><resource resourceType="image" resourceWidth="375" resourceHeight="450" resourceLocation="facialform/images/6-16b.jpg" thumbnailWidth="67" thumbnailHeight="80" thumbnailLocation="facialform/images/6-16b_s.jpg"><label>Image 2</label><caption><p>Lip strain on closure.</p></caption></resource><resource resourceType="image" resourceWidth="375" resourceHeight="450" resourceLocation="facialform/images/6-16c.jpg" thumbnailWidth="67" thumbnailHeight="80" thumbnailLocation="facialform/images/6-16c_s.jpg"><label>Image 3</label><caption><p>Extremely protrusive incisors in both arches (same patient). The soft tissue profile reflects this protrusion of the incisors.</p></caption></resource></resources></page><page pageType="content"><title>Lip Support by Incisors</title><pageText><p>Can orthodontic movement of the anterior teeth affect the prominence of the lips? Yes, it can. Moving the incisors forward (facially) increases the amount of support for the lips and increases their prominence. Moving the incisors back (lingually) decreases lip support and lip prominence.</p>
+<p>For this reason, evaluating lip prominence and incisor protrusion is a particularly important aspect of facial form analysis. This is a primary determinant of whether arch expansion or tooth extraction to make space for crowded teeth is indicated (images 1-4).</p></pageText><resources><resource resourceType="image" resourceWidth="300" resourceHeight="450" resourceLocation="facialform/images/8-09a.jpg" thumbnailWidth="53" thumbnailHeight="80" thumbnailLocation="facialform/images/8-09a_s.jpg"><label>Image 1</label><caption><p>Protrusive incisors, appearance on smile.</p></caption></resource><resource resourceType="image" resourceWidth="300" resourceHeight="450" resourceLocation="facialform/images/8-09c.jpg" thumbnailWidth="53" thumbnailHeight="80" thumbnailLocation="facialform/images/8-09c_s.jpg"><label>Image 2</label><caption><p>Appearance after premolar extraction and retraction of incisors.</p></caption></resource><resource resourceType="image" resourceWidth="300" resourceHeight="450" resourceLocation="facialform/images/8-09b.jpg" thumbnailWidth="53" thumbnailHeight="80" thumbnailLocation="facialform/images/8-09b_s.jpg"><label>Image 3</label><caption><p>Prominent and incompetent lips, protrusive incisors.</p></caption></resource><resource resourceType="image" resourceWidth="300" resourceHeight="450" resourceLocation="facialform/images/8-09d.jpg" thumbnailWidth="53" thumbnailHeight="80" thumbnailLocation="facialform/images/8-09d_s.jpg"><label>Image 4</label><caption><p>Reduction in lip prominence after retraction of incisors.</p></caption></resource></resources></page></pages></section><section><title>Facial Form Analysis Exercises: Frontal</title><pages><page pageType="content"><title>Patient #1</title><pageText><p>For this patient: What’s your judgment as to</p>
+
+<p class="noSpaceAfter">facial symmetry?</p>
+<ul class="noSpaceBefore"><li>within normal limit or asymmetric</li>
+  <li>if present, location of asymmetry</li>
+</ul><p class="noSpaceAfter">incisor tooth display?</p>
+<ul class="noSpaceBefore"><li>OK, too little, too much (excess gingiva)</li>
+</ul><p class="noSpaceAfter">buccal corridor width</p>
+<ul class="noSpaceBefore"><li>OK, too little, too much</li>
+</ul><p class="noSpaceAfter">smile arc</p>
+<ul class="noSpaceBefore"><li>OK, flat, excessive</li>
+</ul></pageText><resources><resource resourceType="image" resourceWidth="324" resourceHeight="450" resourceLocation="facialform/images/desmarais1.jpg" thumbnailWidth="58" thumbnailHeight="80" thumbnailLocation="facialform/images/desmarais1_s.jpg"><label>Image 1</label><caption/></resource><resource resourceType="image" resourceWidth="376" resourceHeight="450" resourceLocation="facialform/images/desmarais2.jpg" thumbnailWidth="67" thumbnailHeight="80" thumbnailLocation="facialform/images/desmarais2_s.jpg"><label>Image 2</label><caption/></resource></resources></page><page pageType="content"><title>Patient #1 (cont.)</title><pageText><p>You should see that this patient has</p>
+
+<ul class="spaced"><li>significant asymmetry: note that her face is larger on the right side</li>
+<li>tooth display: relatively normal on left side, affected by asymmetry on 
+right side</li>
+<li>buccal corridor width: excessive on right, OK on left</li>
+<li>smile arc: abnormal because of asymmetry</li>
+</ul></pageText><resources><resource resourceType="image" resourceWidth="324" resourceHeight="450" resourceLocation="facialform/images/desmarais1.jpg" thumbnailWidth="58" thumbnailHeight="80" thumbnailLocation="facialform/images/desmarais1_s.jpg"><label>Image 1</label><caption/></resource><resource resourceType="image" resourceWidth="376" resourceHeight="450" resourceLocation="facialform/images/desmarais2.jpg" thumbnailWidth="67" thumbnailHeight="80" thumbnailLocation="facialform/images/desmarais2_s.jpg"><label>Image 2</label><caption/></resource></resources></page><page pageType="content"><title>Patient #2</title><pageText><p>For this patient: What’s your judgment as to</p>
+
+<p class="noSpaceAfter">facial symmetry?</p>
+<ul class="noSpaceBefore"><li>within normal limit or asymmetric</li>
+  <li>if present, location of asymmetry</li>
+</ul><p class="noSpaceAfter">incisor display?</p>
+<ul class="noSpaceBefore"><li>OK, too little, too much (excess gingiva)</li>
+</ul><p class="noSpaceAfter">buccal corridor width</p>
+<ul class="noSpaceBefore"><li>OK, too little, too much</li>
+</ul><p class="noSpaceAfter">smile arc</p>
+<ul class="noSpaceBefore"><li>OK, flat, excessive</li>
+</ul></pageText><resources><resource resourceType="image" resourceWidth="354" resourceHeight="450" resourceLocation="facialform/images/sanders1.jpg" thumbnailWidth="63" thumbnailHeight="80" thumbnailLocation="facialform/images/sanders1_s.jpg"><label>Image 1</label><caption/></resource><resource resourceType="image" resourceWidth="353" resourceHeight="450" resourceLocation="facialform/images/sanders2.jpg" thumbnailWidth="63" thumbnailHeight="80" thumbnailLocation="facialform/images/sanders2_s.jpg"><label>Image 2</label><caption/></resource></resources></page><page pageType="content"><title>Patient #2 (cont.)</title><pageText><p>You should see that this patient has</p>
+
+<ul class="spaced"><li>mild mandibular asymmetry, with his chin off to the left—but 
+probably not enough for it to be a problem</li>
+<li>normal incisor display</li>
+<li>excessive buccal corridor width: too much space between the posterior 
+teeth and the cheeks</li>
+<li>normal smile arc</li>
+</ul></pageText><resources><resource resourceType="image" resourceWidth="354" resourceHeight="450" resourceLocation="facialform/images/sanders1.jpg" thumbnailWidth="63" thumbnailHeight="80" thumbnailLocation="facialform/images/sanders1_s.jpg"><label>Image 1</label><caption/></resource><resource resourceType="image" resourceWidth="353" resourceHeight="450" resourceLocation="facialform/images/sanders2.jpg" thumbnailWidth="63" thumbnailHeight="80" thumbnailLocation="facialform/images/sanders2_s.jpg"><label>Image 2</label><caption/></resource></resources></page><page pageType="content"><title>Patient #3</title><pageText><p>For this patient: What’s your judgment as to</p>
+
+<p class="noSpaceAfter">facial symmetry?</p>
+<ul class="noSpaceBefore"><li>within normal limit or asymmetric</li>
+  <li>if present, location of asymmetry</li>
+</ul><p class="noSpaceAfter">incisor display?</p>
+<ul class="noSpaceBefore"><li>OK, too little, too much (excess gingiva)</li>
+</ul><p class="noSpaceAfter">buccal corridor width</p>
+<ul class="noSpaceBefore"><li>OK, too little, too much</li>
+</ul><p class="noSpaceAfter">smile arc</p>
+<ul class="noSpaceBefore"><li>OK, flat, excessive</li>
+</ul></pageText><resources><resource resourceType="image" resourceWidth="415" resourceHeight="450" resourceLocation="facialform/images/munns1.jpg" thumbnailWidth="74" thumbnailHeight="80" thumbnailLocation="facialform/images/munns1_s.jpg"><label>Image 1</label><caption/></resource><resource resourceType="image" resourceWidth="331" resourceHeight="450" resourceLocation="facialform/images/munns2.jpg" thumbnailWidth="59" thumbnailHeight="80" thumbnailLocation="facialform/images/munns2_s.jpg"><label>Image 2</label><caption/></resource></resources></page><page pageType="content"><title>Patient #3 (cont.)</title><pageText><p>You should see that this patient has</p>
+<ul class="spaced"><li>significant mandibular asymmetry. Compare him to Patient #1 (seen in Image 2). Can you see that for him the asymmetry is just in the lower face, instead of affecting the entire face as in #1? This time the problem is due to excessive growth of the mandible on the left side.</li>
+<li>incisor display: inadequate display of upper incisors, displays lower incisors that should not be seen at this age</li>
+<li>buccal corridor width: not seen well enough to evaluate</li>
+<li>smile arc: flattened (upper teeth are hardly visible but don’t follow the lip line)</li>
+</ul></pageText><resources><resource resourceType="image" resourceWidth="415" resourceHeight="450" resourceLocation="facialform/images/munns1.jpg" thumbnailWidth="74" thumbnailHeight="80" thumbnailLocation="facialform/images/munns1_s.jpg"><label>Image 1</label><caption/></resource><resource resourceType="image" resourceWidth="324" resourceHeight="450" resourceLocation="facialform/images/desmarais1.jpg" thumbnailWidth="58" thumbnailHeight="80" thumbnailLocation="facialform/images/desmarais1_s.jpg"><label>Image 2, Patient #1</label><caption/></resource><resource resourceType="image" resourceWidth="331" resourceHeight="450" resourceLocation="facialform/images/munns2.jpg" thumbnailWidth="59" thumbnailHeight="80" thumbnailLocation="facialform/images/munns2_s.jpg"><label>Image 3</label><caption/></resource></resources></page><page pageType="content"><title>Patient #4</title><pageText><p>For this patient: What’s your judgment as to</p>
+
+<p class="noSpaceAfter">facial symmetry?</p>
+<ul class="noSpaceBefore"><li>within normal limit or asymmetric</li>
+  <li>if present, location of asymmetry</li>
+</ul><p class="noSpaceAfter">incisor display?</p>
+<ul class="noSpaceBefore"><li>OK, too little, too much (excess gingiva)</li>
+</ul><p class="noSpaceAfter">buccal corridor width</p>
+<ul class="noSpaceBefore"><li>OK, too little, too much</li>
+</ul><p class="noSpaceAfter">smile arc</p>
+<ul class="noSpaceBefore"><li>OK, flat, excessive</li>
+</ul></pageText><resources><resource resourceType="image" resourceWidth="362" resourceHeight="450" resourceLocation="facialform/images/cuevas1.jpg" thumbnailWidth="64" thumbnailHeight="80" thumbnailLocation="facialform/images/cuevas1_s.jpg"><label>Image 1</label><caption/></resource><resource resourceType="image" resourceWidth="365" resourceHeight="450" resourceLocation="facialform/images/cuevas2.jpg" thumbnailWidth="65" thumbnailHeight="80" thumbnailLocation="facialform/images/cuevas2_s.jpg"><label>Image 2</label><caption/></resource></resources></page><page pageType="content"><title>Patient #4 (cont.)</title><pageText><p>You should see that this patient has</p>
+
+<ul class="spaced"><li>no asymmetry</li>
+  <li>too little display of maxillary incisors</li>
+  <li>normal buccal corridor width</li>
+  <li>flattened smile arc</li>
+</ul></pageText><resources><resource resourceType="image" resourceWidth="362" resourceHeight="450" resourceLocation="facialform/images/cuevas1.jpg" thumbnailWidth="64" thumbnailHeight="80" thumbnailLocation="facialform/images/cuevas1_s.jpg"><label>Image 1</label><caption/></resource><resource resourceType="image" resourceWidth="365" resourceHeight="450" resourceLocation="facialform/images/cuevas2.jpg" thumbnailWidth="65" thumbnailHeight="80" thumbnailLocation="facialform/images/cuevas2_s.jpg"><label>Image 2</label><caption/></resource></resources></page><page pageType="content"><title>Patient #5</title><pageText><p>For this patient: What’s your judgment as to</p>
+
+<p class="noSpaceAfter">facial symmetry?</p>
+<ul class="noSpaceBefore"><li>within normal limit or asymmetric</li>
+  <li>if present, location of asymmetry</li>
+</ul><p class="noSpaceAfter">incisor display?</p>
+<ul class="noSpaceBefore"><li>OK, too little, too much (excess gingiva)</li>
+</ul><p class="noSpaceAfter">buccal corridor width</p>
+<ul class="noSpaceBefore"><li>OK, too little, too much</li>
+</ul><p class="noSpaceAfter">smile arc</p>
+<ul class="noSpaceBefore"><li>OK, flat, excessive</li>
+</ul></pageText><resources><resource resourceType="image" resourceWidth="329" resourceHeight="450" resourceLocation="facialform/images/clark1.jpg" thumbnailWidth="59" thumbnailHeight="80" thumbnailLocation="facialform/images/clark1_s.jpg"><label>Image 1</label><caption/></resource><resource resourceType="image" resourceWidth="329" resourceHeight="450" resourceLocation="facialform/images/clark2.jpg" thumbnailWidth="59" thumbnailHeight="80" thumbnailLocation="facialform/images/clark2_s.jpg"><label>Image 2</label><caption/></resource></resources></page><page pageType="content"><title>Patient #5 (cont.)</title><pageText><p>You should see that this patient has</p>
+
+<ul class="spaced"><li>a mild chin asymmetry, not enough to be a problem</li>
+  <li>
+    marginally adequate maxillary tooth display, some display of 
+    lower incisors
+  </li>
+  <li>minimal buccal corridor width, perhaps too little</li>
+  <li>slightly flattened smile arc</li>
+</ul></pageText><resources><resource resourceType="image" resourceWidth="329" resourceHeight="450" resourceLocation="facialform/images/clark1.jpg" thumbnailWidth="59" thumbnailHeight="80" thumbnailLocation="facialform/images/clark1_s.jpg"><label>Image 1</label><caption/></resource><resource resourceType="image" resourceWidth="329" resourceHeight="450" resourceLocation="facialform/images/clark2.jpg" thumbnailWidth="59" thumbnailHeight="80" thumbnailLocation="facialform/images/clark2_s.jpg"><label>Image 2</label><caption/></resource></resources></page></pages></section><section><title>Facial Form Analysis Exercises: Profile</title><pages><page pageType="content"><title>Patient #6</title><pageText><p>For this patient: What’s your judgment as to</p>
+<p class="noSpaceAfter">antero-posterior skeletal jaw relationship</p>
+<ul class="noSpaceBefore"><li>Class I (normal)</li>
+<li>Class II</li>
+<li>Class III</li>
+</ul><p class="noSpaceAfter">vertical skeletal jaw relationship</p>
+<ul class="noSpaceBefore"><li>normal</li>
+<li>long face</li>
+<li>short face</li>
+</ul><p class="noSpaceAfter">tooth support for lip --&gt; lip prominence</p>
+<ul class="noSpaceBefore"><li>excessive</li>
+<li>normal</li>
+<li>inadequate</li>
+</ul></pageText><resources><resource resourceType="image" resourceWidth="300" resourceHeight="450" resourceLocation="facialform/images/steele1.jpg" thumbnailWidth="53" thumbnailHeight="80" thumbnailLocation="facialform/images/steele1_s.jpg"><label/><caption/></resource></resources></page><page pageType="content"><title>Patient #6 (cont.)</title><pageText><p>For this patient you should say</p>
+
+<ul class="spaced"><li>skeletal A-P: Class II</li>
+  <li>skeletal vertical: long face</li>
+  <li>lip prominence: OK</li>
+  <li>tooth support for lip: OK (a little deficient for upper lip, a little excessive for lower?)</li>
+</ul></pageText><resources><resource resourceType="image" resourceWidth="300" resourceHeight="450" resourceLocation="facialform/images/steele1.jpg" thumbnailWidth="53" thumbnailHeight="80" thumbnailLocation="facialform/images/steele1_s.jpg"><label>Image 1</label><caption/></resource></resources></page><page pageType="content"><title>Patient #7</title><pageText><p>For this patient: What’s your judgment as to</p>
+<p class="noSpaceAfter">antero-posterior skeletal jaw relationship</p>
+<ul class="noSpaceBefore"><li>Class I (normal)</li>
+<li>Class II</li>
+<li>Class III</li>
+</ul><p class="noSpaceAfter">vertical skeletal jaw relationship</p>
+<ul class="noSpaceBefore"><li>normal</li>
+<li>long face</li>
+<li>short face</li>
+</ul><p class="noSpaceAfter">tooth support for lip --&gt; lip prominence</p>
+<ul class="noSpaceBefore"><li>excessive</li>
+<li>normal</li>
+<li>inadequate</li>
+</ul></pageText><resources><resource resourceType="image" resourceWidth="321" resourceHeight="450" resourceLocation="facialform/images/joiner1.jpg" thumbnailWidth="57" thumbnailHeight="80" thumbnailLocation="facialform/images/joiner1_s.jpg"><label/><caption/></resource></resources></page><page pageType="content"><title>Patient #7 (cont.)</title><pageText><p>For this patient you should see:</p>
+<ul class="spaced"><li>skeletal A-P: Class II</li>
+<li>skeletal vertical: long face</li>
+<li>lip prominence: OK upper, excessive lower</li>
+<li>tooth support for lip OK upper, excessive lower</li>
+</ul></pageText><resources><resource resourceType="image" resourceWidth="321" resourceHeight="450" resourceLocation="facialform/images/joiner1.jpg" thumbnailWidth="57" thumbnailHeight="80" thumbnailLocation="facialform/images/joiner1_s.jpg"><label/><caption/></resource></resources></page><page pageType="content"><title>Patient #8</title><pageText><p>For this patient: What’s your judgment as to</p>
+<p class="noSpaceAfter">antero-posterior skeletal jaw relationship</p>
+<ul class="noSpaceBefore"><li>Class I (normal)</li>
+<li>Class II</li>
+<li>Class III</li>
+</ul><p class="noSpaceAfter">vertical skeletal jaw relationship</p>
+<ul class="noSpaceBefore"><li>normal</li>
+<li>long face</li>
+<li>short face</li>
+</ul><p class="noSpaceAfter">tooth support for lip --&gt; lip prominence</p>
+<ul class="noSpaceBefore"><li>excessive</li>
+<li>normal</li>
+<li>inadequate</li>
+</ul></pageText><resources><resource resourceType="image" resourceWidth="356" resourceHeight="450" resourceLocation="facialform/images/giffin1.jpg" thumbnailWidth="63" thumbnailHeight="80" thumbnailLocation="facialform/images/giffin1_s.jpg"><label/><caption/></resource></resources></page><page pageType="content"><title>Patient #8 (cont.)</title><pageText><p>For this patient you should see</p>
+<ul class="spaced"><li>skeletal A-P: Class II (despite prominent chin)</li>
+<li>skeletal vertical short face</li>
+<li>lip prominence: normal</li>
+<li>tooth support for lip: upper, normal; lower, inadequate</li>
+</ul></pageText><resources><resource resourceType="image" resourceWidth="356" resourceHeight="450" resourceLocation="facialform/images/giffin1.jpg" thumbnailWidth="63" thumbnailHeight="80" thumbnailLocation="facialform/images/giffin1_s.jpg"><label/><caption/></resource></resources></page><page pageType="content"><title>Patient #9</title><pageText><p>For this patient: What’s your judgment as to</p>
+<p class="noSpaceAfter">antero-posterior skeletal jaw relationship</p>
+<ul class="noSpaceBefore"><li>Class I (normal)</li>
+<li>Class II</li>
+<li>Class III</li>
+</ul><p class="noSpaceAfter">vertical skeletal jaw relationship</p>
+<ul class="noSpaceBefore"><li>normal</li>
+<li>long face</li>
+<li>short face</li>
+</ul><p class="noSpaceAfter">tooth support for lip --&gt; lip prominence</p>
+<ul class="noSpaceBefore"><li>excessive</li>
+<li>normal</li>
+<li>inadequate</li>
+</ul></pageText><resources><resource resourceType="image" resourceWidth="338" resourceHeight="450" resourceLocation="facialform/images/matthews1.jpg" thumbnailWidth="60" thumbnailHeight="80" thumbnailLocation="facialform/images/matthews1_s.jpg"><label/><caption/></resource></resources></page><page pageType="content"><title>Patient #9 (cont.)</title><pageText><p>For this patient you should see</p>
+<ul class="spaced"><li>A-P skeletal: Class III: Is it apparent to you that she has some maxillary deficiency, although the large mandible is the major contributor to the skeletal Class III?</li>
+<li>vertical skeletal: normal</li>
+<li>lip prominence: inadequate upper, OK lower</li>
+<li>tooth support for lip: inadequate upper, OK lower</li>
+</ul></pageText><resources><resource resourceType="image" resourceWidth="338" resourceHeight="450" resourceLocation="facialform/images/matthews1.jpg" thumbnailWidth="60" thumbnailHeight="80" thumbnailLocation="facialform/images/matthews1_s.jpg"><label/><caption/></resource></resources></page><page pageType="content"><title>Patient #10</title><pageText><p>For this patient: What’s your judgment as to</p>
+<p class="noSpaceAfter">antero-posterior skeletal jaw relationship</p>
+<ul class="noSpaceBefore"><li>Class I (normal)</li>
+<li>Class II</li>
+<li>Class III</li>
+</ul><p class="noSpaceAfter">vertical skeletal jaw relationship</p>
+<ul class="noSpaceBefore"><li>normal</li>
+<li>long face</li>
+<li>short face</li>
+</ul><p class="noSpaceAfter">tooth support for lip --&gt; lip prominence</p>
+<ul class="noSpaceBefore"><li>excessive</li>
+<li>normal</li>
+<li>inadequate</li>
+</ul></pageText><resources><resource resourceType="image" resourceWidth="336" resourceHeight="450" resourceLocation="facialform/images/wingfield1.jpg" thumbnailWidth="60" thumbnailHeight="80" thumbnailLocation="facialform/images/wingfield1_s.jpg"><label/><caption/></resource></resources></page><page pageType="content"><title>Patient #10</title><pageText><p>For this patient you should see</p>
+<ul class="spaced"><li>skeletal A-P: Class III</li>
+<li>skeletal vertical: long face</li>
+<li>lip prominence: inadequate (note that the upper lip is worse than the lower lip)</li>
+<li>tooth support for lip: inadequate</li>
+</ul></pageText><resources><resource resourceType="image" resourceWidth="336" resourceHeight="450" resourceLocation="facialform/images/wingfield1.jpg" thumbnailWidth="60" thumbnailHeight="80" thumbnailLocation="facialform/images/wingfield1_s.jpg"><label/><caption/></resource></resources></page><page pageType="content"><title>Summary</title><pageText><p>What difference does it make if a dentist can or can’t recognize 
+facial disproportions? Why do you need to develop the ability to evaluate 
+facial and dental proportions?</p>
+
+<p>The answer is straightforward: this is the process you will use to evaluate 
+the severity of an orthodontic problem and whether you would refer the 
+patient to a specialist for treatment of this problem or treat it yourself. 
+The process is referred to as “orthodontic triage”. It’s 
+just an organized way to sort patients by the severity of their orthodontic 
+problems (triage comes from the French verb trier, to sort). As you move on 
+to Levels 3 and 4 in the Growth &amp; Development sequence, 
+you’ll be applying your ability to detect jaw relationships and 
+tooth-lip relationships as you conduct orthodontic triage.</p></pageText><resources/></page><page pageType="content"><title>Referral to Self-Test</title><pageText><p>Before you take the self-test, be sure to read the assignment in <i>Contemporary Orthodontics</i>: pages 158-172 in the 5th edition, pages 176-189 in the 4th edition. Then use the self-test to be sure you have understood this important material.</p></pageText><resources/></page></pages></section><section><title>Self-Test</title><pages><page pageType="test"><title>Question 1</title><pageText><p>Which of these are characteristic of skeletal Class II?</p>
+
+<ol><li>Mandibular retrusion</li>
+<li>Increased overjet</li>
+<li>Long lower face height</li>
+<li>Excessive lip prominence</li>
+<li>Lip incompetence</li>
+</ol></pageText><choices correctChoice="1"><choice>1 and 2</choice><choice>3 and 4</choice><choice>1, 2, and 3</choice><choice>3, 4, and 5</choice><choice>all the above</choice></choices><correctResponse><p>That’s right, mandibular retrusion and increased overjet are 
+characteristic of skeletal Class II. The other three may or may not be present 
+in a child with a skeletal Class II problem, and aren’t characteristic 
+of skeletal Class II.</p></correctResponse><incorrectResponse><p>No, that’s wrong. Mandibular retrusion and increased overjet are 
+characteristic of skeletal Class II. The other three may or may not be 
+present in a child with a skeletal Class II problem, and aren’t 
+characteristic of skeletal Class II.</p></incorrectResponse><resources><resource resourceType="image" resourceWidth="600" resourceHeight="450" resourceLocation="facialform/images/allen1.jpg" thumbnailWidth="107" thumbnailHeight="80" thumbnailLocation="facialform/images/allen1_s.jpg"><label/><caption/></resource></resources></page><page pageType="test"><title>Question 2</title><pageText><p>Which of the following are characteristic of skeletal Class III?</p>
+
+<ol><li>large mandible</li>
+<li>concave profile</li>
+<li>long lower face</li>
+<li>maxillary dental protrusion</li>
+</ol></pageText><choices correctChoice="1"><choice>1 and 2</choice><choice>3 and 4</choice><choice>1 and 4</choice><choice>1, 2, and 4</choice><choice>all the above</choice></choices><correctResponse><p>That’s right, a large mandible and concave profile are characteristic of 
+skeletal Class III. A long lower face and maxillary dental protrusion (dental 
+compensation for the skeletal discrepancy) often also are present, but they 
+aren’t characteristic of the skeletal problem.</p></correctResponse><incorrectResponse><p>No, that’s wrong. A large mandible and concave profile are 
+characteristic of skeletal Class III. A long lower face and maxillary 
+dental protrusion (dental compensation for the skeletal discrepancy) often 
+also are present, but they aren’t characteristic of the skeletal problem.</p></incorrectResponse><resources><resource resourceType="image" resourceWidth="299" resourceHeight="450" resourceLocation="facialform/images/blacknell1.jpg" thumbnailWidth="53" thumbnailHeight="80" thumbnailLocation="facialform/images/blacknell1_s.jpg"><label/><caption/></resource></resources></page><page pageType="test"><title>Question 3</title><pageText><p>Which of the following soft tissue findings do <b>not</b> indicate bimaxillary 
+dentoalveolar protrusion?</p>
+
+<ol><li>lips more prominent than nasal tip</li>
+<li>lips touching at rest but forward from soft tissue points A &amp; B</li>
+<li>lips separated at rest but not forward from soft tissue points A &amp; B</li>
+<li>lips forward from soft tissue points A and B and separated at rest</li>
+</ol></pageText><choices correctChoice="3"><choice>1 and 2</choice><choice>3 and 4</choice><choice>1, 2, and 3</choice><choice>2, 3, and 4</choice><choice>none of the above, they all indicate incisor protrusion</choice></choices><correctResponse><p>That’s right, the only correct statement is 4—1,2 and 3 do not 
+indicate excessive incisor protrusion. Incisor protrusion is judged to be 
+excessive only if the lips are forward from soft tissue points A and B and 
+separated at rest. It would be unusual to have lips more prominent than the 
+nasal tip that weren’t indicative of dental protrusion, but that could 
+happen if the nose were small and the lips were large.</p></correctResponse><incorrectResponse><p>No, that’s wrong. The only correct statement is 4—1,2 and 3 do not 
+indicate excessive incisor protrusion. Incisor protrusion is judged to be 
+excessive only if the lips are forward from soft tissue points A and B and 
+separated at rest. It would be unusual to have lips more prominent than the 
+nasal tip that weren’t indicative of dental protrusion, but that could 
+happen if the nose were small and the lips were large.</p></incorrectResponse><resources><resource resourceType="image" resourceWidth="300" resourceHeight="450" resourceLocation="facialform/images/6-17.jpg" thumbnailWidth="53" thumbnailHeight="80" thumbnailLocation="facialform/images/6-17_s.jpg"><label/><caption/></resource></resources></page><page pageType="test"><title>Question 4</title><pageText><p>To which of the following facial characteristics does steepness of the 
+occlusal plane relate?</p>
+
+<ol><li>anterior face height</li>
+<li>mandibular retrusion</li>
+<li>mandibular protrusion</li>
+<li>crowding of incisors</li>
+<li>protrusion of incisors</li>
+</ol></pageText><choices correctChoice="1"><choice>1</choice><choice>1 and 2</choice><choice>1, 2, and 3</choice><choice>3, 4, and 5</choice><choice>none of the above</choice></choices><correctResponse><p>That’s right, anterior face height is the only one of these 
+characteristics that correlates well with the mandibular plane angle. A 
+steep mandibular plane angle usually is found in patients with excessive 
+anterior face height (long face), and a flat mandibular plane angle usually 
+accompanies a short face. But the mandibular plane angle doesn’t relate 
+in a systematic way to the other characteristics. Note the dramatic difference 
+in mandibular plane angle between a long face patient (left) and short 
+face patient (right).</p></correctResponse><incorrectResponse><p>No, that’s incorrect. Anterior face height is the only one of these 
+characteristics that correlates well with the mandibular plane angle. A steep 
+mandibular plane angle usually is found in patients with excessive anterior 
+face height (long face), and a flat mandibular plane angle usually accompanies 
+a short face. But the mandibular plane angle doesn’t relate in a 
+systematic way to the other characteristics. Note the dramatic difference in 
+mandibular plane angle between a long face patient (left) and short 
+face patient (right).</p></incorrectResponse><resources><resource resourceType="image" resourceWidth="600" resourceHeight="331" resourceLocation="facialform/images/long_and_short.jpg" thumbnailWidth="145" thumbnailHeight="80" thumbnailLocation="facialform/images/long_and_short_s.jpg"><label/><caption/></resource></resources></page><page pageType="test"><title>Question 5</title><pageText><p>Which of the following can judged in full face examination of a patient?</p>
+
+<ol><li>upper face symmetry</li>
+<li>lower face symmetry</li>
+<li>vertical facial proportions</li>
+<li>relative mandibular protrusion</li>
+<li>lip protrusion</li>
+</ol></pageText><choices correctChoice="3"><choice>1 and 2</choice><choice>3 and 4</choice><choice>1, 2, and 3</choice><choice>3, 4, and 5</choice><choice>all of the above</choice></choices><correctResponse><p>That’s correct. Upper and lower face symmetry and vertical facial 
+proportions can evaluated from the full face (frontal) view, while 
+mandibular protrusion and lip protrusion must be evaluated from the 
+profile view.</p></correctResponse><incorrectResponse><p>No, that’s incorrect. Upper and lower face symmetry and vertical facial 
+proportions can be evaluated from the full face (frontal) view, while 
+mandibular protrusion and lip protrusion must be evaluated from the profile 
+view.</p></incorrectResponse><resources><resource resourceType="image" resourceWidth="300" resourceHeight="450" resourceLocation="facialform/images/6-11a.jpg" thumbnailWidth="53" thumbnailHeight="80" thumbnailLocation="facialform/images/6-11a_s.jpg"><label/><caption/></resource></resources></page><page pageType="test"><title>Question 6</title><pageText><p>When the distance between soft tissue points A and B are considered, which 
+of the following are within the limits of Class I, skeletal normal?</p>
+
+<ol><li>6 mm</li>
+<li>4 mm</li>
+<li>2 mm</li>
+<li>0 mm</li>
+<li>-2 mm</li>
+</ol></pageText><choices correctChoice="5"><choice>1 and 2</choice><choice>3 and 4</choice><choice>2, 3, and 4</choice><choice>3, 4, and 5</choice><choice>all of the above</choice></choices><correctResponse><p>That’s right, all of these measurements are within the 
+limits of normal, which extend from 6 to -2 mm. Judged from soft tissue 
+landmarks, skeletal Class II is &gt;6 mm, and skeletal Class III is &gt;-2 mm.</p></correctResponse><incorrectResponse><p>That’s wrong. All of these measurements are within the limits of 
+normal, which extend from 6 to -2 mm. Judged from soft tissue landmarks, 
+skeletal Class II is &gt;6 mm, and skeletal Class III is &gt; -2 mm.</p></incorrectResponse><resources/></page><page pageType="test"><title>Question 7</title><pageText><p>In which of the following orthodontic clinical conditions would the 
+patient’s facial form play a major role in the ultimate treatment plan?</p>
+
+<ol><li>jaw asymmetry</li>
+<li>crowded lower incisors</li>
+<li>anterior open bite</li>
+<li>spaced and protruding upper incisors</li>
+</ol></pageText><choices correctChoice="4"><choice>1 and 2</choice><choice>3 and 4</choice><choice>1, 2, and 3</choice><choice>all of the above</choice><choice>none of the above</choice></choices><correctResponse><p>That’s right, in all of these conditions the treatment plan would 
+depend in large measure on facial form analysis; that is, the treatment 
+plan easily could be different for identical malocclusions for patients 
+with different facial proportions.</p></correctResponse><incorrectResponse><p>No, that’s wrong. In all of these conditions the treatment plan would 
+depend in large measure on facial form analysis; that is, the treatment 
+plan easily could be different for identical malocclusions for patients 
+with different facial proportions.</p></incorrectResponse><resources/></page><page pageType="test"><title>Question 8</title><pageText><p>Which of the following correctly describe the relationship between facial 
+proportions, esthetics and beauty?</p>
+
+<ol><li>Faces with more than moderate disproportions are judged unesthetic</li>
+<li>Perfect symmetry is highly associated with beauty</li>
+<li>Proportional faces are judged esthetically acceptable under almost all 
+circumstances</li>
+<li>If the lips are competent, dental protrusion is considered highly 
+unesthetic</li>
+</ol></pageText><choices correctChoice="3"><choice>1 and 2</choice><choice>2 and 3</choice><choice>1 and 3</choice><choice>2, 3, and 4</choice><choice>all of the above</choice></choices><correctResponse><p>That’s right, statements 1 and 3 are correct, 2 and 4 are not. Major 
+facial disproportions (more than moderate disproportions) are considered 
+unesthetic. To draw an unesthetic face, the artist always alters the normal 
+facial proportions. Proportional faces are almost always considered 
+esthetically acceptable, though they may not be considered beautiful. 
+Beautiful faces have slight asymmetries—perfectly symmetrical faces 
+(or dentitions) have an unnatural look. Dental protrusion is not an esthetic 
+problem until excessive lip separation at rest (lip incompetence) occurs.</p></correctResponse><incorrectResponse><p>That’s wrong. Statements 1 and 3 are correct, 2 and 4 are not. Major 
+facial disproportions (more than moderate disproportions) are considered 
+unesthetic. To draw an unesthetic face, the artist always alters the normal 
+facial proportions. Proportional faces are almost always considered 
+esthetically acceptable, though they may not be considered beautiful. 
+Beautiful faces have slight asymmetries—perfectly symmetric faces 
+(or dentitions) have an unnatural look. Dental protrusion is not an esthetic 
+problem until excessive lip separation at rest (lip incompetence) occurs.</p></incorrectResponse><resources/></page><page pageType="test"><title>Question 9</title><pageText><p>What is meant by the term “orthodontic triage”? It is a way of sorting 
+patients by: (choose the ONE best answer)</p></pageText><choices correctChoice="4"><choice>Skeletal vs dental problems</choice><choice>retrusive-normal-protrusive lip positions</choice><choice>the degree of mandibular protrusion, from Class II –ClassI-Class III</choice><choice>the severity of their problems and their prognosis</choice></choices><correctResponse><p>That’s right, triage refers to the process of sorting patients by 
+the severity of their problems. The word comes from the French 
+“trier” (to sort), and it was first used in medicine to 
+refer to sorting casualties during battle based on priority of 
+treatment. A similar process is used to screen orthodontic patients, 
+separating out those with severe problems that would require complex and 
+prolonged treatment from those with moderate problems that would respond 
+to simpler and shorter treatment procedures. Facial form analysis is a key 
+procedure in orthodontic triage.</p></correctResponse><incorrectResponse><p>No, that’s incorrect. Triage refers to the process of sorting 
+patients by the severity of their problems. The word comes from the 
+French “trier” (to sort), and it was first used in medicine 
+to refer to sorting casualties during battle based on priority of treatment. 
+A similar process is used to screen orthodontic patients, separating out 
+those with severe problems that would require complex and prolonged 
+treatment, from those with moderate problems that would respond to simpler 
+and shorter treatment procedures. Facial form analysis is a key procedure 
+in orthodontic triage.</p></incorrectResponse><resources/></page><page pageType="test"><title>Question 10</title><pageText><p>Which of the following are more likely to be seen in a patient with a 
+purely dental malocclusion than ina patient with a skeletal 
+discrepancy?</p>
+
+<ol><li>bimaxillary dentoalveolar protrusion</li>
+<li>excessive lip separation at rest</li>
+<li>anterior deep bite</li>
+<li>dentoalveolar asymmetry</li>
+</ol></pageText><choices correctChoice="1"><choice>1 only</choice><choice>1 and 2</choice><choice>1 and 3</choice><choice>1, 2, and 4</choice><choice>all the above</choice></choices><correctResponse><p>That’s right, bimaxillary dentoalveolar protrusion is most likely to 
+be seen in a patient with only dental discrepancies, although it is seen 
+occasionally in skeletal Class II patients. All three of the other 
+characteristics can occur in a patient with no skeletal discrepancies, 
+but are more likely in patients with skeletal discrepancies. Excessive lip 
+separation at rest is most likely in a long face patient whose mandible has 
+rotated down and back; anterior deep bite is most likely in a short face 
+patient; and dentoalveolar asymmetry is more likely when there also is a 
+jaw discrepancy than in a patient with no skeletal problem.</p></correctResponse><incorrectResponse><p>No, that’s wrong. Bimaxillary dentoalveolar protrusion is most likely 
+to be seen in a patient with only dental discrepancies, although it is seen 
+occasionally in skeletal Class II patients. All three of the other 
+characteristics can occur in a patient with no skeletal discrepancies, but 
+are more likely in patients with skeletal discrepancies. Excessive lip 
+separation at rest is most likely in a long face patient whose mandible 
+has rotated down and back; anterior deep bite is most likely in a short 
+face patient; and dentoalveolar asymmetry is more likely when there also 
+is a jaw discrepancy than in a patient with no skeletal problem.</p></incorrectResponse><resources/></page></pages></section></sections></presentation>
