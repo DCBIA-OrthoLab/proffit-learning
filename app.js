@@ -205,6 +205,11 @@ function areAllPagesInSectionViewed(sectionIndex){
 
 function renderTOC(model){
   const toc = document.getElementById("toc");
+  if(!toc) {
+    console.warn("TOC element not found");
+    return;
+  }
+  
   toc.innerHTML = "";
 
   model.sections.forEach((sec) => {
@@ -626,11 +631,11 @@ async function renderHomePage(){
   const page = document.getElementById("page");
   const toc = document.getElementById("toc");
 
-  // Hide sidebar on home page and adjust layout
-  sidebar.style.display = "none";
+  // Show sidebar on home page for level navigation
+  sidebar.style.display = "block";
   layout.classList.add("home-view");
   
-  // Make content full width
+  // Make content adjust to sidebar
   content.style.maxWidth = "100%";
 
 // Group modules by Level and Unit
@@ -783,6 +788,7 @@ let PAGE_BY_ID = new Map();
 let CURRENT_PAGE_ID = null;
 let CURRENT_MODULE = null;
 let CURRENT_PAGE_INDEX = -1;
+let CURRENT_LEVEL = 'all'; // Track currently selected level
 let VIEWED_PAGES = new Set();
 let TEST_RESULTS = new Map(); // Track test results: pageId -> "correct" or "incorrect"
 let MODAL_ZOOM = 100; // Track modal zoom level
@@ -1142,20 +1148,42 @@ function backToHome(){
   PAGE_BY_ID.clear();
   CURRENT_PAGE_ID = null;
 
-  document.getElementById("sidebar").style.display = "";
-  document.getElementById("toc").innerHTML = "";
+  // Safely update elements that may or may not exist
+  const sidebar = document.getElementById("sidebar");
+  if(sidebar) sidebar.style.display = "";
+  
+  const toc = document.getElementById("toc");
+  if(toc) {
+    toc.innerHTML = "";
+    toc.style.display = "none";
+  }
+
+  // Show level navigation again
+  const levelNav = document.querySelector(".toc");
+  if(levelNav) levelNav.style.display = "block";
 
   const search = document.getElementById("search");
-  search.value = "";
+  if(search) search.value = "";
 
-  document.getElementById("presTitle").textContent = "Available modules";
-  document.getElementById("presSubtitle").textContent = "Select a module to start";
-  document.getElementById("counts").textContent = "";
+  const presTitle = document.getElementById("presTitle");
+  if(presTitle) presTitle.textContent = "Available modules";
+  
+  const presSubtitle = document.getElementById("presSubtitle");
+  if(presSubtitle) presSubtitle.textContent = "Select a module to start";
+  
+  const counts = document.getElementById("counts");
+  if(counts) counts.textContent = "";
 
   // Save progress before going back
   saveModuleProgress();
   
   renderHomePage();
+  
+  // Restore the level filter after rendering
+  setTimeout(() => {
+    initLevelNavigation();
+  }, 50);
+  
   history.replaceState(null, "", "#");
   
   // Restore scroll position after render
@@ -1216,18 +1244,40 @@ async function loadModule(moduleId){
 
     // Show sidebar and reset layout
     const sidebar = document.getElementById("sidebar");
-    sidebar.style.display = "";
+    if(sidebar) sidebar.style.display = "";
     const layout = document.querySelector(".layout");
-    layout.classList.remove("home-view");
+    if(layout) layout.classList.remove("home-view");
     const content = document.getElementById("content");
-    content.style.maxWidth = "";
+    if(content) content.style.maxWidth = "";
     window.scrollTo(0, 0); // Reset scroll for new module
 
-    document.getElementById("presTitle").innerHTML = `<button id="backBtn" class="back-btn">← Home</button>${MODEL.title || moduleInfo.name}`;
-    document.getElementById("presSubtitle").textContent = MODEL.subtitle || "";
-    document.getElementById("counts").textContent = `${MODEL.sections.length} section(s) • ${PAGES.length} page(s)`;
+    // Safely update presentation elements
+    const presTitle = document.getElementById("presTitle");
+    if(presTitle) {
+      presTitle.innerHTML = `<button id="backBtn" class="back-btn">← Home</button>${MODEL.title || moduleInfo.name}`;
+    }
+    
+    const presSubtitle = document.getElementById("presSubtitle");
+    if(presSubtitle) {
+      presSubtitle.textContent = MODEL.subtitle || "";
+    }
+    
+    const counts = document.getElementById("counts");
+    if(counts) {
+      counts.textContent = `${MODEL.sections.length} section(s) • ${PAGES.length} page(s)`;
+    }
 
-    document.getElementById("backBtn").addEventListener("click", backToHome);
+    // Add back button event listener if it exists
+    const backBtn = document.getElementById("backBtn");
+    if(backBtn) {
+      backBtn.addEventListener("click", backToHome);
+    }
+
+    // Hide level navigation and show module TOC
+    const levelNav = document.querySelector(".toc");
+    if(levelNav) levelNav.style.display = "none";
+    const moduleToc = document.getElementById("toc");
+    if(moduleToc) moduleToc.style.display = "block";
 
     renderTOC(MODEL);
 
@@ -1269,8 +1319,15 @@ async function loadModule(moduleId){
     }
   } catch(err) {
     console.error(err);
-    document.getElementById("pageTitle").textContent = "Erreur de chargement";
-    document.getElementById("pageBody").innerHTML = `<p style="color:#ffb3b3">${err.message}</p>`;
+    const pageTitleEl = document.getElementById("pageTitle");
+    const pageBodyEl = document.getElementById("pageBody");
+    
+    if(pageTitleEl) {
+      pageTitleEl.textContent = "Erreur de chargement";
+    }
+    if(pageBodyEl) {
+      pageBodyEl.innerHTML = `<p style="color:#ffb3b3">${err.message}</p>`;
+    }
     backToHome();
   }
 }
@@ -1291,13 +1348,105 @@ async function main(){
     }
   } else {
     renderHomePage();
-    document.getElementById("presTitle").textContent = "Available modules";
+    document.getElementById("presTitle").textContent = "Available Modules";
     document.getElementById("presSubtitle").textContent = "Select a module to start";
   }
 }
 
 main().catch(err => {
   console.error(err);
-  document.getElementById("pageTitle").textContent = "Erreur";
-  document.getElementById("pageBody").innerHTML = `<p style="color:#ffb3b3">${err.message}</p>`;
+  const pageTitleEl = document.getElementById("pageTitle");
+  const pageBodyEl = document.getElementById("pageBody");
+  
+  if(pageTitleEl) {
+    pageTitleEl.textContent = "Erreur";
+  }
+  if(pageBodyEl) {
+    pageBodyEl.innerHTML = `<p style="color:#ffb3b3">${err.message}</p>`;
+  }
 });
+
+// Level navigation functionality
+function initLevelNavigation() {
+  const levelItems = document.querySelectorAll('.toc-item[data-level]');
+  const levelCountsEl = document.getElementById('levelCounts');
+
+  // Add click handlers for level navigation
+  levelItems.forEach(item => {
+    item.addEventListener('click', function() {
+      // Remove active class from all items
+      levelItems.forEach(lvl => lvl.classList.remove('active'));
+      // Add active class to clicked item
+      this.classList.add('active');
+      
+      CURRENT_LEVEL = this.dataset.level;
+      filterModulesByLevel(CURRENT_LEVEL);
+      updateLevelCounts();
+    });
+  });
+
+  // Restore previous level selection
+  restoreLevelSelection();
+
+  function filterModulesByLevel(level) {
+    const levelSections = document.querySelectorAll('.level-section');
+    const moduleCards = document.querySelectorAll('.module-card');
+    
+    if (level === 'all') {
+      // Show all levels
+      levelSections.forEach(section => section.style.display = 'block');
+      moduleCards.forEach(card => card.style.display = 'block');
+    } else {
+      // Show only selected level
+      levelSections.forEach((section, index) => {
+        const levelNumber = index + 1;
+        if (levelNumber.toString() === level) {
+          section.style.display = 'block';
+        } else {
+          section.style.display = 'none';
+        }
+      });
+    }
+  }
+
+  function updateLevelCounts() {
+    const visibleSections = document.querySelectorAll('.level-section:not([style*="display: none"])');
+    const totalModules = MODULES.filter(mod => 
+      CURRENT_LEVEL === 'all' || mod.level.toString() === CURRENT_LEVEL
+    ).length;
+    
+    if (levelCountsEl) {
+      levelCountsEl.textContent = `${visibleSections.length} level(s), ${totalModules} modules`;
+    }
+  }
+
+  function restoreLevelSelection() {
+    // Find and activate the current level tab
+    const targetLevelItem = document.querySelector(`[data-level="${CURRENT_LEVEL}"]`);
+    if (targetLevelItem) {
+      // Remove active from all
+      levelItems.forEach(item => item.classList.remove('active'));
+      // Add active to current level
+      targetLevelItem.classList.add('active');
+      // Apply the filter
+      filterModulesByLevel(CURRENT_LEVEL);
+    }
+    updateLevelCounts();
+  }
+
+  // Initialize counts
+  updateLevelCounts();
+}
+
+// Initialize level navigation when on home page
+document.addEventListener('DOMContentLoaded', function() {
+  // Initialize the home page directly
+  renderHomePage();
+});
+
+// Also initialize when home page is rendered programmatically
+const originalRenderHomePage = renderHomePage;
+renderHomePage = function() {
+  originalRenderHomePage();
+  setTimeout(() => initLevelNavigation(), 100);
+};
