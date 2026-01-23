@@ -1,0 +1,236 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Videos - Orthodontics Instruction</title>
+  <link rel="stylesheet" href="modules.css" />
+</head>
+<body>
+  <header class="topbar">
+    <div class="brand">
+      <div class="brand-title">Available Videos</div>
+      <div class="brand-subtitle">Select a video to start</div>
+    </div>
+    <nav class="nav-tabs">
+      <a href="modules.html" class="nav-tab">Modules</a>
+      <a href="videos.html" class="nav-tab active">Videos</a>
+    </nav>
+    <div class="actions">
+      <input id="searchVideos" type="search" placeholder="Search videos" />
+      <button id="logoutBtn" class="logout-btn" onclick="logout()">Log out</button>
+    </div>
+  </header>
+
+  <main class="layout">
+    <aside class="sidebar">
+      <div class="sidebar-header">
+        <div class="sidebar-title">Video Categories</div>
+      </div>
+      <nav class="toc" aria-label="Categories">
+        <div class="toc-item active" data-category="all">All Videos</div>
+        <div class="toc-item" data-category="growth">Growth & Development</div>
+        <div class="toc-item" data-category="diagnosis">Diagnostic Procedures</div>
+        <div class="toc-item" data-category="treatment">Treatment Concepts</div>
+        <div class="toc-item" data-category="clinical">Clinical Cases</div>
+        <div class="toc-item" data-category="surgery">Surgical Orthodontics</div>
+      </nav>
+    </aside>
+
+    <section class="content">
+      <div class="page">
+        <div class="page-title">Educational Videos</div>
+        
+        <div class="video-grid" id="videoGrid">
+          <!-- Real videos from Video folder -->
+          
+          <!-- Proffit William Videos -->
+          <div class="video-item" data-category="clinical" data-video-path="Video/nitrous_anesthesia/Opioids and post procedure pain control/opioids_and_post_procedure_pain_control_stream-1-200000_.mp4">
+            <div class="video-thumbnail">
+              <div class="video-placeholder">
+                <div class="placeholder-text">Apple Segment Test</div>
+              </div>
+              <video width="320" height="180" preload="metadata" muted style="display: none;">
+                <source src="Video/nitrous_anesthesia/Opioids and post procedure pain control/opioids_and_post_procedure_pain_control_stream-1-200000_.mp4" type="video/mp4">
+              </video>
+              <div class="video-duration">Loading...</div>
+              <div class="play-button">▶</div>
+            </div>
+            <div class="video-info">
+              <h3 class="video-title">Apple Segment Test</h3>
+              <p class="video-description">Clinical test demonstrating apple segment examination techniques for orthodontic assessment.</p>
+              <div class="video-meta">
+                <span class="video-level">Clinical</span>
+                <span class="video-views">Prof. William Proffit</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="video-item" data-category="treatment" data-video-path="Video/nitrous_anesthesia/Opioids and post procedure pain control/opioids_and_post_procedure_pain_control_stream-1-200000_.mp4">
+            <div class="video-thumbnail">
+              <video width="320" height="180" preload="metadata">
+                <source src="Video/nitrous_anesthesia/Opioids and post procedure pain control/opioids_and_post_procedure_pain_control_stream-1-200000_.mp4" type="video/mp4">
+              </video>
+              <div class="video-duration">Loading...</div>
+              <div class="play-button">▶</div>
+            </div>
+            <div class="video-info">
+              <h3 class="video-title">Development of Appliances</h3>
+              <p class="video-description">Evolution and development of orthodontic appliances and their clinical applications.</p>
+              <div class="video-meta">
+                <span class="video-level">Treatment</span>
+                <span class="video-views">Prof. William Proffit</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="video-item" data-category="treatment" data-video-path="Video/nitrous_anesthesia/Opioids and post procedure pain control/opioids_and_post_procedure_pain_control_stream-1-200000_.mp4">
+            <div class="video-thumbnail">
+              <video width="320" height="180" preload="metadata">
+                <source src="Video/nitrous_anesthesia/Opioids and post procedure pain control/opioids_and_post_procedure_pain_control_stream-1-200000_.mp4" type="video/mp4">
+              </video>
+              <div class="video-duration">Loading...</div>
+              <div class="play-button">▶</div>
+            </div>
+            <div class="video-info">
+              <h3 class="video-title">Myofunctional Therapy</h3>
+              <p class="video-description">Introduction to myofunctional therapy techniques in orthodontic treatment.</p>
+              <div class="video-meta">
+                <span class="video-level">Treatment</span>
+                <span class="video-views">Prof. William Proffit</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="video-item" data-category="diagnosis" data-video-path="Video/nitrous_anesthesia/Opioids and post procedure pain control/opioids_and_post_procedure_pain_control_stream-1-200000_.mp4">
+            <div class="video-thumbnail">
+              <video width="320" height="180" preload="metadata">
+                <source src="Video/nitrous_anesthesia/Opioids and post procedure pain control/opioids_and_post_procedure_pain_control_stream-1-200000_.mp4" type="video/mp4">
+              </video>
+              <div class="video-duration">Loading...</div>
+              <div class="play-button">▶</div>
+            </div>
+            <div class="video-info">
+              <h3 class="video-title">Squeeze Test</h3>
+              <p class="video-description">Diagnostic squeeze test technique for evaluating oral function.</p>
+              <div class="video-meta">
+                <span class="video-level">Diagnosis</span>
+                <span class="video-views">Prof. William Proffit</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Surgical Orthodontics -->
+          <div class="video-item" data-category="treatment" data-video-path="Video/nitrous_anesthesia/Opioids and post procedure pain control/opioids_and_post_procedure_pain_control_stream-1-200000_.mp4">
+            <div class="video-thumbnail">
+              <video width="320" height="180" preload="metadata">
+                <source src="Video/nitrous_anesthesia/Opioids and post procedure pain control/opioids_and_post_procedure_pain_control_stream-1-200000_.mp4" type="video/mp4">
+              </video>
+              <div class="video-duration">Loading...</div>
+              <div class="play-button">▶</div>
+            </div>
+            <div class="video-info">
+              <h3 class="video-title">Hierarchy of Stability</h3>
+              <p class="video-description">Understanding the hierarchy of stability in surgical orthodontic treatment.</p>
+              <div class="video-meta">
+                <span class="video-level">Surgery</span>
+                <span class="video-views">Surgical Orthodontics</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Oral Pharyngeal Function -->
+          <div class="video-item" data-category="growth" data-video-path="Video/nitrous_anesthesia/Opioids and post procedure pain control/opioids_and_post_procedure_pain_control_stream-1-200000_.mp4">
+            <div class="video-thumbnail">
+              <video width="320" height="180" preload="metadata">
+                <source src="Video/nitrous_anesthesia/Opioids and post procedure pain control/opioids_and_post_procedure_pain_control_stream-1-200000_.mp4" type="video/mp4">
+              </video>
+              <div class="video-duration">Loading...</div>
+              <div class="play-button">▶</div>
+            </div>
+            <div class="video-info">
+              <h3 class="video-title">Respiration and Morphology I</h3>
+              <p class="video-description">The relationship between respiratory function and craniofacial morphology.</p>
+              <div class="video-meta">
+                <span class="video-level">Growth</span>
+                <span class="video-views">Oral Function</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="video-item" data-category="growth" data-video-path="Video/nitrous_anesthesia/Opioids and post procedure pain control/opioids_and_post_procedure_pain_control_stream-1-200000_.mp4">
+            <div class="video-thumbnail">
+              <video width="320" height="180" preload="metadata">
+                <source src="Video/nitrous_anesthesia/Opioids and post procedure pain control/opioids_and_post_procedure_pain_control_stream-1-200000_.mp4" type="video/mp4">
+              </video>
+              <div class="video-duration">Loading...</div>
+              <div class="play-button">▶</div>
+            </div>
+            <div class="video-info">
+              <h3 class="video-title">Respiration and Morphology II</h3>
+              <p class="video-description">Advanced concepts in respiratory function and facial development.</p>
+              <div class="video-meta">
+                <span class="video-level">Growth</span>
+                <span class="video-views">Oral Function</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Anesthesia Videos -->
+          <div class="video-item" data-category="clinical" data-video-path="Video/nitrous_anesthesia/Opioids and post procedure pain control/opioids_and_post_procedure_pain_control_stream-1-200000_.mp4">
+            <div class="video-thumbnail">
+              <video width="320" height="180" preload="metadata">
+                <source src="Video/nitrous_anesthesia/Opioids and post procedure pain control/opioids_and_post_procedure_pain_control_stream-1-200000_.mp4" type="video/mp4">
+              </video>
+              <div class="video-duration">Loading...</div>
+              <div class="play-button">▶</div>
+            </div>
+            <div class="video-info">
+              <h3 class="video-title">Local Anesthesia</h3>
+              <p class="video-description">Techniques and protocols for local anesthesia in orthodontic procedures.</p>
+              <div class="video-meta">
+                <span class="video-level">Clinical</span>
+                <span class="video-views">Dr. White Ray</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="video-item" data-category="clinical" data-video-path="Video/nitrous_anesthesia/Opioids and post procedure pain control/opioids_and_post_procedure_pain_control_stream-1-200000_.mp4">
+            <div class="video-thumbnail">
+              <video width="320" height="180" preload="metadata">
+                <source src="Video/nitrous_anesthesia/Opioids and post procedure pain control/opioids_and_post_procedure_pain_control_stream-1-200000_.mp4" type="video/mp4">
+              </video>
+              <div class="video-duration">Loading...</div>
+              <div class="play-button">▶</div>
+            </div>
+            <div class="video-info">
+              <h3 class="video-title">Opioids and Post-Procedure Pain Control</h3>
+              <p class="video-description">Managing post-operative pain and the role of opioids in orthodontic care.</p>
+              <div class="video-meta">
+                <span class="video-level">Clinical</span>
+                <span class="video-views">Pain Management</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <script src="videos.js"></script>
+  <script>
+    // Vérifier que l'utilisateur a un token (qu'il est loggé)
+    const token = localStorage.getItem("token");
+    if (!token) {
+      // Pas de token = pas loggé, rediriger
+      window.location.href = "index.html";
+    }
+    
+    // Bouton logout
+    function logout() {
+      localStorage.removeItem("token");
+      window.location.href = "index.html";
+    }
+  </script>
+</body>
+</html>
