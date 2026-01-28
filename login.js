@@ -35,22 +35,38 @@ async function handleLogin(event) {
         return;
     }
 
-    // Check that username and password are exactly "test"
-    if (username === "test" && password === "test") {
-        loginBtn.disabled = true;
-        loginBtn.style.opacity = "0.6";
-        await new Promise(resolve => setTimeout(resolve, 500));
-        localStorage.removeItem("loginAttempts");
-        localStorage.removeItem("loginBlockTime");
-        localStorage.setItem("token", "auth_token_" + Date.now());
-        window.location.href = "modules.html";
-        return;
-    } else {
-        // Increment failed attempts
-        const newAttempts = attempts + 1;
-        localStorage.setItem("loginAttempts", newAttempts.toString());
+    // Call the Netlify function to authenticate
+    loginBtn.disabled = true;
+    loginBtn.style.opacity = "0.6";
+    
+    try {
+        const response = await fetch('/.netlify/functions/authenticate', {
+            method: 'POST',
+            body: JSON.stringify({ username, password })
+        });
+
+        const data = await response.json();
+
+        if (response.ok && data.success) {
+            // Succès
+            localStorage.removeItem("loginAttempts");
+            localStorage.removeItem("loginBlockTime");
+            localStorage.setItem("token", data.token);
+            window.location.href = "modules.html";
+            return;
+        } else {
+            // Échec
+            const newAttempts = attempts + 1;
+            localStorage.setItem("loginAttempts", newAttempts.toString());
+            loginBtn.disabled = false;
+            loginBtn.style.opacity = "1";
+            showError(loginBtn, `Incorrect credentials. (${newAttempts}/3 attempts)`);
+        }
+    } catch (error) {
+        console.error('Login error:', error);
         loginBtn.disabled = false;
-        showError(loginBtn, `Incorrect credentials. (${newAttempts}/3 attempts)`);
+        loginBtn.style.opacity = "1";
+        showError(loginBtn, "Connection error. Try again.");
     }
 }
 
