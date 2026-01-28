@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Orthodontics Instruction</title>
+  <title>Orthodontics Instruction - Login</title>
   <link rel="stylesheet" href="style.css" />
   <script src="login.js"></script>
   
@@ -17,12 +17,54 @@
   </script>
 </head>
 <body>
-
-  <main>
-    <input id="username" type="text" placeholder="Username" />
-    <input id="password" type="password" placeholder="Password" />
-    <button onclick="login()" id="loginBtn">Login</button>
-  </main>
+  <div class="login-container">
+    <div class="login-card">
+      <div class="login-header">
+        <h1 class="login-title">Proffit Learning</h1>
+        <p class="login-subtitle">Orthodontics Instruction</p>
+      </div>
+      
+      <form class="login-form" onsubmit="handleLogin(event)">
+        <div class="form-group">
+          <label for="username" class="form-label">Username</label>
+          <input 
+            id="username" 
+            type="text" 
+            class="form-input"
+            placeholder="Enter your username" 
+            required
+            autocomplete="username"
+          />
+        </div>
+        
+        <div class="form-group">
+          <label for="password" class="form-label">Password</label>
+          <input 
+            id="password" 
+            type="password" 
+            class="form-input"
+            placeholder="Enter your password" 
+            required
+            autocomplete="current-password"
+          />
+        </div>
+        
+        <button type="submit" class="login-btn" id="loginBtn">
+          <span class="btn-text">Sign In</span>
+          <span class="btn-arrow">→</span>
+        </button>
+      </form>
+      
+      <div class="login-footer">
+      </div>
+    </div>
+    
+    <div class="background-decoration">
+      <div class="decoration-item decoration-1"></div>
+      <div class="decoration-item decoration-2"></div>
+      <div class="decoration-item decoration-3"></div>
+    </div>
+  </div>
 
 </body>
 </html>

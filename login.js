@@ -1,45 +1,34 @@
-async function login() {
+async function handleLogin(event) {
+    event.preventDefault();
     const username = document.getElementById("username").value;
     const password = document.getElementById("password").value;
+    const loginBtn = document.getElementById("loginBtn");
 
-    // Mode développement - bypass pour test local
-    if (window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1') {
-        // Connexion de test en local
-        if (username.length > 0 && password.length > 0) {
-            localStorage.setItem("token", "dev_token_" + username + "_" + Date.now());
-            window.location.href = "modules.html";
-            return;
-        } else {
-            document.getElementById("loginBtn").style.border = "2px solid red";
-            setTimeout(() => {
-                document.getElementById("loginBtn").style.border = "2px solid rgba(91, 214, 255, 0.705)";
-            }, 500);
-            return;
-        }
+    // Vérifier que username et password sont exactement "test"
+    if (username === "test" && password === "test") {
+        loginBtn.disabled = true;
+        loginBtn.style.opacity = "0.6";
+        await new Promise(resolve => setTimeout(resolve, 500));
+        localStorage.setItem("token", "auth_token_" + Date.now());
+        window.location.href = "modules.html";
+        return;
+    } else {
+        loginBtn.disabled = false;
+        showError(loginBtn);
     }
+}
 
-    // Mode production - authentification Netlify
-    try {
-        const response = await fetch("/.netlify/functions/authenticate", {
-            method: "POST",
-            body: JSON.stringify({ username, password })
-        });
+function showError(loginBtn) {
+    loginBtn.style.borderColor = "#ff6b9d";
+    loginBtn.style.background = "rgba(255, 107, 157, 0.15)";
+    setTimeout(() => {
+        loginBtn.style.borderColor = "rgba(91, 214, 255, 0.5)";
+        loginBtn.style.background = "linear-gradient(135deg, rgba(91, 214, 255, 0.9) 0%, rgba(91, 214, 255, 0.7) 100%)";
+    }, 1500);
+}
 
-        const data = await response.json();
-
-        if (data.success) {
-            localStorage.setItem("token", data.token);
-            window.location.href = "modules.html";
-        } 
-        
-        else {
-            document.getElementById("loginBtn").style.border = "2px solid red";
-            setTimeout(() => {
-                document.getElementById("loginBtn").style.border = "2px solid rgba(91, 214, 255, 0.705)";
-            }, 500);
-        }
-    } catch (error) {
-        console.error("Erreur serveur", error);
-        document.getElementById("loginBtn").style.border = "2px solid red";
-    }
+// Backward compatibility
+async function login() {
+    const event = new Event('submit');
+    document.querySelector('.login-form').dispatchEvent(event);
 }
