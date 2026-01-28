@@ -6,6 +6,15 @@
   <title>Orthodontics Instruction</title>
   <link rel="stylesheet" href="style.css" />
   <script src="login.js"></script>
+  
+  <script>
+    // Vérifier si l'utilisateur a déjà un token (qu'il est loggé)
+    const token = localStorage.getItem("token");
+    if (token) {
+      // Il a un token, rediriger vers modules.html
+      window.location.href = "modules.html";
+    }
+  </script>
 </head>
 <body>
 
@@ -14,7 +23,6 @@
     <input id="password" type="password" placeholder="Password" />
     <button onclick="login()" id="loginBtn">Login</button>
   </main>
-
 
 </body>
 </html>
