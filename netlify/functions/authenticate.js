@@ -8,7 +8,7 @@ exports.handler = async (event) => {
     const { username, password } = JSON.parse(event.body);
 
     const client = new Client({
-        connectionString: process.env.DATABASE_URL
+        connectionString: process.env.NETLIFY_DATABASE_URL
     });
 
     try {
