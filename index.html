@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="fr">
+<html lang="en">
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -8,10 +8,10 @@
   <script src="login.js"></script>
   
   <script>
-    // Vérifier si l'utilisateur a déjà un token (qu'il est loggé)
+    // Check if user already has a token (is logged in)
     const token = localStorage.getItem("token");
     if (token) {
-      // Il a un token, rediriger vers modules.html
+      // Has a token, redirect to modules.html
       window.location.href = "modules.html";
     }
   </script>

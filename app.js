@@ -268,7 +268,7 @@ function renderTOC(model){
           b.addEventListener("click", (e) => {
             e.preventDefault();
             e.stopPropagation();
-            alert("Vous devez consulter toutes les pages avant d'accéder au test.");
+            alert("You must review all pages before accessing the test.");
           });
         } else {
           // Normal click for unlocked test pages
@@ -968,7 +968,7 @@ function selectPage(pageId, opts={scroll:false}){
   // If it's a test page, check if all other pages in the section have been viewed
   if(page.pageType === "test"){
     if(!areAllPagesInSectionViewed(page.sectionIndex)){
-      alert("Vous devez consulter toutes les pages avant d'accéder au test.");
+      alert("You must review all pages before accessing the test.");
       return;
     }
   }

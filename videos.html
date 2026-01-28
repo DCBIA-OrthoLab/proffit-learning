@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="fr">
+<html lang="en">
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -219,14 +219,14 @@
 
   <script src="videos.js"></script>
   <script>
-    // Vérifier que l'utilisateur a un token (qu'il est loggé)
+    // Check that user has a token (is logged in)
     const token = localStorage.getItem("token");
     if (!token) {
-      // Pas de token = pas loggé, rediriger
+      // No token = not logged in, redirect
       window.location.href = "index.html";
     }
     
-    // Bouton logout
+    // Logout functionality
     function logout() {
       localStorage.removeItem("token");
       window.location.href = "index.html";

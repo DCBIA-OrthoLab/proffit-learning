@@ -5,13 +5,13 @@ document.addEventListener('DOMContentLoaded', function() {
   const categoryItems = document.querySelectorAll('.toc-item');
   let currentCategory = 'all';
 
-  // Search functionality
+  // Search input event listener
   searchInput.addEventListener('input', function() {
     const searchTerm = this.value.toLowerCase();
     filterVideos(searchTerm, currentCategory);
   });
 
-  // Category filtering
+  // Category filter event listeners
   categoryItems.forEach(item => {
     item.addEventListener('click', function() {
       // Remove active class from all items
@@ -26,7 +26,7 @@ document.addEventListener('DOMContentLoaded', function() {
     });
   });
 
-  // Video click functionality
+  // Video item click handler
   videoGrid.addEventListener('click', function(e) {
     const videoItem = e.target.closest('.video-item');
     if (videoItem) {
@@ -35,7 +35,7 @@ document.addEventListener('DOMContentLoaded', function() {
       const source = videoElement.querySelector('source');
       
       if (source && source.src) {
-        // Create a modal to play the video
+        // Open modal to play the video
         openVideoModal(title, source.src);
       } else {
         alert(`Video file not found for: ${title}`);
