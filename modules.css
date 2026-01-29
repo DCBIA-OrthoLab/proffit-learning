@@ -212,6 +212,10 @@ body{
   background:linear-gradient(180deg, rgba(17,24,38,.75), rgba(15,21,33,.55));
   padding:16px;
   transition: all 0.3s ease;
+  position: sticky;
+  top: 60px;
+  height: calc(100vh - 60px);
+  overflow-y: auto;
 }
 
 :root[data-theme="light"] .sidebar {
@@ -226,7 +230,7 @@ body{
   flex-direction:column;
   gap:10px;
   overflow:auto;
-  max-height: calc(100vh - 140px);
+  max-height: calc(100vh - 200px);
   padding-right:6px;
 }
 .section{
@@ -346,6 +350,7 @@ body{
   max-width: 980px;
   margin:0 auto;
   padding:18px;
+  padding: 15px;
   border:1px solid var(--border);
   border-radius: var(--radius);
   background:rgba(255,255,255,.03);
@@ -393,6 +398,11 @@ body{
 }
 .level-section:last-child{
   border-bottom:none;
+}
+
+:root[data-theme="light"] .level-section,
+:root.light .level-section {
+  background: transparent;
 }
 
 .level-header{
@@ -1181,6 +1191,21 @@ body{
 
 #searchVideosDesktop::placeholder {
   color: rgba(231, 238, 247, 0.55);
+}
+
+/* Light theme placeholders for video search */
+:root[data-theme="light"] #searchVideos::placeholder,
+:root.light #searchVideos::placeholder,
+html[data-theme="light"] #searchVideos::placeholder,
+html.light #searchVideos::placeholder {
+  color: rgba(26, 26, 26, 0.4) !important;
+}
+
+:root[data-theme="light"] #searchVideosDesktop::placeholder,
+:root.light #searchVideosDesktop::placeholder,
+html[data-theme="light"] #searchVideosDesktop::placeholder,
+html.light #searchVideosDesktop::placeholder {
+  color: rgba(26, 26, 26, 0.4) !important;
 }
 
 /* Video category navigation */
@@ -2200,14 +2225,20 @@ body{
 /* Menus and navigation */
 :root[data-theme="light"] .levels-menu,
 :root[data-theme="light"] .module-toc-menu,
-:root[data-theme="light"] .videos-categories-menu {
-  background: #f5f6f7;
+:root[data-theme="light"] .videos-categories-menu,
+html[data-theme="light"] .levels-menu,
+html[data-theme="light"] .module-toc-menu,
+html[data-theme="light"] .videos-categories-menu {
+  background: #e8ecf1 !important;
 }
 
 :root.light .levels-menu,
 :root.light .module-toc-menu,
-:root.light .videos-categories-menu {
-  background: #f5f6f7;
+:root.light .videos-categories-menu,
+html.light .levels-menu,
+html.light .module-toc-menu,
+html.light .videos-categories-menu {
+  background: #e8ecf1 !important;
 }
 
 :root[data-theme="light"] .levels-menu-toggle:hover,
@@ -2223,17 +2254,40 @@ body{
 }
 
 :root[data-theme="light"] .level-item,
-:root[data-theme="light"] .category-item {
-  background: rgba(255, 255, 255, 0.6);
-  border-color: rgba(0, 102, 204, 0.2);
-  color: #1a1a1a;
+:root[data-theme="light"] .category-item,
+html[data-theme="light"] .level-item,
+html[data-theme="light"] .category-item {
+  background: #f5f7fa !important;
+  border-color: rgba(0, 102, 204, 0.3) !important;
+  color: #1a1a1a !important;
 }
 
 :root.light .level-item,
-:root.light .category-item {
-  background: rgba(255, 255, 255, 0.6);
-  border-color: rgba(0, 102, 204, 0.2);
-  color: #1a1a1a;
+:root.light .category-item,
+html.light .level-item,
+html.light .category-item {
+  background: #f5f7fa !important;
+  border-color: rgba(0, 102, 204, 0.3) !important;
+  color: #1a1a1a !important;
+}
+
+/* Force background override for menus in light mode */
+:root[data-theme="light"] .levels-menu,
+:root[data-theme="light"] .module-toc-menu,
+:root[data-theme="light"] .videos-categories-menu {
+  background: #e8ecf1 !important;
+}
+
+:root.light .levels-menu,
+:root.light .module-toc-menu,
+:root.light .videos-categories-menu,
+html[data-theme="light"] .levels-menu,
+html[data-theme="light"] .module-toc-menu,
+html[data-theme="light"] .videos-categories-menu,
+html.light .levels-menu,
+html.light .module-toc-menu,
+html.light .videos-categories-menu {
+  background: #e8ecf1 !important;
 }
 
 :root[data-theme="light"] .level-item:hover,
@@ -2486,4 +2540,56 @@ body{
 
 :root.light .back-btn:hover {
   background: rgba(0, 102, 204, 0.2);
+}
+
+/* Video Facade Pattern - Load images first, iframe on click */
+.video-thumbnail {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  background-color: #000;
+  border-radius: 10px;
+  overflow: hidden;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.bunny-thumb {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: opacity 0.3s ease;
+  display: block;
+}
+
+.video-thumbnail:hover .bunny-thumb {
+  opacity: 0.8;
+}
+
+.play-button {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 50px;
+  color: white;
+  background: rgba(0, 0, 0, 0.5);
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  pointer-events: none;
+  transition: all 0.3s ease;
+}
+
+.video-thumbnail:hover .play-button {
+  background: rgba(91, 214, 255, 0.7);
+  transform: translate(-50%, -50%) scale(1.1);
+}
+
+:root[data-theme="light"] .video-thumbnail:hover .play-button,
+:root.light .video-thumbnail:hover .play-button {
+  background: rgba(0, 102, 204, 0.8);
 }
