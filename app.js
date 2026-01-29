@@ -258,25 +258,12 @@ function renderTOC(model){
       
       // Disable test pages until all other pages in section are viewed
       if(p.pageType === "test"){
-        const isLocked = !areAllPagesInSectionViewed(p.sectionIndex);
-        
         b.classList.add("test-page");
-        if(isLocked){
-          b.disabled = true;
-          b.classList.add("disabled-test");
-          // Prevent clicks on locked test pages
-          b.addEventListener("click", (e) => {
-            e.preventDefault();
-            e.stopPropagation();
-            alert("You must review all pages before accessing the test.");
-          });
-        } else {
-          // Normal click for unlocked test pages
-          b.addEventListener("click", () => selectPage(p.id, {scroll:true}));
-          // Remove lock icon if test is now unlocked
-          const lockEl = b.querySelector(".lock-icon");
-          if(lockEl) lockEl.remove();
-        }
+        // Always allow access to test pages (no restriction)
+        b.addEventListener("click", () => selectPage(p.id, {scroll:true}));
+        // Remove lock icon for test pages
+        const lockEl = b.querySelector(".lock-icon");
+        if(lockEl) lockEl.remove();
       } else {
         // Normal click for non-test pages
         b.addEventListener("click", () => selectPage(p.id, {scroll:true}));
@@ -1141,14 +1128,19 @@ function populateModuleTocMenu() {
 
   // Generate TOC sections from MODEL
   MODEL.sections.forEach((section, sectionIdx) => {
-    // Create section title
+    // Create section container
     const sectionDiv = document.createElement("div");
-    sectionDiv.className = "toc-section";
+    sectionDiv.className = "toc-section-mobile";
 
-    const sectionTitle = document.createElement("div");
-    sectionTitle.className = "toc-section-title";
-    sectionTitle.textContent = section.title;
-    sectionDiv.appendChild(sectionTitle);
+    // Create section title button (collapsible)
+    const sectionTitleBtn = document.createElement("button");
+    sectionTitleBtn.className = "toc-section-title-mobile";
+    sectionTitleBtn.textContent = section.title;
+
+    // Create pages container (hidden by default)
+    const pagesContainer = document.createElement("div");
+    pagesContainer.className = "toc-pages-container";
+    pagesContainer.style.display = "none";
 
     // Add pages in this section
     section.pages.forEach((page) => {
@@ -1174,9 +1166,18 @@ function populateModuleTocMenu() {
         moduleTocToggle.classList.remove("open");
       });
 
-      sectionDiv.appendChild(pageLink);
+      pagesContainer.appendChild(pageLink);
     });
 
+    // Toggle section on click
+    sectionTitleBtn.addEventListener("click", () => {
+      const isOpen = pagesContainer.style.display !== "none";
+      pagesContainer.style.display = isOpen ? "none" : "block";
+      sectionTitleBtn.classList.toggle("open", !isOpen);
+    });
+
+    sectionDiv.appendChild(sectionTitleBtn);
+    sectionDiv.appendChild(pagesContainer);
     moduleTocMenuContent.appendChild(sectionDiv);
   });
 }
@@ -1247,14 +1248,6 @@ function getPageIndex(pageId){
 function selectPage(pageId, opts={scroll:false}){
   const page = PAGE_BY_ID.get(pageId);
   if(!page) return;
-  
-  // If it's a test page, check if all other pages in the section have been viewed
-  if(page.pageType === "test"){
-    if(!areAllPagesInSectionViewed(page.sectionIndex)){
-      alert("You must review all pages before accessing the test.");
-      return;
-    }
-  }
   
   CURRENT_PAGE_ID = pageId;
   CURRENT_PAGE_INDEX = getPageIndex(pageId);
@@ -1569,7 +1562,7 @@ async function loadModule(moduleId){
     // Safely update presentation elements
     const presTitle = document.getElementById("presTitle");
     if(presTitle) {
-      presTitle.innerHTML = `<button id="backBtn" class="back-btn">← Home</button>`;
+      presTitle.innerHTML = `<button id="backBtn" class="back-btn"><span class="back-arrow"></span> Home</button>`;
     }
     
     const presSubtitle = document.getElementById("presSubtitle");
@@ -1598,6 +1591,14 @@ async function loadModule(moduleId){
 
     // Populate mobile TOC menu
     populateModuleTocMenu();
+
+    // Open the Contents menu by default on mobile
+    const moduleTocMenuToggle = document.getElementById("moduleTocToggle");
+    const moduleTocMenuElement = document.getElementById("moduleTocMenu");
+    if(moduleTocMenuToggle && moduleTocMenuElement && window.innerWidth <= 900) {
+      moduleTocMenuElement.classList.add("open");
+      moduleTocMenuToggle.classList.add("open");
+    }
 
     // Clear the page div and show empty state
     const page = document.getElementById("page");

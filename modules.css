@@ -420,9 +420,23 @@ body{
   padding:0;
   margin-right:8px;
   transition: all 0.2s ease;
+  display:flex;
+  align-items:center;
+  gap:6px;
 }
 .back-btn:hover{
   color:#fff;
+}
+
+/* Back arrow triangle */
+.back-arrow{
+  display:inline-block;
+  width:0;
+  height:0;
+  border-top:5px solid transparent;
+  border-bottom:5px solid transparent;
+  border-right:8px solid currentColor;
+  transition:all 0.2s ease;
 }
 
 /* Page Navigation */
@@ -1244,7 +1258,7 @@ body{
 }
 
 .module-toc-menu.open .module-toc-menu-content {
-  max-height: 500px;
+  max-height: 800px;
   padding: 12px 16px;
 }
 
@@ -1271,9 +1285,66 @@ body{
   background: rgba(91, 214, 255, 0.1);
 }
 
+/* New styles for collapsible sections */
+.module-toc-menu-content .toc-section-mobile {
+  margin-bottom: 8px;
+}
+
+.module-toc-menu-content .toc-section-title-mobile {
+  width: 100%;
+  padding: 10px 12px;
+  background: rgba(91, 214, 255, 0.1);
+  border: 1px solid rgba(91, 214, 255, 0.3);
+  border-radius: 6px;
+  color: var(--accent);
+  font-size: 13px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  text-align: left;
+  appearance: none;
+  margin: 0;
+  font-family: inherit;
+  position: relative;
+  padding-right: 30px;
+}
+
+.module-toc-menu-content .toc-section-title-mobile::after {
+  content: '';
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%) rotate(0deg);
+  width: 0;
+  height: 0;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-top: 5px solid currentColor;
+  transition: transform 0.3s ease;
+}
+
+.module-toc-menu-content .toc-section-title-mobile.open::after {
+  transform: translateY(-50%) rotate(180deg);
+}
+
+.module-toc-menu-content .toc-section-title-mobile:hover {
+  background: rgba(91, 214, 255, 0.15);
+  border-color: rgba(91, 214, 255, 0.5);
+}
+
+.module-toc-menu-content .toc-pages-container {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  padding: 8px 0 8px 12px;
+  margin-bottom: 8px;
+  transition: all 0.3s ease;
+  max-height: 500px;
+  overflow: hidden;
+}
+
 .module-toc-menu-content .toc-page-item {
   padding: 8px 12px;
-  margin-left: 8px;
   background: rgba(255, 255, 255, 0.03);
   border: 1px solid rgba(91, 214, 255, 0.2);
   border-radius: 6px;
@@ -1282,7 +1353,6 @@ body{
   font-size: 12px;
   text-align: left;
   transition: all 0.3s ease;
-  margin-bottom: 6px;
 }
 
 .module-toc-menu-content .toc-page-item:hover {
