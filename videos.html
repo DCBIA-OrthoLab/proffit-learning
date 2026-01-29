@@ -9,18 +9,37 @@
 <body>
   <header class="topbar">
     <div class="brand">
-      <div class="brand-title">Available Videos</div>
-      <div class="brand-subtitle">Select a video to start</div>
+      <div class="brand-title">Proffit Learning</div>
+      <div class="brand-subtitle"></div>
     </div>
     <nav class="nav-tabs">
       <a href="modules.html" class="nav-tab">Modules</a>
       <a href="videos.html" class="nav-tab active">Videos</a>
     </nav>
     <div class="actions">
-      <input id="searchVideos" type="search" placeholder="Search videos" />
+      <input id="searchVideosDesktop" type="search" placeholder="Search videos" />
       <button id="logoutBtn" class="logout-btn" onclick="logout()">Log out</button>
     </div>
   </header>
+
+  <!-- Mobile Categories Menu -->
+  <div class="videos-categories-menu" id="videosCategoriesMenu">
+    <button class="categories-menu-toggle" id="categoriesMenuToggle">
+      <span class="toggle-text">Video Categories</span>
+      <span class="toggle-icon"></span>
+    </button>
+    <nav class="categories-menu-content">
+      <div class="category-item active" data-category="all">All Videos</div>
+      <div class="category-item" data-category="growth">Growth & Development</div>
+      <div class="category-item" data-category="diagnosis">Diagnostic Procedures</div>
+      <div class="category-item" data-category="treatment">Treatment Concepts</div>
+      <div class="category-item" data-category="clinical">Clinical Cases</div>
+      <div class="category-item" data-category="surgery">Surgical Orthodontics</div>
+    </nav>
+    <div class="categories-menu-search">
+      <input id="searchVideos" type="search" placeholder="Search videos" />
+    </div>
+  </div>
 
   <main class="layout">
     <aside class="sidebar">

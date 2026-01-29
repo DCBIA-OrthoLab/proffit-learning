@@ -204,7 +204,7 @@ function areAllPagesInSectionViewed(sectionIndex){
 }
 
 function renderTOC(model){
-  const toc = document.getElementById("toc");
+  const toc = document.getElementById("moduleTocDesktop");
   if(!toc) {
     console.warn("TOC element not found");
     return;
@@ -631,12 +631,19 @@ async function renderHomePage(){
   const page = document.getElementById("page");
   const toc = document.getElementById("toc");
 
-  // Show sidebar on home page for level navigation
-  sidebar.style.display = "block";
+  // Show sidebar on home page for level navigation (if it exists)
+  if(sidebar) sidebar.style.display = "block";
   layout.classList.add("home-view");
   
   // Make content adjust to sidebar
-  content.style.maxWidth = "100%";
+  if(content) content.style.maxWidth = "100%";
+  
+  // Change menu titles to "Modules" on home page
+  const sidebarTitle = document.querySelector(".sidebar-title");
+  if(sidebarTitle) sidebarTitle.textContent = "Modules";
+  
+  const levelsMenuToggle = document.getElementById("levelsMenuToggle");
+  if(levelsMenuToggle) levelsMenuToggle.textContent = "Modules";
 
 // Group modules by Level and Unit
 const grouped = {};
@@ -761,18 +768,17 @@ MODULES.forEach(mod => {
       }
       
       let statsHtml = "";
-      if(hasProgress){
-        statsHtml = `
-          <div class="module-stats">
-            ${stats.totalNonTestPages > 0 ? `<span class="stat-item">📖 ${stats.viewedCount}/${stats.totalNonTestPages} pages</span>` : ""}
-            ${stats.totalTests > 0 ? `
-              <span class="stat-item ${stats.correctTests === stats.totalTests ? 'completed' : 'in-progress'}">
-                ✓ ${stats.correctTests}/${stats.totalTests} tests
-              </span>
-            ` : ""}
-          </div>
-        `;
-      }
+      // Always show pages count, tests if they exist
+      statsHtml = `
+        <div class="module-stats">
+          ${stats.totalNonTestPages > 0 ? `<span class="stat-item">📖 ${stats.viewedCount}/${stats.totalNonTestPages} pages</span>` : ""}
+          ${stats.totalTests > 0 ? `
+            <span class="stat-item ${stats.correctTests === stats.totalTests ? 'completed' : 'in-progress'}">
+              ✓ ${stats.correctTests}/${stats.totalTests} tests
+            </span>
+          ` : ""}
+        </div>
+      `;
       
       const placeholder = card.querySelector(".module-stats-placeholder");
       if(placeholder){
@@ -956,6 +962,283 @@ function initializeModalControls(){
 
 // Initialize when DOM is ready
 document.addEventListener("DOMContentLoaded", initializeModalControls);
+document.addEventListener("DOMContentLoaded", initializeSidebarToggle);
+document.addEventListener("DOMContentLoaded", initializeLevelsMenu);
+document.addEventListener("DOMContentLoaded", initializeModuleTocMenu);
+
+function initializeSidebarToggle() {
+  const sidebarToggle = document.getElementById("sidebarToggle");
+  const sidebar = document.querySelector(".sidebar");
+  const layout = document.querySelector(".layout");
+  const content = document.querySelector(".content");
+
+  if (!sidebarToggle || !sidebar) return;
+
+  // Toggle sidebar on button click
+  sidebarToggle.addEventListener("click", () => {
+    sidebar.classList.toggle("open");
+    layout.classList.toggle("sidebar-open");
+  });
+
+  // Close sidebar when clicking on content (on mobile)
+  if (content) {
+    content.addEventListener("click", () => {
+      if (window.innerWidth <= 900) {
+        sidebar.classList.remove("open");
+        layout.classList.remove("sidebar-open");
+      }
+    });
+  }
+
+  // Close sidebar when window is resized back to desktop
+  window.addEventListener("resize", () => {
+    if (window.innerWidth > 900) {
+      sidebar.classList.remove("open");
+      layout.classList.remove("sidebar-open");
+    }
+  });
+}
+
+function initializeLevelsMenu() {
+  const levelsMenuToggle = document.getElementById("levelsMenuToggle");
+  const levelsMenu = document.getElementById("levelsMenu");
+  const mobileLevelItems = document.querySelectorAll(".level-item");
+  const searchLevels = document.getElementById("searchLevels");
+
+  if (!levelsMenuToggle || !levelsMenu) return;
+
+  // Toggle levels menu on button click
+  levelsMenuToggle.addEventListener("click", () => {
+    levelsMenu.classList.toggle("open");
+    levelsMenuToggle.classList.toggle("open");
+  });
+
+  // Search functionality for levels menu - filters modules on the page
+  if (searchLevels) {
+    searchLevels.addEventListener("input", function() {
+      const searchTerm = this.value.toLowerCase().trim();
+      const cards = document.querySelectorAll(".module-card");
+      const levelSections = document.querySelectorAll(".level-section");
+      const unitGroups = document.querySelectorAll(".unit-group");
+      
+      // Hide/show cards based on search
+      cards.forEach(card => {
+        const moduleName = card.dataset.moduleName;
+        if (searchTerm === "" || moduleName.includes(searchTerm)) {
+          card.style.display = "";
+        } else {
+          card.style.display = "none";
+        }
+      });
+      
+      // Show/hide unit groups if they have visible cards
+      unitGroups.forEach(unit => {
+        const visibleCards = Array.from(unit.querySelectorAll(".module-card"))
+          .filter(card => card.style.display !== "none");
+        unit.style.display = visibleCards.length > 0 ? "" : "none";
+      });
+      
+      // Show/hide level sections if they have visible units
+      levelSections.forEach(level => {
+        const visibleUnits = Array.from(level.querySelectorAll(".unit-group"))
+          .filter(unit => unit.style.display !== "none");
+        level.style.display = visibleUnits.length > 0 ? "" : "none";
+      });
+    });
+  }
+
+  // Level items click handlers
+  mobileLevelItems.forEach(item => {
+    item.addEventListener("click", function() {
+      // Remove active from all level items
+      mobileLevelItems.forEach(cat => cat.classList.remove("active"));
+      // Add active to clicked item
+      this.classList.add("active");
+
+      const level = this.dataset.level;
+      CURRENT_LEVEL = level;
+
+      // Also update the sidebar if visible
+      const sidebarLevelItems = document.querySelectorAll(".sidebar .toc-item[data-level]");
+      sidebarLevelItems.forEach(item => item.classList.remove("active"));
+      const activeSidebarItem = document.querySelector(`.sidebar .toc-item[data-level="${level}"]`);
+      if (activeSidebarItem) {
+        activeSidebarItem.classList.add("active");
+      }
+
+      // Close the menu after selection
+      levelsMenu.classList.remove("open");
+      levelsMenuToggle.classList.remove("open");
+
+      // If on home page, filter modules by level
+      if (!CURRENT_MODULE) {
+        filterMobileModulesByLevel(level);
+        // Scroll to top to show the selected level title
+        window.scrollTo(0, 0);
+      }
+    });
+  });
+
+  // Close menu when clicking on content (on mobile)
+  const content = document.querySelector(".content");
+  if (content) {
+    content.addEventListener("click", () => {
+      if (window.innerWidth <= 900) {
+        levelsMenu.classList.remove("open");
+        levelsMenuToggle.classList.remove("open");
+      }
+    });
+  }
+
+  // Close menu when window is resized back to desktop
+  window.addEventListener("resize", () => {
+    if (window.innerWidth > 900) {
+      levelsMenu.classList.remove("open");
+      levelsMenuToggle.classList.remove("open");
+    }
+  });
+}
+
+function initializeModuleTocMenu() {
+  const moduleTocToggle = document.getElementById("moduleTocToggle");
+  const moduleTocMenu = document.getElementById("moduleTocMenu");
+  const moduleTocMenuContent = document.getElementById("moduleTocMenuContent");
+
+  if (!moduleTocToggle || !moduleTocMenu) return;
+
+  // Toggle module TOC menu on button click
+  moduleTocToggle.addEventListener("click", () => {
+    moduleTocMenu.classList.toggle("open");
+    moduleTocToggle.classList.toggle("open");
+  });
+
+  // Close menu when clicking on content (on mobile)
+  const content = document.querySelector(".content");
+  if (content) {
+    content.addEventListener("click", () => {
+      if (window.innerWidth <= 900) {
+        moduleTocMenu.classList.remove("open");
+        moduleTocToggle.classList.remove("open");
+      }
+    });
+  }
+
+  // Close menu when window is resized back to desktop
+  window.addEventListener("resize", () => {
+    if (window.innerWidth > 900) {
+      moduleTocMenu.classList.remove("open");
+      moduleTocToggle.classList.remove("open");
+    }
+  });
+}
+
+function populateModuleTocMenu() {
+  const moduleTocMenuContent = document.getElementById("moduleTocMenuContent");
+  if (!moduleTocMenuContent || !MODEL) return;
+
+  // Clear previous content
+  moduleTocMenuContent.innerHTML = "";
+
+  // Generate TOC sections from MODEL
+  MODEL.sections.forEach((section, sectionIdx) => {
+    // Create section title
+    const sectionDiv = document.createElement("div");
+    sectionDiv.className = "toc-section";
+
+    const sectionTitle = document.createElement("div");
+    sectionTitle.className = "toc-section-title";
+    sectionTitle.textContent = section.title;
+    sectionDiv.appendChild(sectionTitle);
+
+    // Add pages in this section
+    section.pages.forEach((page) => {
+      const pageLink = document.createElement("div");
+      pageLink.className = "toc-page-item";
+      pageLink.dataset.pageId = page.id;
+      pageLink.textContent = page.title;
+
+      // Check if page is viewed or is test page
+      if (VIEWED_PAGES.has(page.id) && page.pageType !== "test") {
+        pageLink.classList.add("viewed");
+      }
+      if (page.id === CURRENT_PAGE_ID) {
+        pageLink.classList.add("active");
+      }
+
+      pageLink.addEventListener("click", () => {
+        selectPage(page.id);
+        // Close menu after selection
+        const moduleTocMenu = document.getElementById("moduleTocMenu");
+        moduleTocMenu.classList.remove("open");
+        const moduleTocToggle = document.getElementById("moduleTocToggle");
+        moduleTocToggle.classList.remove("open");
+      });
+
+      sectionDiv.appendChild(pageLink);
+    });
+
+    moduleTocMenuContent.appendChild(sectionDiv);
+  });
+}
+
+function filterMobileModulesByLevel(level) {
+  const levelSections = document.querySelectorAll(".level-section");
+  const moduleCards = document.querySelectorAll(".module-card");
+
+  if (level === "all") {
+    // Show all levels
+    levelSections.forEach(section => (section.style.display = "block"));
+    moduleCards.forEach(card => (card.style.display = "block"));
+  } else {
+    // Show only selected level
+    levelSections.forEach((section, index) => {
+      const levelNumber = index + 1;
+      if (levelNumber.toString() === level) {
+        section.style.display = "block";
+      } else {
+        section.style.display = "none";
+      }
+    });
+  }
+}
+
+function updateBreadcrumbs() {
+  const breadcrumbs = document.getElementById("breadcrumbs");
+  if (!breadcrumbs) return;
+
+  // Hide breadcrumbs on home page
+  if (!CURRENT_MODULE) {
+    breadcrumbs.classList.add("hidden");
+    return;
+  }
+
+  breadcrumbs.classList.remove("hidden");
+  
+  let html = '<span class="breadcrumb-item" onclick="goHome()">Modules</span>';
+  html += '<span class="breadcrumb-separator">›</span>';
+
+  // Get the module info from MODULES array
+  const moduleInfo = MODULES.find(m => m.id === CURRENT_MODULE);
+  if (moduleInfo) {
+    // Add level
+    if (moduleInfo.level) {
+      const levelName = {1: "I", 2: "II", 3: "III", 4: "IV"}[moduleInfo.level] || moduleInfo.level;
+      html += `<span class="breadcrumb-item">Level ${levelName}</span>`;
+      html += '<span class="breadcrumb-separator">›</span>';
+    }
+
+    // Add module name
+    html += `<span class="breadcrumb-item current">${moduleInfo.name}</span>`;
+  }
+
+  breadcrumbs.innerHTML = html;
+}
+
+function goHome() {
+  CURRENT_MODULE = null;
+  CURRENT_PAGE_ID = null;
+  showHomePage();
+}
 
 function getPageIndex(pageId){
   return PAGES.findIndex(p => p.id === pageId);
@@ -979,6 +1262,8 @@ function selectPage(pageId, opts={scroll:false}){
   renderPage(page);
   updateNavigationButtons();
   updatePageProgress();
+  updateBreadcrumbs();
+  populateModuleTocMenu();
   
   // Save progress after each page change
   saveModuleProgress();
@@ -1115,7 +1400,7 @@ function closeModal(){
 
 function applySearch(q){
   q = (q || "").trim().toLowerCase();
-  const toc = document.getElementById("toc");
+  const toc = document.getElementById("moduleTocDesktop");
   if(!q){
     // reset all
     toc.querySelectorAll(".page-link").forEach(b => b.style.display = "");
@@ -1152,24 +1437,38 @@ function backToHome(){
   const sidebar = document.getElementById("sidebar");
   if(sidebar) sidebar.style.display = "";
   
-  const toc = document.getElementById("toc");
+  const toc = document.getElementById("moduleTocDesktop");
   if(toc) {
     toc.innerHTML = "";
     toc.style.display = "none";
   }
 
+  // Clear mobile TOC menu
+  const moduleTocMenuContent = document.getElementById("moduleTocMenuContent");
+  if(moduleTocMenuContent) {
+    moduleTocMenuContent.innerHTML = "";
+  }
+
   // Show level navigation again
   const levelNav = document.querySelector(".toc");
   if(levelNav) levelNav.style.display = "block";
+  
+  // Show levels menu button on home page
+  const levelsMenu = document.getElementById("levelsMenu");
+  if(levelsMenu) levelsMenu.style.display = "";
+  
+  // Hide module TOC menu on mobile
+  const moduleTocMenu = document.getElementById("moduleTocMenu");
+  if(moduleTocMenu) moduleTocMenu.style.display = "none";
 
   const search = document.getElementById("search");
   if(search) search.value = "";
 
   const presTitle = document.getElementById("presTitle");
-  if(presTitle) presTitle.textContent = "Available modules";
+  if(presTitle) presTitle.textContent = "Proffit Learning";
   
   const presSubtitle = document.getElementById("presSubtitle");
-  if(presSubtitle) presSubtitle.textContent = "Select a module to start";
+  if(presSubtitle) presSubtitle.textContent = "";
   
   const counts = document.getElementById("counts");
   if(counts) counts.textContent = "";
@@ -1242,6 +1541,19 @@ async function loadModule(moduleId){
     // Load saved progress for this module
     loadModuleProgress(moduleId);
 
+    // Close the levels menu on mobile when loading a module and hide the button
+    const levelsMenu = document.getElementById("levelsMenu");
+    if(levelsMenu) {
+      levelsMenu.classList.remove("open");
+      levelsMenu.style.display = "none";
+      const levelsMenuToggle = document.getElementById("levelsMenuToggle");
+      if(levelsMenuToggle) levelsMenuToggle.classList.remove("open");
+    }
+    
+    // Show module TOC menu on mobile
+    const moduleTocMenu = document.getElementById("moduleTocMenu");
+    if(moduleTocMenu) moduleTocMenu.style.display = "block";
+
     // Show sidebar and reset layout
     const sidebar = document.getElementById("sidebar");
     if(sidebar) sidebar.style.display = "";
@@ -1250,11 +1562,14 @@ async function loadModule(moduleId){
     const content = document.getElementById("content");
     if(content) content.style.maxWidth = "";
     window.scrollTo(0, 0); // Reset scroll for new module
+    
+    // Update breadcrumbs
+    updateBreadcrumbs();
 
     // Safely update presentation elements
     const presTitle = document.getElementById("presTitle");
     if(presTitle) {
-      presTitle.innerHTML = `<button id="backBtn" class="back-btn">← Home</button>${MODEL.title || moduleInfo.name}`;
+      presTitle.innerHTML = `<button id="backBtn" class="back-btn">← Home</button>`;
     }
     
     const presSubtitle = document.getElementById("presSubtitle");
@@ -1276,10 +1591,13 @@ async function loadModule(moduleId){
     // Hide level navigation and show module TOC
     const levelNav = document.querySelector(".toc");
     if(levelNav) levelNav.style.display = "none";
-    const moduleToc = document.getElementById("toc");
+    const moduleToc = document.getElementById("moduleTocDesktop");
     if(moduleToc) moduleToc.style.display = "block";
 
     renderTOC(MODEL);
+
+    // Populate mobile TOC menu
+    populateModuleTocMenu();
 
     // Clear the page div and show empty state
     const page = document.getElementById("page");
@@ -1348,8 +1666,8 @@ async function main(){
     }
   } else {
     renderHomePage();
-    document.getElementById("presTitle").textContent = "Available Modules";
-    document.getElementById("presSubtitle").textContent = "Select a module to start";
+    document.getElementById("presTitle").textContent = "Proffit Learning";
+    document.getElementById("presSubtitle").textContent = "";
   }
 }
 
@@ -1370,6 +1688,9 @@ main().catch(err => {
 function initLevelNavigation() {
   const levelItems = document.querySelectorAll('.toc-item[data-level]');
   const levelCountsEl = document.getElementById('levelCounts');
+
+  // If no level items exist (sidebar removed), just return
+  if (levelItems.length === 0) return;
 
   // Add click handlers for level navigation
   levelItems.forEach(item => {

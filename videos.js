@@ -1,15 +1,50 @@
 // Videos page functionality
 document.addEventListener('DOMContentLoaded', function() {
-  const searchInput = document.getElementById('searchVideos');
+  const searchInputMobile = document.getElementById('searchVideos');
+  const searchInputDesktop = document.getElementById('searchVideosDesktop');
   const videoGrid = document.getElementById('videoGrid');
   const categoryItems = document.querySelectorAll('.toc-item');
+  const mobileMenuToggle = document.getElementById('categoriesMenuToggle');
+  const mobileMenu = document.getElementById('videosCategoriesMenu');
+  const mobileCategories = document.querySelectorAll('.category-item');
   let currentCategory = 'all';
 
-  // Search input event listener
-  searchInput.addEventListener('input', function() {
-    const searchTerm = this.value.toLowerCase();
-    filterVideos(searchTerm, currentCategory);
+  // Mobile categories menu toggle
+  if (mobileMenuToggle && mobileMenu) {
+    mobileMenuToggle.addEventListener('click', function() {
+      mobileMenu.classList.toggle('open');
+      mobileMenuToggle.classList.toggle('open');
+    });
+  }
+
+  // Mobile category items click handlers
+  mobileCategories.forEach(item => {
+    item.addEventListener('click', function() {
+      // Remove active from all mobile items
+      mobileCategories.forEach(cat => cat.classList.remove('active'));
+      // Add active to clicked item
+      this.classList.add('active');
+      
+      currentCategory = this.dataset.category;
+      const searchTerm = searchInputMobile ? searchInputMobile.value.toLowerCase() : '';
+      filterVideos(searchTerm, currentCategory);
+    });
   });
+
+  // Search input event listeners for both mobile and desktop
+  if (searchInputMobile) {
+    searchInputMobile.addEventListener('input', function() {
+      const searchTerm = this.value.toLowerCase();
+      filterVideos(searchTerm, currentCategory);
+    });
+  }
+  
+  if (searchInputDesktop) {
+    searchInputDesktop.addEventListener('input', function() {
+      const searchTerm = this.value.toLowerCase();
+      filterVideos(searchTerm, currentCategory);
+    });
+  }
 
   // Category filter event listeners
   categoryItems.forEach(item => {
@@ -20,9 +55,8 @@ document.addEventListener('DOMContentLoaded', function() {
       this.classList.add('active');
       
       currentCategory = this.dataset.category;
-      const searchTerm = searchInput.value.toLowerCase();
+      const searchTerm = searchInputDesktop ? searchInputDesktop.value.toLowerCase() : '';
       filterVideos(searchTerm, currentCategory);
-      updateCounts();
     });
   });
 

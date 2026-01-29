@@ -35,6 +35,15 @@ async function handleLogin(event) {
         return;
     }
 
+    // Local dev account (test/test) - only on localhost
+    if (username === "test" && password === "test" && (window.location.hostname === "localhost" || window.location.hostname === "127.0.0.1")) {
+        localStorage.removeItem("loginAttempts");
+        localStorage.removeItem("loginBlockTime");
+        localStorage.setItem("token", "dev_token_test_" + Date.now());
+        window.location.href = "modules.html";
+        return;
+    }
+
     // Call the Netlify function to authenticate
     loginBtn.disabled = true;
     loginBtn.style.opacity = "0.6";

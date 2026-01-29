@@ -22,6 +22,32 @@
     </div>
   </header>
 
+  <!-- Mobile Levels Menu -->
+  <div class="levels-menu" id="levelsMenu">
+    <button class="levels-menu-toggle" id="levelsMenuToggle">
+      <span class="toggle-text">Levels</span>
+      <span class="toggle-icon"></span>
+    </button>
+    <nav class="levels-menu-content">
+      <div class="level-item active" data-level="all">All Modules</div>
+      <div class="level-item" data-level="1">Level I - Growth & Development</div>
+      <div class="level-item" data-level="2">Level II - Diagnosis</div>
+      <div class="level-item" data-level="3">Level III - Biomechanics</div>
+      <div class="level-item" data-level="4">Level IV - Clinical Treatment</div>
+    </nav>
+    <div class="levels-menu-search">
+      <input id="searchLevels" type="search" placeholder="Search modules" />
+    </div>
+  </div>
+
+  <!-- Mobile Module TOC Menu -->
+  <div class="module-toc-menu" id="moduleTocMenu">
+    <button class="module-toc-toggle" id="moduleTocToggle">Contents</button>
+    <nav class="module-toc-menu-content" id="moduleTocMenuContent">
+      <!-- Dynamically populated from module data -->
+    </nav>
+  </div>
+
   <main class="layout">
     <aside class="sidebar" id="sidebar">
       <div class="sidebar-header">
@@ -36,11 +62,12 @@
       </nav>
       
       <!-- Table of contents for module content (hidden by default) -->
-      <div id="toc" class="module-toc" style="display: none;"></div>
+      <div id="moduleTocDesktop" class="module-toc" style="display: none;"></div>
 
     </aside>
 
     <section class="content" id="content">
+      <div class="breadcrumbs" id="breadcrumbs"></div>
       <!-- Home page or module content -->
       <div id="page" class="page">
         <div class="page-title" id="pageTitle">Loading...</div>
