@@ -1458,7 +1458,7 @@ function backToHome(){
   if(search) search.value = "";
 
   const presTitle = document.getElementById("presTitle");
-  if(presTitle) presTitle.textContent = "Proffit Learning";
+  if(presTitle) presTitle.innerHTML = "Proffit Instruction<span class='title-dot'>.</span>";
   
   const presSubtitle = document.getElementById("presSubtitle");
   if(presSubtitle) presSubtitle.textContent = "";
@@ -1667,7 +1667,7 @@ async function main(){
     }
   } else {
     renderHomePage();
-    document.getElementById("presTitle").textContent = "Proffit Learning";
+    document.getElementById("presTitle").innerHTML = "Proffit Instruction<span class='title-dot'>.</span>";
     document.getElementById("presSubtitle").textContent = "";
   }
 }

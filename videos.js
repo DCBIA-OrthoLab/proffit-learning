@@ -132,24 +132,40 @@ document.addEventListener('DOMContentLoaded', function() {
 
   function filterVideos(searchTerm, category) {
     const videoItems = document.querySelectorAll('.video-item');
+    const visibleItems = [];
     
     videoItems.forEach(item => {
-      const title = item.querySelector('.video-title').textContent.toLowerCase();
-      const description = item.querySelector('.video-description').textContent.toLowerCase();
+      const titleElement = item.querySelector('.video-title');
+      const title = titleElement ? titleElement.textContent.toLowerCase() : '';
       const itemCategory = item.dataset.category;
       
-      const matchesSearch = searchTerm === '' || 
-                           title.includes(searchTerm) || 
-                           description.includes(searchTerm);
+      const matchesSearch = searchTerm === '' || title.includes(searchTerm);
       const matchesCategory = category === 'all' || itemCategory === category;
       
       if (matchesSearch && matchesCategory) {
-        item.style.display = 'block';
+        item.style.display = '';
+        visibleItems.push(item);
       } else {
         item.style.display = 'none';
       }
     });
+    
+    // Sort visible items alphabetically by title
+    visibleItems.sort((a, b) => {
+      const titleA = a.querySelector('.video-title').textContent.toLowerCase();
+      const titleB = b.querySelector('.video-title').textContent.toLowerCase();
+      return titleA.localeCompare(titleB);
+    });
+    
+    // Reorder items in DOM
+    const videoGrid = document.getElementById('videoGrid');
+    visibleItems.forEach(item => {
+      videoGrid.appendChild(item);
+    });
   }
+  
+  // Initialize with all videos sorted alphabetically
+  filterVideos('', 'all');
   
   // Initialize video metadata and thumbnails
   initializeVideoMetadata();

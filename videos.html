@@ -6,13 +6,16 @@
   <title>Videos - Orthodontics Instruction</title>
   <link rel="stylesheet" href="modules.css" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Darker+Grotesque:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
   <script src="theme.js"></script>
   <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='75' font-size='75' fill='%235bd6ff'>▶</text></svg>">
 </head>
 <body>
   <header class="topbar">
-    <div class="brand">
-      <div class="brand-title">Proffit Learning</div>
+    <div class="brand" onclick="window.location.href='videos.html'" style="cursor: pointer;">
+      <div class="brand-title">Proffit Instruction<span class="title-dot">.</span></div>
       <div class="brand-subtitle"></div>
     </div>
     <nav class="nav-tabs">
@@ -36,11 +39,11 @@
     </button>
     <nav class="categories-menu-content">
       <div class="category-item active" data-category="all">All Videos</div>
-      <div class="category-item" data-category="growth">Growth & Development</div>
-      <div class="category-item" data-category="diagnosis">Diagnostic Procedures</div>
-      <div class="category-item" data-category="treatment">Treatment Concepts</div>
-      <div class="category-item" data-category="clinical">Clinical Cases</div>
-      <div class="category-item" data-category="surgery">Surgical Orthodontics</div>
+      <div class="category-item" data-category="local-anesthesia">Local Anesthesia Series</div>
+      <div class="category-item" data-category="pain-management">Pain Management & Pharmacology</div>
+      <div class="category-item" data-category="surgical-ortho">Surgical Planning</div>
+      <div class="category-item" data-category="growth-respiration">Growth, Respiration & Morphology</div>
+      <div class="category-item" data-category="clinical-diagnostics">Clinical Diagnostics & Appliances</div>
     </nav>
     <div class="categories-menu-search">
       <input id="searchVideos" type="search" placeholder="Search videos" />
@@ -54,11 +57,11 @@
       </div>
       <nav class="toc" aria-label="Categories">
         <div class="toc-item active" data-category="all">All Videos</div>
-        <div class="toc-item" data-category="growth">Growth & Development</div>
-        <div class="toc-item" data-category="diagnosis">Diagnostic Procedures</div>
-        <div class="toc-item" data-category="treatment">Treatment Concepts</div>
-        <div class="toc-item" data-category="clinical">Clinical Cases</div>
-        <div class="toc-item" data-category="surgery">Surgical Orthodontics</div>
+        <div class="toc-item" data-category="local-anesthesia">Local Anesthesia Series</div>
+        <div class="toc-item" data-category="pain-management">Pain Management & Pharmacology</div>
+        <div class="toc-item" data-category="surgical-ortho">Surgical Planning</div>
+        <div class="toc-item" data-category="growth-respiration">Growth, Respiration & Morphology</div>
+        <div class="toc-item" data-category="clinical-diagnostics">Clinical Diagnostics & Appliances</div>
       </nav>
     </aside>
 
@@ -71,7 +74,7 @@
           
           <!-- Proffit William Videos -->
           <div class="video-item" 
-               data-category="clinical" 
+               data-category="pain-management" 
                data-library-id="588967" 
                data-video-id="b20f38b2-563b-4bb1-8d36-ffe3d3541af9">
             <div class="video-thumbnail">
@@ -80,61 +83,67 @@
                    alt="Apple Segment Test"
                    loading="lazy">
               <div class="play-button">▶</div>
+              <div class="video-duration">
+                <i class="fas fa-clock"></i>
+                <span class="duration-value">00:53:51</span>
+              </div>
             </div>
             <div class="video-info">
               <h3 class="video-title">Opioids and Post-Procedure Pain Control</h3>
-              <p class="video-description">Clinical test demonstrating apple segment examination techniques for orthodontic assessment.</p>
               <div class="video-meta">
-                <span class="video-level">Clinical</span>
-                <span class="video-views">Prof. William Proffit</span>
               </div>
             </div>
           </div>
 
           <div class="video-item" 
-               data-category="clinical" 
+               data-category="growth-respiration" 
                data-library-id="588967" 
                data-video-id="7757d825-87b3-4d57-9353-b2c51f54282d">
             <div class="video-thumbnail">
               <img class="bunny-thumb" 
-                   src="https://vz-6fed9ba2-d89.b-cdn.net/7757d825-87b3-4d57-9353-b2c51f54282d/thumbnail.jpg" 
+                   src="https://vz-6fed9ba2-d89.b-cdn.net/7757d825-87b3-4d57-9353-b2c51f54282d/thumbnail_3831bd2d.jpg" 
                    alt="Apple Segment Test"
                    loading="lazy">
               <div class="play-button">▶</div>
+              <div class="video-duration">
+                <i class="fas fa-clock"></i>
+                <span class="duration-value">00:48:21</span>
+              </div>
             </div>
             <div class="video-info">
-              <h3 class="video-title">respiration_and_morphology_001</h3>
-              <p class="video-description">Clinical test demonstrating apple segment examination techniques for orthodontic assessment.</p>
+              <h3 class="video-title">Respiration and Morphology No. 1</h3>
               <div class="video-meta">
-                <span class="video-level">Clinical</span>
-                <span class="video-views">Prof. William Proffit</span>
               </div>
             </div>
           </div>
 
                     <div class="video-item" 
-               data-category="clinical" 
+               data-category="surgical-ortho" 
                data-library-id="588967" 
                data-video-id="respiration_and_morphology_001">
             <div class="video-thumbnail">
               <img class="bunny-thumb" 
-                   src="https://vz-6fed9ba2-d89.b-cdn.net/f5e26500-0620-4438-941f-2e184ff65cc4/thumbnail.jpg" 
+                   src="https://vz-6fed9ba2-d89.b-cdn.net/f5e26500-0620-4438-941f-2e184ff65cc4/thumbnail_4ff324c7.jpg" 
                    alt="Apple Segment Test"
                    loading="lazy">
               <div class="play-button">▶</div>
+              <div class="video-duration">
+                <i class="fas fa-clock"></i>
+                <span class="duration-value">01:22:10</span>
+              </div>
             </div>
             <div class="video-info">
-              <h3 class="video-title">dx_and_tx_planning_for_surgical_ortho</h3>
-              <p class="video-description">Clinical test demonstrating apple segment examination techniques for orthodontic assessment.</p>
+              <div class="video-title-container">
+                <h3 class="video-title">Dx and Tx Planning for Surgical Ortho</h3>
+              </div>
+
               <div class="video-meta">
-                <span class="video-level">Clinical</span>
-                <span class="video-views">Prof. William Proffit</span>
               </div>
             </div>
           </div>
 
                     <div class="video-item" 
-               data-category="clinical" 
+               data-category="growth-respiration" 
                data-library-id="588967" 
                data-video-id="9b31ed73-dca7-45a4-87ad-618619b8ed38">
             <div class="video-thumbnail">
@@ -143,19 +152,23 @@
                    alt="Apple Segment Test"
                    loading="lazy">
               <div class="play-button">▶</div>
+              <div class="video-duration">
+                <i class="fas fa-clock"></i>
+                <span class="duration-value">00:36:42</span>
+              </div>
             </div>
             <div class="video-info">
-              <h3 class="video-title">respiration_and_morphology_002</h3>
-              <p class="video-description">Clinical test demonstrating apple segment examination techniques for orthodontic assessment.</p>
+              <div class="video-title-container">
+                <h3 class="video-title">Respiration and Morphology No. 2</h3>
+              </div>
+
               <div class="video-meta">
-                <span class="video-level">Clinical</span>
-                <span class="video-views">Prof. William Proffit</span>
               </div>
             </div>
           </div>
 
                     <div class="video-item" 
-               data-category="clinical" 
+               data-category="surgical-ortho" 
                data-library-id="588967" 
                data-video-id="0c14b671-4838-44c5-ace1-ba1c1d65d0a7">
             <div class="video-thumbnail">
@@ -164,61 +177,73 @@
                    alt="Apple Segment Test"
                    loading="lazy">
               <div class="play-button">▶</div>
+              <div class="video-duration">
+                <i class="fas fa-clock"></i>
+                <span class="duration-value">01:36:37</span>
+              </div>
             </div>
             <div class="video-info">
-              <h3 class="video-title">special_points_in_planning_surgical_ortho</h3>
-              <p class="video-description">Clinical test demonstrating apple segment examination techniques for orthodontic assessment.</p>
+              <div class="video-title-container">
+                <h3 class="video-title">Special Points in Planning Surgical Ortho</h3>
+              </div>
+
               <div class="video-meta">
-                <span class="video-level">Clinical</span>
-                <span class="video-views">Prof. William Proffit</span>
               </div>
             </div>
           </div>
 
                     <div class="video-item" 
-               data-category="clinical" 
+               data-category="surgical-ortho" 
                data-library-id="588967" 
                data-video-id="82a5ab84-39ff-4e7f-8342-b5fd314e8b63">
             <div class="video-thumbnail">
               <img class="bunny-thumb" 
-                   src="https://vz-6fed9ba2-d89.b-cdn.net/82a5ab84-39ff-4e7f-8342-b5fd314e8b63/thumbnail.jpg" 
+                   src="https://vz-6fed9ba2-d89.b-cdn.net/82a5ab84-39ff-4e7f-8342-b5fd314e8b63/thumbnail_b8a0221f.jpg" 
                    alt="Apple Segment Test"
                    loading="lazy">
               <div class="play-button">▶</div>
+              <div class="video-duration">
+                <i class="fas fa-clock"></i>
+                <span class="duration-value">00:38:36</span>
+              </div>
             </div>
             <div class="video-info">
-              <h3 class="video-title">hierarchy_of_stability_stream</h3>
-              <p class="video-description">Clinical test demonstrating apple segment examination techniques for orthodontic assessment.</p>
+              <div class="video-title-container">
+                <h3 class="video-title">Hierarchy of Stability Stream</h3>
+              </div>
+
               <div class="video-meta">
-                <span class="video-level">Clinical</span>
-                <span class="video-views">Prof. William Proffit</span>
               </div>
             </div>
           </div>
 
                     <div class="video-item" 
-               data-category="clinical" 
+               data-category="local-anesthesia" 
                data-library-id="588967" 
                data-video-id="c230f840-096c-4fb4-860c-5473f0c497a5">
             <div class="video-thumbnail">
               <img class="bunny-thumb" 
-                   src="https://vz-6fed9ba2-d89.b-cdn.net/c230f840-096c-4fb4-860c-5473f0c497a5/thumbnail.jpg" 
+                   src="https://vz-6fed9ba2-d89.b-cdn.net/c230f840-096c-4fb4-860c-5473f0c497a5/thumbnail_3e9d1aac.jpg" 
                    alt="Apple Segment Test"
                    loading="lazy">
               <div class="play-button">▶</div>
+              <div class="video-duration">
+                <i class="fas fa-clock"></i>
+                <span class="duration-value">00:48:14</span>
+              </div>
             </div>
             <div class="video-info">
-              <h3 class="video-title">local_anesthesia_002_stream</h3>
-              <p class="video-description">Clinical test demonstrating apple segment examination techniques for orthodontic assessment.</p>
+              <div class="video-title-container">
+                <h3 class="video-title">Local Anesthesia No. 3</h3>
+              </div>
+
               <div class="video-meta">
-                <span class="video-level">Clinical</span>
-                <span class="video-views">Prof. William Proffit</span>
               </div>
             </div>
           </div>
 
                     <div class="video-item" 
-               data-category="clinical" 
+               data-category="growth-respiration" 
                data-library-id="588967" 
                data-video-id="aa3d9bdd-6e18-40c0-8403-918b460b4652">
             <div class="video-thumbnail">
@@ -227,19 +252,23 @@
                    alt="Apple Segment Test"
                    loading="lazy">
               <div class="play-button">▶</div>
+              <div class="video-duration">
+                <i class="fas fa-clock"></i>
+                <span class="duration-value">01:11:44</span>
+              </div>
             </div>
             <div class="video-info">
-              <h3 class="video-title">psychosocial_outcomes_and_severe_growth_stream-6</h3>
-              <p class="video-description">Clinical test demonstrating apple segment examination techniques for orthodontic assessment.</p>
+              <div class="video-title-container">
+                <h3 class="video-title">Psychosocial Outcomes and Severe Growth</h3>
+              </div>
+
               <div class="video-meta">
-                <span class="video-level">Clinical</span>
-                <span class="video-views">Prof. William Proffit</span>
               </div>
             </div>
           </div>
 
                     <div class="video-item" 
-               data-category="clinical" 
+               data-category="local-anesthesia" 
                data-library-id="588967" 
                data-video-id="d81f1678-1af6-4930-bb90-09281a5b69f1">
             <div class="video-thumbnail">
@@ -248,82 +277,98 @@
                    alt="Apple Segment Test"
                    loading="lazy">
               <div class="play-button">▶</div>
+              <div class="video-duration">
+                <i class="fas fa-clock"></i>
+                <span class="duration-value">00:49:12</span>
+              </div>
             </div>
             <div class="video-info">
-              <h3 class="video-title">local_anesthesia_005_stream</h3>
-              <p class="video-description">Clinical test demonstrating apple segment examination techniques for orthodontic assessment.</p>
+              <div class="video-title-container">
+                <h3 class="video-title">Local Anesthesia No. 6</h3>
+              </div>
+
               <div class="video-meta">
-                <span class="video-level">Clinical</span>
-                <span class="video-views">Prof. William Proffit</span>
               </div>
             </div>
           </div>
 
                     <div class="video-item" 
-               data-category="clinical" 
+               data-category="local-anesthesia" 
                data-library-id="588967" 
                data-video-id="e7f93552-8d41-489c-8985-e4819c440518">
             <div class="video-thumbnail">
               <img class="bunny-thumb" 
-                   src="https://vz-6fed9ba2-d89.b-cdn.net/e7f93552-8d41-489c-8985-e4819c440518/thumbnail.jpg" 
+                   src="https://vz-6fed9ba2-d89.b-cdn.net/e7f93552-8d41-489c-8985-e4819c440518/thumbnail_05a7f55e.jpg" 
                    alt="Apple Segment Test"
                    loading="lazy">
               <div class="play-button">▶</div>
+              <div class="video-duration">
+                <i class="fas fa-clock"></i>
+                <span class="duration-value">00:45:05</span>
+              </div>
             </div>
             <div class="video-info">
-              <h3 class="video-title">local_anesthesia_006_stream-6</h3>
-              <p class="video-description">Clinical test demonstrating apple segment examination techniques for orthodontic assessment.</p>
+              <div class="video-title-container">
+                <h3 class="video-title">Local Anesthesia No. 7</h3>
+              </div>
+
               <div class="video-meta">
-                <span class="video-level">Clinical</span>
-                <span class="video-views">Prof. William Proffit</span>
               </div>
             </div>
           </div>
 
                     <div class="video-item" 
-               data-category="clinical" 
+               data-category="local-anesthesia" 
                data-library-id="588967" 
                data-video-id="4c083ebd-423f-4122-b8ed-a1e6d7f81a26">
             <div class="video-thumbnail">
               <img class="bunny-thumb" 
-                   src="https://vz-6fed9ba2-d89.b-cdn.net/4c083ebd-423f-4122-b8ed-a1e6d7f81a26/thumbnail.jpg" 
+                   src="https://vz-6fed9ba2-d89.b-cdn.net/4c083ebd-423f-4122-b8ed-a1e6d7f81a26/thumbnail_b8ad2279.jpg" 
                    alt="Apple Segment Test"
                    loading="lazy">
               <div class="play-button">▶</div>
+              <div class="video-duration">
+                <i class="fas fa-clock"></i>
+                <span class="duration-value">00:38:40</span>
+              </div>
             </div>
             <div class="video-info">
-              <h3 class="video-title">local_anesthesia_001_stream-6</h3>
-              <p class="video-description">Clinical test demonstrating apple segment examination techniques for orthodontic assessment.</p>
+              <div class="video-title-container">
+                <h3 class="video-title">Local Anesthesia No. 2</h3>
+              </div>
+
               <div class="video-meta">
-                <span class="video-level">Clinical</span>
-                <span class="video-views">Prof. William Proffit</span>
               </div>
             </div>
           </div>
 
                     <div class="video-item" 
-               data-category="clinical" 
+               data-category="local-anesthesia" 
                data-library-id="588967" 
                data-video-id="cb212c34-8b02-474e-b4b7-97fc4f289339">
             <div class="video-thumbnail">
               <img class="bunny-thumb" 
-                   src="https://vz-6fed9ba2-d89.b-cdn.net/cb212c34-8b02-474e-b4b7-97fc4f289339/thumbnail.jpg" 
+                   src="https://vz-6fed9ba2-d89.b-cdn.net/cb212c34-8b02-474e-b4b7-97fc4f289339/thumbnail_908ab2a2.jpg" 
                    alt="Apple Segment Test"
                    loading="lazy">
               <div class="play-button">▶</div>
+              <div class="video-duration">
+                <i class="fas fa-clock"></i>
+                <span class="duration-value">00:20:27</span>
+              </div>
             </div>
             <div class="video-info">
-              <h3 class="video-title">local_anesthesia_003_stream</h3>
-              <p class="video-description">Clinical test demonstrating apple segment examination techniques for orthodontic assessment.</p>
+              <div class="video-title-container">
+                <h3 class="video-title">Local Anesthesia No. 4</h3>
+              </div>
+
               <div class="video-meta">
-                <span class="video-level">Clinical</span>
-                <span class="video-views">Prof. William Proffit</span>
               </div>
             </div>
           </div>
 
                     <div class="video-item" 
-               data-category="clinical" 
+               data-category="local-anesthesia" 
                data-library-id="588967" 
                data-video-id="4cd847a7-38f6-4f0d-9622-18a5728b7f49">
             <div class="video-thumbnail">
@@ -332,19 +377,23 @@
                    alt="Apple Segment Test"
                    loading="lazy">
               <div class="play-button">▶</div>
+              <div class="video-duration">
+                <i class="fas fa-clock"></i>
+                <span class="duration-value">00:39:46</span>
+              </div>
             </div>
             <div class="video-info">
-              <h3 class="video-title">local_anesthesia_004_stream-6</h3>
-              <p class="video-description">Clinical test demonstrating apple segment examination techniques for orthodontic assessment.</p>
+              <div class="video-title-container">
+                <h3 class="video-title">Local Anesthesia No. 5</h3>
+              </div>
+
               <div class="video-meta">
-                <span class="video-level">Clinical</span>
-                <span class="video-views">Prof. William Proffit</span>
               </div>
             </div>
           </div>
 
                     <div class="video-item" 
-               data-category="clinical" 
+               data-category="local-anesthesia" 
                data-library-id="588967" 
                data-video-id="d3d980b3-ca8c-44d6-b7d9-5106dfd6823e">
             <div class="video-thumbnail">
@@ -353,19 +402,23 @@
                    alt="Apple Segment Test"
                    loading="lazy">
               <div class="play-button">▶</div>
+              <div class="video-duration">
+                <i class="fas fa-clock"></i>
+                <span class="duration-value">00:11:17</span>
+              </div>
             </div>
             <div class="video-info">
-              <h3 class="video-title">local_anesthesia_000_stream-6</h3>
-              <p class="video-description">Clinical test demonstrating apple segment examination techniques for orthodontic assessment.</p>
+              <div class="video-title-container">
+                <h3 class="video-title">Local Anesthesia No. 1</h3>
+              </div>
+
               <div class="video-meta">
-                <span class="video-level">Clinical</span>
-                <span class="video-views">Prof. William Proffit</span>
               </div>
             </div>
           </div>
 
                     <div class="video-item" 
-               data-category="clinical" 
+               data-category="pain-management" 
                data-library-id="588967" 
                data-video-id="5b73fda8-55c9-4115-ae34-07e356cf486a">
             <div class="video-thumbnail">
@@ -374,40 +427,48 @@
                    alt="Apple Segment Test"
                    loading="lazy">
               <div class="play-button">▶</div>
+              <div class="video-duration">
+                <i class="fas fa-clock"></i>
+                <span class="duration-value">00:43:56</span>
+              </div>
             </div>
             <div class="video-info">
-              <h3 class="video-title">predict_higher_risk_for_pain_stream-6</h3>
-              <p class="video-description">Clinical test demonstrating apple segment examination techniques for orthodontic assessment.</p>
+              <div class="video-title-container">
+                <h3 class="video-title">Predict Higher Risk for Pain</h3>
+              </div>
+
               <div class="video-meta">
-                <span class="video-level">Clinical</span>
-                <span class="video-views">Prof. William Proffit</span>
               </div>
             </div>
           </div>
 
                     <div class="video-item" 
-               data-category="clinical" 
+               data-category="growth-respiration" 
                data-library-id="588967" 
                data-video-id="49525740-ddc4-401e-95e4-28b8490d6f7e">
             <div class="video-thumbnail">
               <img class="bunny-thumb" 
-                   src="https://vz-6fed9ba2-d89.b-cdn.net/49525740-ddc4-401e-95e4-28b8490d6f7e/thumbnail.jpg  " 
+                   src="https://vz-6fed9ba2-d89.b-cdn.net/49525740-ddc4-401e-95e4-28b8490d6f7e/thumbnail.jpg" 
                    alt="Apple Segment Test"
                    loading="lazy">
               <div class="play-button">▶</div>
+              <div class="video-duration">
+                <i class="fas fa-clock"></i>
+                <span class="duration-value">00:54:41</span>
+              </div>
             </div>
             <div class="video-info">
-              <h3 class="video-title">myofunctional_therapy_001_1800_</h3>
-              <p class="video-description">Clinical test demonstrating apple segment examination techniques for orthodontic assessment.</p>
+              <div class="video-title-container">
+                <h3 class="video-title">Myofunctional Therapy</h3>
+              </div>
+
               <div class="video-meta">
-                <span class="video-level">Clinical</span>
-                <span class="video-views">Prof. William Proffit</span>
               </div>
             </div>
           </div>
 
                     <div class="video-item" 
-               data-category="clinical" 
+               data-category="clinical-diagnostics" 
                data-library-id="588967" 
                data-video-id="6dc2e450-d72f-4e81-bbd0-9ce22319fa59">
             <div class="video-thumbnail">
@@ -416,19 +477,23 @@
                    alt="Apple Segment Test"
                    loading="lazy">
               <div class="play-button">▶</div>
+              <div class="video-duration">
+                <i class="fas fa-clock"></i>
+                <span class="duration-value">00:55:00</span>
+              </div>
             </div>
             <div class="video-info">
-              <h3 class="video-title">apple_segment_test_001_1800</h3>
-              <p class="video-description">Clinical test demonstrating apple segment examination techniques for orthodontic assessment.</p>
+              <div class="video-title-container">
+                <h3 class="video-title">Apple Segment Test No. 1</h3>
+              </div>
+
               <div class="video-meta">
-                <span class="video-level">Clinical</span>
-                <span class="video-views">Prof. William Proffit</span>
               </div>
             </div>
           </div>
 
                     <div class="video-item" 
-               data-category="clinical" 
+               data-category="clinical-diagnostics" 
                data-library-id="588967" 
                data-video-id="55a5e8d4-ef1f-4600-b623-955402176fab">
             <div class="video-thumbnail">
@@ -437,80 +502,70 @@
                    alt="Apple Segment Test"
                    loading="lazy">
               <div class="play-button">▶</div>
+              <div class="video-duration">
+                <i class="fas fa-clock"></i>
+                <span class="duration-value">00:55:53</span>
+              </div>
             </div>
             <div class="video-info">
-              <h3 class="video-title">apple_segment_test_002_myofunctional_therapy_001-</h3>
-              <p class="video-description">Clinical test demonstrating apple segment examination techniques for orthodontic assessment.</p>
+              <div class="video-title-container">
+                <h3 class="video-title">Apple Segment Test No. 2</h3>
+              </div>
+
               <div class="video-meta">
-                <span class="video-level">Clinical</span>
-                <span class="video-views">Prof. William Proffit</span>
               </div>
             </div>
           </div>
 
                     <div class="video-item" 
-               data-category="clinical" 
+               data-category="clinical-diagnostics" 
                data-library-id="588967" 
                data-video-id="91e9fe4d-6b13-4463-b665-06d823c3236f">
             <div class="video-thumbnail">
               <img class="bunny-thumb" 
-                   src="https://vz-6fed9ba2-d89.b-cdn.net/91e9fe4d-6b13-4463-b665-06d823c3236f/thumbnail.jpg  " 
+                   src="https://vz-6fed9ba2-d89.b-cdn.net/91e9fe4d-6b13-4463-b665-06d823c3236f/thumbnail.jpg" 
                    alt="Apple Segment Test"
                    loading="lazy">
               <div class="play-button">▶</div>
+              <div class="video-duration">
+                <i class="fas fa-clock"></i>
+                <span class="duration-value">01:02:02</span>
+              </div>
             </div>
             <div class="video-info">
-              <h3 class="video-title">squeeze_test_001_2764</h3>
-              <p class="video-description">Clinical test demonstrating apple segment examination techniques for orthodontic assessment.</p>
+              <div class="video-title-container">
+                <h3 class="video-title">Squeeze Test</h3>
+              </div>
+
               <div class="video-meta">
-                <span class="video-level">Clinical</span>
-                <span class="video-views">Prof. William Proffit</span>
               </div>
             </div>
           </div>
 
                     <div class="video-item" 
-               data-category="clinical" 
+               data-category="clinical-diagnostics" 
                data-library-id="588967" 
                data-video-id="a6839aec-4e46-44be-85ab-cbc401f084e4">
             <div class="video-thumbnail">
               <img class="bunny-thumb" 
-                   src="https://vz-6fed9ba2-d89.b-cdn.net/a6839aec-4e46-44be-85ab-cbc401f084e4/thumbnail.jpg" 
+                   src="https://vz-6fed9ba2-d89.b-cdn.net/a6839aec-4e46-44be-85ab-cbc401f084e4/thumbnail_aa1ec93b.jpg" 
                    alt="Apple Segment Test"
                    loading="lazy">
               <div class="play-button">▶</div>
+              <div class="video-duration">
+                <i class="fas fa-clock"></i>
+                <span class="duration-value">01:05:17</span>
+              </div>
             </div>
             <div class="video-info">
-              <h3 class="video-title">development_of_appliances_002_1864</h3>
-              <p class="video-description">Clinical test demonstrating apple segment examination techniques for orthodontic assessment.</p>
+              <div class="video-title-container">
+                <h3 class="video-title">Development of Appliances</h3>
+              </div>
+
               <div class="video-meta">
-                <span class="video-level">Clinical</span>
-                <span class="video-views">Prof. William Proffit</span>
               </div>
             </div>
           </div>
-
-                    <div class="video-item" 
-               data-category="clinical" 
-               data-library-id="588967" 
-               data-video-id="ef3e40e9-cf70-4bca-9064-deb99f3117b4">
-            <div class="video-thumbnail">
-              <img class="bunny-thumb" 
-                   src="https://vz-6fed9ba2-d89.b-cdn.net/ef3e40e9-cf70-4bca-9064-deb99f3117b4/thumbnail.jpg" 
-                   alt="Apple Segment Test"
-                   loading="lazy">
-              <div class="play-button">▶</div>
-            </div>
-            <div class="video-info">
-              <h3 class="video-title">opioids_and_post_procedure_pain_control_stream-6</h3>
-              <p class="video-description">Clinical test demonstrating apple segment examination techniques for orthodontic assessment.</p>
-              <div class="video-meta">
-                <span class="video-level">Clinical</span>
-                <span class="video-views">Prof. William Proffit</span>
-              </div>
-            </div>
-          </div>
-
         </div>
       </div>
     </section>
