@@ -219,12 +219,12 @@ body{
 
 .layout{
   display:grid;
-  grid-template-columns: 320px 1fr;
+  grid-template-columns: 400px 1fr;
   min-height: calc(100vh - 60px);
 }
 
 .layout.home-view{
-  grid-template-columns: 320px 1fr;
+  grid-template-columns: 400px 1fr;
 }
 
 .sidebar{
@@ -2610,23 +2610,23 @@ html.light .videos-categories-menu {
 
 /* Back button */
 :root[data-theme="light"] .back-btn {
-  background: rgba(0, 102, 204, 0.1);
-  border-color: rgba(0, 102, 204, 0.3);
+  background: transparent;
+  border-color: transparent;
   color: #0066cc;
 }
 
 :root.light .back-btn {
-  background: rgba(0, 102, 204, 0.1);
-  border-color: rgba(0, 102, 204, 0.3);
+  background: transparent;
+  border-color: transparent;
   color: #0066cc;
 }
 
 :root[data-theme="light"] .back-btn:hover {
-  background: rgba(0, 102, 204, 0.2);
+  background: transparent;
 }
 
 :root.light .back-btn:hover {
-  background: rgba(0, 102, 204, 0.2);
+  background: transparent;
 }
 
 /* Video Facade Pattern - Load images first, iframe on click */
