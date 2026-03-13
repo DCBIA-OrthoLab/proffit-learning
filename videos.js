@@ -1,13 +1,113 @@
-// Videos page functionality
+// Videos page functionality - Optimized version
 document.addEventListener('DOMContentLoaded', function() {
-  const searchInputMobile = document.getElementById('searchVideos');
-  const searchInputDesktop = document.getElementById('searchVideosDesktop');
   const videoGrid = document.getElementById('videoGrid');
   const categoryItems = document.querySelectorAll('.toc-item');
   const mobileMenuToggle = document.getElementById('categoriesMenuToggle');
   const mobileMenu = document.getElementById('videosCategoriesMenu');
   const mobileCategories = document.querySelectorAll('.category-item');
   let currentCategory = 'all';
+  let videosData = [];
+
+  // Load videos data from JSON
+  async function loadVideos() {
+    try {
+      const response = await fetch('data/videos.json');
+      videosData = await response.json();
+      renderVideos(videosData);
+      setupSearch();
+      setupVideoClickHandlers();
+    } catch (error) {
+      console.error('Error loading videos:', error);
+      videoGrid.innerHTML = '<p>Error loading videos. Please try again later.</p>';
+    }
+  }
+
+  // Generate video HTML from data
+  function renderVideos(videos) {
+    videoGrid.innerHTML = videos.map(video => `
+      <div class="video-item" 
+           data-category="${video.category}" 
+           data-library-id="${video.libraryId}" 
+           data-video-id="${video.id}">
+        <div class="video-thumbnail">
+          <img class="bunny-thumb" 
+               src="${video.thumbnail}" 
+               alt="${video.title}"
+               loading="lazy">
+          <div class="play-button">▶</div>
+          <div class="video-duration">
+            <i class="fas fa-clock"></i>
+            <span class="duration-value">${video.duration}</span>
+          </div>
+        </div>
+        <div class="video-info">
+          <h3 class="video-title">${video.title}</h3>
+          <div class="video-meta"></div>
+        </div>
+      </div>
+    `).join('');
+  }
+
+  // Setup search functionality
+  function setupSearch() {
+    const searchInputMobile = document.getElementById('searchVideos');
+    const searchInputDesktop = document.getElementById('searchVideosDesktop');
+
+    if (searchInputMobile) {
+      searchInputMobile.addEventListener('input', function() {
+        const searchTerm = this.value.toLowerCase();
+        filterVideos(searchTerm, currentCategory);
+      });
+    }
+    
+    if (searchInputDesktop) {
+      searchInputDesktop.addEventListener('input', function() {
+        const searchTerm = this.value.toLowerCase();
+        filterVideos(searchTerm, currentCategory);
+      });
+    }
+  }
+
+  // Setup video click handlers for thumbnail - Lazy load iframes
+  function setupVideoClickHandlers() {
+    const videoGrid = document.getElementById('videoGrid');
+    
+    videoGrid.addEventListener('click', function(e) {
+      const thumbnail = e.target.closest('.video-thumbnail');
+      if (!thumbnail) return;
+
+      // Check if video is already loaded
+      if (thumbnail.querySelector('iframe')) {
+        return; // Already loaded
+      }
+
+      // Get parent video-item to find IDs
+      const videoItem = thumbnail.closest('.video-item');
+      const libId = videoItem.getAttribute('data-library-id');
+      const vidId = videoItem.getAttribute('data-video-id');
+
+      if (!libId || !vidId) return;
+
+      // Create iframe for Bunny
+      const iframe = document.createElement('iframe');
+      iframe.src = `https://iframe.mediadelivery.net/embed/${libId}/${vidId}?autoplay=true&loop=false&muted=false&preload=true`;
+      iframe.loading = 'lazy';
+      iframe.style.border = 'none';
+      iframe.style.width = '100%';
+      iframe.style.height = '100%';
+      iframe.style.position = 'absolute';
+      iframe.style.top = '0';
+      iframe.style.left = '0';
+      iframe.style.borderRadius = '10px';
+      iframe.allow = "accelerometer; gyroscope; autoplay; encrypted-media; picture-in-picture;";
+      iframe.allowFullscreen = true;
+
+      // Clear the thumbnail (remove image and play button)
+      thumbnail.innerHTML = '';
+      // Add the video iframe
+      thumbnail.appendChild(iframe);
+    });
+  }
 
   // Mobile categories menu toggle
   if (mobileMenuToggle && mobileMenu) {
@@ -20,120 +120,32 @@ document.addEventListener('DOMContentLoaded', function() {
   // Mobile category items click handlers
   mobileCategories.forEach(item => {
     item.addEventListener('click', function() {
-      // Remove active from all mobile items
       mobileCategories.forEach(cat => cat.classList.remove('active'));
-      // Add active to clicked item
       this.classList.add('active');
       
       currentCategory = this.dataset.category;
+      const searchInputMobile = document.getElementById('searchVideos');
       const searchTerm = searchInputMobile ? searchInputMobile.value.toLowerCase() : '';
       filterVideos(searchTerm, currentCategory);
     });
   });
 
-  // Search input event listeners for both mobile and desktop
-  if (searchInputMobile) {
-    searchInputMobile.addEventListener('input', function() {
-      const searchTerm = this.value.toLowerCase();
-      filterVideos(searchTerm, currentCategory);
-    });
-  }
-  
-  if (searchInputDesktop) {
-    searchInputDesktop.addEventListener('input', function() {
-      const searchTerm = this.value.toLowerCase();
-      filterVideos(searchTerm, currentCategory);
-    });
-  }
-
-  // Category filter event listeners
+  // Desktop category filter event listeners
   categoryItems.forEach(item => {
     item.addEventListener('click', function() {
-      // Remove active class from all items
       categoryItems.forEach(cat => cat.classList.remove('active'));
-      // Add active class to clicked item
       this.classList.add('active');
       
       currentCategory = this.dataset.category;
+      const searchInputDesktop = document.getElementById('searchVideosDesktop');
       const searchTerm = searchInputDesktop ? searchInputDesktop.value.toLowerCase() : '';
       filterVideos(searchTerm, currentCategory);
     });
   });
 
-  // Video item click handler
-  videoGrid.addEventListener('click', function(e) {
-    const videoItem = e.target.closest('.video-item');
-    if (videoItem) {
-      const title = videoItem.querySelector('.video-title').textContent;
-      const videoElement = videoItem.querySelector('video');
-      const source = videoElement.querySelector('source');
-      
-      if (source && source.src) {
-        // Open modal to play the video
-        openVideoModal(title, source.src);
-      } else {
-        alert(`Video file not found for: ${title}`);
-      }
-    }
-  });
-
-  // Function to open video modal
-  function openVideoModal(title, videoSrc) {
-    // Remove existing modal if any
-    const existingModal = document.querySelector('.video-modal');
-    if (existingModal) {
-      existingModal.remove();
-    }
-
-    // Create modal
-    const modal = document.createElement('div');
-    modal.className = 'video-modal active';
-    modal.innerHTML = `
-      <div class="modal-content">
-        <button class="close-modal">&times;</button>
-        <h3 class="modal-title">${title}</h3>
-        <video controls autoplay style="width: 100%; max-width: 800px; height: auto;">
-          <source src="${videoSrc}" type="video/mp4">
-          Your browser does not support the video tag.
-        </video>
-      </div>
-    `;
-
-    // Add modal to document
-    document.body.appendChild(modal);
-
-    // Close modal functionality
-    const closeBtn = modal.querySelector('.close-modal');
-    const modalBg = modal;
-
-    closeBtn.addEventListener('click', closeModal);
-    modalBg.addEventListener('click', function(e) {
-      if (e.target === modalBg) {
-        closeModal();
-      }
-    });
-
-    function closeModal() {
-      modal.classList.remove('active');
-      setTimeout(() => {
-        if (modal.parentNode) {
-          modal.parentNode.removeChild(modal);
-        }
-      }, 300);
-    }
-
-    // Close with Escape key
-    document.addEventListener('keydown', function(e) {
-      if (e.key === 'Escape') {
-        closeModal();
-      }
-    });
-  }
-
+  // Filter videos by search term and category
   function filterVideos(searchTerm, category) {
     const videoItems = document.querySelectorAll('.video-item');
-    const visibleItems = [];
-    
     videoItems.forEach(item => {
       const titleElement = item.querySelector('.video-title');
       const title = titleElement ? titleElement.textContent.toLowerCase() : '';
@@ -142,83 +154,10 @@ document.addEventListener('DOMContentLoaded', function() {
       const matchesSearch = searchTerm === '' || title.includes(searchTerm);
       const matchesCategory = category === 'all' || itemCategory === category;
       
-      if (matchesSearch && matchesCategory) {
-        item.style.display = '';
-        visibleItems.push(item);
-      } else {
-        item.style.display = 'none';
-      }
-    });
-    
-    // Sort visible items alphabetically by title
-    visibleItems.sort((a, b) => {
-      const titleA = a.querySelector('.video-title').textContent.toLowerCase();
-      const titleB = b.querySelector('.video-title').textContent.toLowerCase();
-      return titleA.localeCompare(titleB);
-    });
-    
-    // Reorder items in DOM
-    const videoGrid = document.getElementById('videoGrid');
-    visibleItems.forEach(item => {
-      videoGrid.appendChild(item);
+      item.style.display = (matchesSearch && matchesCategory) ? '' : 'none';
     });
   }
-  
-  // Initialize with all videos sorted alphabetically
-  filterVideos('', 'all');
-  
-  // Initialize video metadata and thumbnails
-  initializeVideoMetadata();
-  
-  function initializeVideoMetadata() {
-    const videoItems = document.querySelectorAll('.video-item');
-    console.log('Found', videoItems.length, 'video items');
-    
-    videoItems.forEach((item, index) => {
-      const video = item.querySelector('video');
-      const durationElement = item.querySelector('.video-duration');
-      const placeholder = item.querySelector('.video-placeholder');
-      
-      if (video && durationElement) {
-        console.log(`Initializing video ${index + 1}:`, video.currentSrc || video.src);
-        
-        video.addEventListener('loadedmetadata', function() {
-          console.log(`Video ${index + 1} metadata loaded. Duration:`, this.duration);
-          
-          if (this.duration && !isNaN(this.duration) && this.duration > 0) {
-            // Update duration display
-            const minutes = Math.floor(this.duration / 60);
-            const seconds = Math.floor(this.duration % 60);
-            durationElement.textContent = `${minutes}:${seconds.toString().padStart(2, '0')}`;
-            
-            // Seek to 10% for thumbnail
-            if (this.duration > 2) {
-              this.currentTime = Math.min(this.duration * 0.1, 3);
-            }
-          } else {
-            durationElement.textContent = '--:--';
-          }
-        });
-        
-        video.addEventListener('seeked', function() {
-          console.log(`Video ${index + 1} seeked to:`, this.currentTime);
-          // Show video thumbnail, hide placeholder
-          this.style.display = 'block';
-          this.classList.add('loaded');
-          if (placeholder) {
-            placeholder.style.display = 'none';
-          }
-        });
-        
-        video.addEventListener('error', function(e) {
-          console.error(`Video ${index + 1} error:`, e);
-          durationElement.textContent = 'Error';
-          // Keep placeholder visible on error
-        });
-        
-        // Start loading
-        video.load();
-      }
-    });
-  }
+
+  // Load videos on page load
+  loadVideos();
 });
