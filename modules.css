@@ -1314,6 +1314,16 @@ html[data-theme="light"] #searchVideosDesktop:focus {
   font-weight: 500;
 }
 
+.toc-item .count {
+  font-size: 12px;
+  opacity: 0.7;
+  font-weight: 400;
+}
+
+.toc-item.active .count {
+  opacity: 0.9;
+}
+
 /* Mobile Videos Categories Menu */
 /* Levels menu for modules (mobile) */
 .levels-menu {
@@ -1726,6 +1736,18 @@ html[data-theme="light"] #searchVideosDesktop:focus {
   border-color: rgba(91, 214, 255, 0.5);
   color: var(--accent);
   font-weight: 600;
+}
+
+.category-item .count {
+  font-size: 11px;
+  opacity: 0.7;
+  font-weight: 400;
+  display: block;
+  margin-top: 2px;
+}
+
+.category-item.active .count {
+  opacity: 0.9;
 }
 
 /* Module TOC styles */

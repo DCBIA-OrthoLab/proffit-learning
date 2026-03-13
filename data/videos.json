@@ -17,7 +17,7 @@
   },
   {
     "id": "f5e26500-0620-4438-941f-2e184ff65cc4",
-    "category": "uunc-surgical-ortho",
+    "category": "surgical-ortho",
     "libraryId": "588967",
     "title": "Dx And Tx Planning For Surgical Ortho",
     "duration": "01:22:10",
@@ -33,7 +33,7 @@
   },
   {
     "id": "0c14b671-4838-44c5-ace1-ba1c1d65d0a7",
-    "category": "uunc-surgical-ortho",
+    "category": "surgical-ortho",
     "libraryId": "588967",
     "title": "Special Points In Planning Surgical Ortho",
     "duration": "01:36:37",
@@ -41,7 +41,7 @@
   },
   {
     "id": "82a5ab84-39ff-4e7f-8342-b5fd314e8b63",
-    "category": "uunc-surgical-ortho",
+    "category": "surgical-ortho",
     "libraryId": "588967",
     "title": "Hierarchy Of Stability Stream",
     "duration": "00:38:36",
@@ -57,7 +57,7 @@
   },
   {
     "id": "aa3d9bdd-6e18-40c0-8403-918b460b4652",
-    "category": "uunc-surgical-ortho",
+    "category": "surgical-ortho",
     "libraryId": "588967",
     "title": "Psychosocial Outcomes And Severe Growth",
     "duration": "01:11:44",
@@ -193,9 +193,9 @@
   },
   {
     "id": "5c1bec95-c229-49cd-8796-e0649ee43763",
-    "category": "biomechanics",
+    "category": "third-molar-management",
     "libraryId": "588967",
-    "title": "Biology No. 1",
+    "title": "Biology",
     "duration": "00:00:00",
     "thumbnail": "https://vz-6fed9ba2-d89.b-cdn.net/5c1bec95-c229-49cd-8796-e0649ee43763/thumbnail.jpg"
   },
@@ -345,7 +345,7 @@
   },
   {
     "id": "79b63f72-4ad2-4aa3-a74a-6b85a79d09da",
-    "category": "biomechanics",
+    "category": "oral-pharyngeal-function",
     "libraryId": "588967",
     "title": "Equilibrium Considerations No. 2",
     "duration": "00:00:00",
@@ -457,9 +457,9 @@
   },
   {
     "id": "9c392c7f-d062-4ca1-a4bf-66f71eb1dc90",
-    "category": "other",
+    "category": "third-molar-management",
     "libraryId": "588967",
-    "title": "Introduction No. 1",
+    "title": "Introduction: Treatment Options",
     "duration": "00:00:00",
     "thumbnail": "https://vz-6fed9ba2-d89.b-cdn.net/9c392c7f-d062-4ca1-a4bf-66f71eb1dc90/thumbnail.jpg"
   },
@@ -499,7 +499,7 @@
     "id": "23fdcb96-5166-4c9c-adb4-8c6b776c7e09",
     "category": "third-molar-management",
     "libraryId": "588967",
-    "title": "Prevalence Of Third Molar No. 1",
+    "title": "Prevalence Of Third Molar",
     "duration": "00:00:00",
     "thumbnail": "https://vz-6fed9ba2-d89.b-cdn.net/23fdcb96-5166-4c9c-adb4-8c6b776c7e09/thumbnail.jpg"
   },
@@ -507,7 +507,7 @@
     "id": "a86abbca-bd4c-4c5e-980e-81a6f9b12455",
     "category": "third-molar-management",
     "libraryId": "588967",
-    "title": "Periodontal Inflammatory No. 1",
+    "title": "Periodontal Inflammatory",
     "duration": "00:00:00",
     "thumbnail": "https://vz-6fed9ba2-d89.b-cdn.net/a86abbca-bd4c-4c5e-980e-81a6f9b12455/thumbnail.jpg"
   },
@@ -571,7 +571,7 @@
     "id": "2a45b8f7-88c2-4a43-a317-b50b343b1baf",
     "category": "growth-development",
     "libraryId": "588967",
-    "title": "Short Stature No. 1",
+    "title": "Short Stature",
     "duration": "00:00:00",
     "thumbnail": "https://vz-6fed9ba2-d89.b-cdn.net/2a45b8f7-88c2-4a43-a317-b50b343b1baf/thumbnail.jpg"
   },
@@ -633,10 +633,10 @@
   },
   {
     "id": "6d8d41ce-b61c-4732-96bc-c55e7b6bc4e7",
-    "category": "uunc-surgical-ortho",
+    "category": "surgical-ortho",
     "libraryId": "588967",
     "title": "Postsurgical Outcomes Stream",
     "duration": "00:00:00",
-    "thumbnail": "https://vz-6fed9ba2-d89.b-cdn.net/6d8d41ce-b61c-4732-96bc-c55e7b6bc4e7/thumbnail.jpg"
+    "thumbnail": "https://vz-6fed9ba2-d89.b-cdn.net/6d8d41ce-b61c-4732-96bc-c55e7b6bc4e7/thumbnail_f1582e43.jpg"
   }
 ]

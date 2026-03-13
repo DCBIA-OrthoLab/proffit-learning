@@ -1,6 +1,7 @@
 // Videos page functionality - Optimized version
 document.addEventListener('DOMContentLoaded', function() {
   const videoGrid = document.getElementById('videoGrid');
+  const pageTitle = document.getElementById('pageTitle');
   const categoryItems = document.querySelectorAll('.toc-item');
   const mobileMenuToggle = document.getElementById('categoriesMenuToggle');
   const mobileMenu = document.getElementById('videosCategoriesMenu');
@@ -8,14 +9,91 @@ document.addEventListener('DOMContentLoaded', function() {
   let currentCategory = 'all';
   let videosData = [];
 
+  // Category names mapping
+  const categoryNames = {
+    'all': 'All Videos',
+    'psychosocial-aspects': 'Psychologic and Psychosocial Aspects',
+    'oral-pharyngeal-function': 'Oral-Pharyngeal Function',
+    'biomechanics': 'Biomechanics',
+    'diagnosis-treatment-planning': 'Diagnosis / Treatment Planning',
+    'growth-development': 'Growth and Development',
+    'surgical-ortho': 'UNC Surg-Ortho Course for Residents',
+    'third-molar-management': 'Third Molar Management',
+    'other': 'Other'
+  };
+
+  // Count videos by category
+  function updateCategoryCounts() {
+    const categoryCounts = {};
+    videosData.forEach(video => {
+      const category = video.category;
+      categoryCounts[category] = (categoryCounts[category] || 0) + 1;
+    });
+    
+    // Update desktop categories
+    categoryItems.forEach(item => {
+      const category = item.dataset.category;
+      let countSpan = item.querySelector('.count');
+      if (!countSpan) {
+        countSpan = document.createElement('span');
+        countSpan.className = 'count';
+        item.appendChild(countSpan);
+      }
+      if (category === 'all') {
+        countSpan.textContent = ` (${videosData.length})`;
+      } else {
+        countSpan.textContent = ` (${categoryCounts[category] || 0})`;
+      }
+    });
+    
+    // Update mobile categories
+    mobileCategories.forEach(item => {
+      const category = item.dataset.category;
+      let countSpan = item.querySelector('.count');
+      if (!countSpan) {
+        countSpan = document.createElement('span');
+        countSpan.className = 'count';
+        item.appendChild(countSpan);
+      }
+      if (category === 'all') {
+        countSpan.textContent = ` (${videosData.length})`;
+      } else {
+        countSpan.textContent = ` (${categoryCounts[category] || 0})`;
+      }
+    });
+  }
+
   // Load videos data from JSON
   async function loadVideos() {
     try {
       const response = await fetch('data/videos.json');
       videosData = await response.json();
+      
+      // Sort videos by title alphabetically
+      videosData.sort((a, b) => a.title.localeCompare(b.title));
+      
+      updateCategoryCounts();
       renderVideos(videosData);
       setupSearch();
       setupVideoClickHandlers();
+      
+      // Set default category to 'all'
+      currentCategory = 'all';
+      updatePageTitle('all');
+      categoryItems.forEach(item => {
+        if (item.dataset.category === 'all') {
+          item.classList.add('active');
+        } else {
+          item.classList.remove('active');
+        }
+      });
+      mobileCategories.forEach(item => {
+        if (item.dataset.category === 'all') {
+          item.classList.add('active');
+        } else {
+          item.classList.remove('active');
+        }
+      });
     } catch (error) {
       console.error('Error loading videos:', error);
       videoGrid.innerHTML = '<p>Error loading videos. Please try again later.</p>';
@@ -109,6 +187,11 @@ document.addEventListener('DOMContentLoaded', function() {
     });
   }
 
+  // Update page title based on category
+  function updatePageTitle(category) {
+    pageTitle.textContent = categoryNames[category] || 'Educational Videos';
+  }
+
   // Mobile categories menu toggle
   if (mobileMenuToggle && mobileMenu) {
     mobileMenuToggle.addEventListener('click', function() {
@@ -124,6 +207,7 @@ document.addEventListener('DOMContentLoaded', function() {
       this.classList.add('active');
       
       currentCategory = this.dataset.category;
+      updatePageTitle(currentCategory);
       const searchInputMobile = document.getElementById('searchVideos');
       const searchTerm = searchInputMobile ? searchInputMobile.value.toLowerCase() : '';
       filterVideos(searchTerm, currentCategory);
@@ -137,6 +221,7 @@ document.addEventListener('DOMContentLoaded', function() {
       this.classList.add('active');
       
       currentCategory = this.dataset.category;
+      updatePageTitle(currentCategory);
       const searchInputDesktop = document.getElementById('searchVideosDesktop');
       const searchTerm = searchInputDesktop ? searchInputDesktop.value.toLowerCase() : '';
       filterVideos(searchTerm, currentCategory);
