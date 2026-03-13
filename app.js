@@ -84,6 +84,13 @@ function resolveImagePath(path, moduleId){
   return `Modules/${moduleId}/images/${file}`;
 }
 
+function resolveVideoPath(path, moduleId){
+  // XML paths look like: youngpatient/video/entering.mp4
+  if(!path) return "";
+  const file = path.split("/").pop();
+  return `Modules/${moduleId}/video/${file}`;
+}
+
 function extractRichText(pageTextEl){
   // Keep basic formatting from the XML fragments (p, ul, ol, li, etc.)
   if(!pageTextEl) return "";
@@ -119,20 +126,31 @@ function buildModel(xml, moduleId){
       const resources = [];
       pageEl.querySelectorAll(":scope > resources > resource").forEach((resEl) => {
         const type = resEl.getAttribute("resourceType") || "";
-        if(type !== "image") return;
+        if(type !== "image" && type !== "video") return;
         const loc = resEl.getAttribute("resourceLocation") || "";
         const thumb = resEl.getAttribute("thumbnailLocation") || "";
         const label = textContentSafe(resEl.querySelector(":scope > label"));
         // caption can contain <p> etc.
         const capEl = resEl.querySelector(":scope > caption");
         const caption = capEl ? capEl.innerHTML.trim() : "";
-        resources.push({
-          type,
-          src: resolveImagePath(loc, moduleId),
-          thumb: resolveImagePath(thumb, moduleId) || resolveImagePath(loc, moduleId),
-          label,
-          caption
-        });
+        
+        if(type === "video") {
+          resources.push({
+            type,
+            src: resolveVideoPath(loc, moduleId),
+            thumb: resolveImagePath(thumb, moduleId),
+            label,
+            caption
+          });
+        } else {
+          resources.push({
+            type,
+            src: resolveImagePath(loc, moduleId),
+            thumb: resolveImagePath(thumb, moduleId) || resolveImagePath(loc, moduleId),
+            label,
+            caption
+          });
+        }
       });
 
       // Parse test choices if it's a test page
@@ -490,11 +508,46 @@ function renderPage(pageData){
   pageData.resources.forEach((r, idx) => {
     const card = document.createElement("div");
     card.className = "thumb";
-    card.innerHTML = `
-      <img src="${r.thumb}" alt="${(r.label || ("Image " + (idx+1))).replaceAll('"','&quot;')}" loading="lazy">
-      <div class="label">${(r.label || ("Image " + (idx+1)))}</div>
-    `;
-    card.addEventListener("click", () => openModal(r.src, r.caption || r.label || ""));
+    
+    if(r.type === "video") {
+      // Video resource - show thumbnail with play overlay
+      if(r.thumb) {
+        const img = document.createElement("img");
+        img.src = r.thumb;
+        img.alt = (r.label || ("Video " + (idx+1)));
+        img.loading = "lazy";
+        img.onerror = function(){ 
+          // If thumbnail fails, show a generic video placeholder
+          img.style.display = "none";
+        };
+        card.appendChild(img);
+      }
+      // Play button overlay
+      const playOverlay = document.createElement("div");
+      playOverlay.className = "thumb-play-overlay";
+      playOverlay.innerHTML = "▶";
+      card.appendChild(playOverlay);
+      
+      const label = document.createElement("div");
+      label.className = "label";
+      label.textContent = r.label || ("Video " + (idx+1));
+      card.appendChild(label);
+      card.addEventListener("click", () => openVideoModal(r.src, r.caption || r.label || ""));
+    } else {
+      // Image resource
+      const img = document.createElement("img");
+      img.src = r.thumb;
+      img.alt = (r.label || ("Image " + (idx+1)));
+      img.loading = "lazy";
+      img.onerror = function(){ card.style.display = "none"; };
+      const label = document.createElement("div");
+      label.className = "label";
+      label.textContent = r.label || ("Image " + (idx+1));
+      card.appendChild(img);
+      card.appendChild(label);
+      card.addEventListener("click", () => openModal(r.src, r.caption || r.label || ""));
+    }
+    
     media.appendChild(card);
   });
 
@@ -1366,6 +1419,10 @@ function openModal(src, captionHtml){
       container.scrollTop = (img.offsetHeight - container.clientHeight) / 2;
     }, 0);
   };
+  tempImg.onerror = function() {
+    // Image doesn't exist, close the modal
+    closeModal();
+  };
   
   // Set new image
   img.src = src;
@@ -1389,6 +1446,48 @@ function closeModal(){
     }
     modal.close();
   }
+  // Also close video modal if open
+  const videoModal = document.getElementById("videoModal");
+  if(videoModal && videoModal.open) {
+    const video = videoModal.querySelector("video");
+    if(video) video.pause();
+    videoModal.close();
+  }
+}
+
+function openVideoModal(src, captionHtml){
+  const modal = document.getElementById("videoModal");
+  if(!modal) return;
+  
+  const videoContainer = document.getElementById("modalVideoContainer");
+  const cap = document.getElementById("modalVideoCaption");
+  
+  // Clear previous video
+  videoContainer.innerHTML = "";
+  
+  // Create video element
+  const video = document.createElement("video");
+  video.src = src;
+  video.controls = true;
+  video.autoplay = true;
+  video.style.width = "100%";
+  video.style.maxHeight = "530px";
+  video.style.borderRadius = "10px";
+  video.style.background = "#000";
+  
+  videoContainer.appendChild(video);
+  cap.innerHTML = captionHtml || "";
+  
+  modal.showModal();
+  
+  // Close on backdrop click
+  modal.addEventListener("click", function handler(e) {
+    if(e.target === modal) {
+      video.pause();
+      modal.close();
+      modal.removeEventListener("click", handler);
+    }
+  });
 }
 
 function applySearch(q){
